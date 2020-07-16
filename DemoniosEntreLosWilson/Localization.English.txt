@@ -1,0 +1,803 @@
+.,English
+quest.name,Demons among the Wilson
+quest.description,The Wilsons, a respectable family of wizards, are in danger. Isobel, one of the children of Daphne and Aiden Wilson, writes to you asking for your help. It seems that, after the death of her father and her moving out (along with his brother, Noah), Daphne has lost her mind. The youngest of her children, Valeria, wrote a letter to Isobel, warning her that her mother was up to something dangerous, and asked her for assistance. When Isobel read this letter, she made contact with you, given your reputation. You travel to the Wilson mansion with a double goal: to find Valeria before something bad happens to her, and to find out what Daphne's trying to do and stop her.
+Event1EventoInicial.text,You are in the backyard of the mansion, after sneaking in over the wall. In front of you, you can see a conservatory with a locked door. Isobel should be somewhere near.\n\n<i>Add the tile {c:TileVivero} as indicated and place your figures. Each investigator gets a clue.</i>
+Event1EventoInicial.button1,Continue
+Event2.text,The yard is larger than you'd thought. You can explore it to try to find another way in.\n\n<i>Place the sight tokens as shown
+Event2.button1,Continue
+Token3PuertaVivero.text,The door that leads into the conservatory seems to be locked, but it could be opened by using a lockpick... Or maybe you can open it with your own strength.
+Token3PuertaVivero.button1,{action} Pick the lock
+Token3PuertaVivero.button2,{action} Use you own strength
+Event3.text,The conservatory has a door made up of wood and glass.\n\n<i>Place an explore token where it's indicated
+Event3.button1,Continue
+Event4ForzarVivero.text,You use a lockpick you have in your pocket. ({observation};2)
+Event4ForzarVivero.button1,Success
+Event4ForzarVivero.button2,Failure
+Event5ForzarViveroSi.text,With great skill you open the door, without making any unexpected noise.\n\n<i>Remove the explore token.</i>
+Event5ForzarViveroSi.button1,Continue
+Event6ObjetosVivero.button1,Continue
+Event7ConexViveroFresquera1.text,At the back of the conservatory you make out a wooden door that seems to lead inside the mansion.\n\nPlace the explore token as indicated
+Token1VistazoFresquera.text,You think that, following this way, you might find something interesting.
+Token1VistazoFresquera.button1,{action}Take a look
+Event9PonFresquera.text,Not far away you see a small entrance which could be interesting to explore..\n\n<i>Place the{c:TileFresquera} and an explore token as indicated. Remove the sight token</i>
+Event9PonFresquera.button1,Continue
+Token5PuertaViveroFresquera.text,This door should lead you inside the mansion.
+Token5PuertaViveroFresquera.button1,{action}Open the door
+Event10PonFresqueraInterior.text,It looks like you've stepped into a root cellar. There are some boxes and barrels around you.\n\n<i>Place the {c:TileFresquera}. You may move one space into the explored area.
+Event10PonFresqueraInterior.button1,Continue
+Token6PuertaFresqueraFuera.text,You can get inside this way, even though you don't really know where it will get you.
+Token6PuertaFresqueraFuera.button1,{action} Get inside
+Event12AbreFresqueraFuera.text,When you step in you catch the smell of food, and given the number of boxes and barrels you guess this place is some kind of root cellar.\n\n<i>Remove the explore token
+Event12AbreFresqueraFuera.button1,Continue
+Event11AbreFresqueraDentro.text,A fresh breeze blows your face: you've found a way out.\n\n<i>Remove the explore token
+Event11AbreFresqueraDentro.button1,Continue
+Event13ColocaConexinFresqueraVivero.text,At the end of the room you can see an old door, you suspect it connects the conservatory you saw before. There could be some interesting stuff there, too\n\n<i>Place the search token where indicated and remove the explore token that was placed on the door of the {c:TileVivero}</i>
+Event13ColocaConexinFresqueraVivero.button1,Continue
+Event14ColocaPuertaEscaleras.button1,Continue
+Event14ColocaPuertaEscaleras.text,A white door that looks newer than the others catches your eye.\n\n<i>Place an explore token as indicated.\n\n<i>Place an explore token as indicated
+Event15RomperPuertaVivero.text,You try to break down the door ({strength};2).
+Event15RomperPuertaVivero.button1,Success
+Event15RomperPuertaVivero.button2,Failure
+Event15PuertaRota.text,With a loud noise the door falls to the floor.\n\n<i>Remove the explore token
+Event15PuertaRota.button1,Continue
+EventEspacioAdicional.text,You may move one space into the explored area.
+EventEspacioAdicional.button1,Continue
+Event16ColocaTrampilla.text,Una marca en el techo llama tu atención.\n\n<i>Coloca una ficha de interacción donde se indica
+Event16ColocaTrampilla.button1,Continuar
+Event17ObservaTrampilla.text,Inspeccionas el patrón que no encaja con el resto del techo ({observation})
+Event17ObservaTrampilla.button1,Prueba superada
+Event17ObservaTrampilla.button2,Prueba fallida
+Event18TrampillaFresBibActiva.text,¡Ajá! Ves un pequeño hueco en el techo, al parecer se trata de una trampilla que requiere algún tipo de llave
+Event18TrampillaFresBibActiva.button1,Continuar
+Event5.text,Sigues sin saber cómo abrirla...
+Event4.text, Si tienes la {c:QItemLlaveTrampilla} puedes intentar usarla.
+Event4.button1,{action} Intentar desbloquear puerta
+Event5.button1,Continuar
+Event19PuertaViveroNoRota.text,You hit the door with all of your strength, but it won't break down, you just get hurt...\n\n<i>Suffer 1 facedown damage
+Event19PuertaViveroNoRota.button1,Continue
+Event6.text,Desplazas la planta con esfuerzo, pero las espinas te hieren: añade dos cartas de daño bocabajo. En la trampilla encuentras una llave oxidada.\n\n<i>Añade la {c:QItemLlaveTrampilla} a tus pertenencias</i>
+Event6.button1,Continue
+Event4.button2,No la tengo yo...
+EventLlaveTrampillaEncaja.text,La llave parece encajar, y al girarla podeis desplazar la trampilla.\n\n<i>Retira la ficha de einteracción y coloca la trampilla como se muestra
+EventLlaveTrampillaEncaja.button1,Continue
+Event7ConexViveroFresquera1.button1,Continue
+Event7.text,At the back of the conservatory you see a door that might lead into the mansion.\n\n<i>Place the explore token as shown</i>
+Event7.button1,Continue
+Token8PuertaEscaleras.button1,{action} Open
+Event20AbrirFresqueraEscalera.text,When you open the door you find some stairs. They should lead to the Northeast wing of the mansion.\n\n<i>Place the {c:TileEscaleras} tile. You may move one space into the explored area.
+Event20AbrirFresqueraEscalera.button1,Continue
+Event9.text,Place a sight token as indicated and remove Isobel's and Noah's tokens if they're still on the board.
+Token9Vistazopasillos.text,You can peek around this corner.
+Token9Vistazopasillos.button1,{action} Peek around
+Event21VistazoPasillos.text,There's a long hallway here. You don't find any trace of Valeria yet.\n\n<i>Place the {c:TileEsquina2} and the {c:TileEsquina1}</i>
+Event21VistazoPasillos.button1,Continue
+Event22ColocarPuertasPasillos.button1,Continue
+Token13VistazoFinal.text,You can peek around the corner
+Event22ColocarPuertasPasillos.text,You are surrounded by some marble doors.\n\n<i>Place the explore and wall tokens as indicated.
+Token13VistazoFinal.button1,{action} Take a look
+Event24ColocarPasilloFinal.text,So... this is the end of the hallway.\n\n<i> Place the {c:TileFinalPasillo}
+Event24ColocarPasilloFinal.button1,Continue
+Event25ColocarPuertasFinal.button1,Continue
+Token11PuertaBillar.text,"The sign on the wall says: ""Billiard Room""."
+Event9.button1,Continue
+Token8PuertaEscaleras.text,You can sneak in this way
+Token10PuertaDespacho.text,"A sign says: ""Office"". The door is locked with a special mechanism..."
+Token10PuertaDespacho.button1,Examine it
+Event25ColocarPuertasFinal.text,Along the puddly hallway you make out two doors, one on your right and the other at the end of it...\n\n<i>Place the explore and wall tokens as indicated</i>
+Token11PuertaBillar.button1,{action} Open the door
+Event26ColocarBillar.text,When you open the door you can see a well-lit billiard room. Billiard balls are set on the pool table as though in the middle of a game, but it doesn't seem anyone's played for a while.\n\n<i>Place the {c:TileSalaBillar}</i>
+Event26ColocarBillar.button1,Continue
+Event28ColocaDespacho.text,After unlocking the door you open it slowly, making sure there isn't any monster inside. The floor is full of puddles, just like the hallway and the stairs. The lights, however, are still working correctly.\n\n<i>Place the  {c:TileDespacho}. You may move one space into the explored area.</i>
+Event28ColocaDespacho.button1,Continue
+Event29ColocaConexDespDorm.text,You make out a door that should connect the adjacent room.\n\n<i>Place an explore token</i>
+Event29ColocaConexDespDorm.button1,Continue
+Token12PuertaDorm1.button1,{action} Open
+Token12PuertaDorm1.text,"Next to this door there's a sign with the name: ""Valeria"", so it must be her bedroom."
+Event30ColocaDorm1.text,When you step in you find a tidy room, with a single bed that is supposed to be Valeria's.\n\n<i>Place the {c:TileDormitorio1}. You may move one space into the explored area.
+Event30ColocaDorm1.button1,Continue
+Token20ConexDorm1Desp.text,You can open this door with no effort.
+Token20ConexDorm1Desp.button1,{action} Open the door
+Event31ColocarDespachoDesdeDorm1.text,After opening the door, you find an office in front of you. Except for the puddles on the floor, it looks clean and tidy.\n\n<i>Place the {c:TileDespacho}. You may move one space into the explored area.
+Event31ColocarDespachoDesdeDorm1.button1,Continue
+Token19PuertaDespDorm.text,This door ought to lead to the adjacent room.
+Token19PuertaDespDorm.button1,{action} Open
+Event32ColocarDormDesdeDespacho.text,When you step in you find a tidy room, with a single bed that you believe to be Valeria's.\n\n<i>Place the {c:TileDormitorio1}. You may move one step into the explored area..
+Event32ColocarDormDesdeDespacho.button1,Continue
+Token14PuertaDorm2.text,"A sign indicates: ""Daphne and Aiden""."
+Token14PuertaDorm2.button1,What's that light around the door?
+Event32ColocarDorm2.text,You see a bedroom with a double bed.\n\n<i>Place the {c:TileDormitorio2}
+Event32ColocarDorm2.button1,Continue
+Token15PuertaBiblio.text,"The sign says: ""Library""."
+Token15PuertaBiblio.button1,{action} Open
+Event33ColocarBiblio.text,You enter the room, to find a library whose floor is, again, full of puddles… There are also some books on the floor and a few old armchairs.\n\n<i>Place the {c:TileBiblioteca} as indicated</i>.
+Event33ColocarBiblio.button1,Continue
+Token2VistazoAlcantarilla.text,You can keep on exploring the yard this way.
+Token2VistazoAlcantarilla.button1,{action} Take a look
+Event34ColocarParcela2.text,The yard surrounds the mansion. You spot a man standing in the middle of the yard. He’s tall, black haired and has green eyes.\n\n<i>Place the {c:TilePatioAlcantarilla} and the character token as indicated</i>
+Event34ColocarParcela2.button1,Continue
+Event35ColocaPuertaParcela2.button1,Continue
+Token22PuertaEstudio.button1,{action} Open the door
+Event35ColocaPuertaParcela2.text,There’s a door on your right, but it seems possible to explore the yard a little farther.
+Event35ColocarEstudio.text,The study looks surprisingly good, if you ignore the puddles on the floor. However the lack of doors reveals this is not a way to enter the mansion.\n\n<i>Place the {c:TileEstudio}. You may move one space into the explored area.</i>
+Token23VistazoCobertizo.text,There’s a small building in front of you. You may want to get closer and take a look.
+Token23VistazoCobertizo.button1,{action} Let's go there
+Token22PuertaEstudio.text,"A rusted sign next to the door indicates: ""Study""."
+Event35ColocarEstudio.button1,Continue
+Event36ColocaParedEstudio.button1,Continue
+Event52ColocaObjetosEstudio.text,In front of you there’s a desk with a few volumes, maybe it would be useful to take a quick look on them.
+Event52ColocaObjetosEstudio.button1,Continue
+Event36ColocaParedEstudio.text,Place the wall token as indicated.
+Event37SalirAlCobertizo.text,Sales al exterior y ves de frente un cobertizo\n\n<i>Coloca el {c:TileCobertizo} y la ficha de exploración como se indica
+Event37SalirAlCobertizo.button1,Continue
+Event38ColocaCobertizo.text,The building appears to be a tool shed. There might be something interesting inside.\n\n<i>Place the {c:TileCobertizo}</i>
+Event38ColocaCobertizo.button1,Continue
+Event40ObjetosBiblio.text,There’s a thick volume on the armchair. It’s open so someone might have been reading it recently. At the back of the library there are also some books on the floor, you wonder what they are about.\n\n<i> Place the search tokens as indicated
+Event40ObjetosBiblio.button1,Continue
+Event27PasadizoAtravesadoColocaBiblio.text,Tras subir escaleras y empujar un pesado mueble, llegas a una estancia llena de libros, por lo que sospechas que te hallas en la biblioteca.\n\n<i>Coloca la {c:TileBiblioteca} y la ficha de pasadizo como se indica. A partir de ahora puedes atravesar este pasadizo y desplazarte entre la {c:TileBiblioteca} y la {c:TileFresquera} como si fuesen espacios adyacentes comunicados por una puerta. Puedes desplazarte un espacio adicional hacia este nuevo tablero.
+Event27PasadizoAtravesadoColocaBiblio.button1,Continuar
+Event41ColocarParedBiblio.text,<i>Place the wall token as indicated.
+Event41ColocarParedBiblio.button1,Continue
+Token28Hechizo.text,The covers of the books indicate they’re grimoires.
+Token28Hechizo.button1,{action} Try to decipher them
+Event42DescifrarHechizo.text,It’s written in an old language that you have trouble reading... ({lore};2)
+Event42DescifrarHechizo.button1,Success
+Event42DescifrarHechizo.button2,Failure
+Event43ObtieneHechizo.text,After reading the grimoire carefully, you learn a new spell\n\n<i>You gain the following spell: {c:QItemHechizoConseguido}
+Event43ObtieneHechizo.button1,Continue
+Event44FracasaDescifrarHechizo.text,You try harder and harder to understand the language, but in the end you don’t get a single word...
+Event44FracasaDescifrarHechizo.button1,Continue
+Token27LibroLeviatan.text,There are a lot of notes over the pages of this book… Someone could have been reading not so long.
+Token27LibroLeviatan.button1,{action} Investigate
+Event45LeerPrueba3.text,"The book offers instructions on how to summon major demons. At the beginning of the book there’s a warning: ""These spells can only be cast by mages of excellence, otherwise the outcome shall be catastrophic""."
+Event45LeerPrueba3.button1,Which one must she be summoning?
+Event46PuertaDentroBiblio.button1,Continue
+Event46PuertaDentroBiblio.text,Al fondo a la izquierda divisas una puerta.\n\n<i>Coloca la ficha de exploración
+Event30AbrirPuertaDentroBiblio.button1,Continue
+Event30AbrirPuertaDentroBiblio.text,Asomas la cabeza y ves que la puerta da acceso a un pasillo.\n\n<i>Coloca el {c:TileFinalPasillo} y las fichas que aparecen si no están ya colocadas
+Event47ColocarPasillosInversos.text,Ves cómo el pasillo continúa por aquí. Puedes ver puertas a ambos lados del mismo.\n\n<i>Coloca la {c:TileEsquina1} y la {c:TileEsquina2} como se muestra, junto a sus correspondientes fichas.
+Event47ColocarPasillosInversos.button1,Continuar
+Event48ColocarEscalerasInverso.text,Ves unas escaleras que descienden al piso de abajo. Deben de conducir a la fresquera.\n\n<i>Coloca las {c:TileEscaleras}
+Event48ColocarEscalerasInverso.button1,Continuar
+Token33Isobel1.button1,{action} Talk to her
+Event20.text,"Isobel gets visibly relaxed when she sees you: ""Good evening, I’m glad you came. I’m Isobel. As I explained to you in the letter, my mother has lost her reason and she’s up to something that might get Valeria hurt""."
+Event49ColocaIsobel.text,You see a young blonde woman in the yard. She’s looking at the floor with a lifeless gaze. She must be Isobel.\n\n<i>Place the character token as indicated</i>
+Event49ColocaIsobel.button1,Continue
+Token33Isobel1.text,The woman seems particularly worried.
+Event20.button1,Continue
+Event21.text,"""I took the liberty of reaching out my older brother, Noah, so he can help us; he’s absolutely more powerful than I am. He should be somewhere near the tool shed; I suggest you find him before trying anything risky""."
+Event21.button1,Do you have any idea about your mother’s intentions?
+Event21.button2,How come Valeria didn’t warn Noah?
+Event50MotivoMadre.text,"""Ever since my father died, my mother proved to be mentally unstable. When Noah and I moved out she might have gone out of her mind. Maybe even to the point of trying to bring my father back""."
+Event50MotivoMadre.button1,Fine, we must get ready
+EventFinConverValeria.button1,Continue
+Token25Noah1.text,The man wanders around the yard.
+Event23OdioValeriaNoah.button1,Alright
+EventFinConverValeria.text,"""Good, I’m going to try to identify the spell she’s using, please, be careful, because whatever my mother intends to do, it’s bringing dangerous creatures all over the place...""."
+Event23OdioValeriaNoah.text,"""Noah is the oldest and most powerful of us three, as well as my parents’ pride, truth be told. Valeria was always jealous of him, so I can assume that’s the reason why she didn’t write to him...""."
+Token25Noah1.button1,{action} Talk to him
+Event51HablarNoah1.text,"Noah looks at you with considerable suspicion: ""Oh, hello, you must be one of those investigator my sister contacted. My name is Noah""."
+Event51HablarNoah1.button1,Indeed
+Event23.text,"""Well, as Isobel already told you, my beloved mother is trying to do some spell I have no idea about, and she’s putting Valeria, and the mansion, in danger, with the presence of those monsters. Valeria’s vulnerable, so we must be quick""."
+Event23.button1,How can you help us?
+Event24.text,"""Allow me to sum up the whole thing: my mother lost her mind and she's trying to cast some sort of spell that's filled the mansion with monsters. It's quite simple; we must stop her before she hurts Valeria, since she's vulnerable""."
+Event24.button1,Alright, how can you help us?
+Event25.text,"Noah raises an eyebrow: ""It's you who are supposed to help me. I'll be here channeling energy to face the monsters while you're looking for something useful before going into the mansion.""."
+Event25.button1,Why don't we work together? ({lore}/{influence})
+Event25.button2,Fine, as you wish
+Event26.text,"Noah raises an eyebrow again: ""Don't take offense, but I don't think you can help me in any way""."
+Event26.button1,<i>Flirt</i> ({influence})
+Event26.button2,<i>Show your magic skills</i> ({lore})
+Event26.button3,Fine, see you later.
+Event52Flirteo.text,"You answer with a genuine smile:: ""Oh, don't get me wrong, your reputation precedes you; that's why I was hoping someone as powerful as you could have my back"" You get closer until your faces are just a few inches away (something that you don't have trouble with, since the man is quite attractive. ({influence})."
+Event52Flirteo.button1,Success
+Event52Flirteo.button2,Failure
+Event53FlirteoExito.text,"Noah blushes and answers shyly: ""Wow I... must apologize for my behavior then. It'll be an honor to protect you""."
+Event53FlirteoExito.button1,Continue
+Event27.text,"Now Noah is your teammate, place him on your investigator card. When resolving {strength} tests to attack or {lore} tests to cast a spell, roll an extra die. If, while <b>this</b> investigator is reading a dialog, a ""(with Noah)"" option shows up, they must choose it <b>obligatorily</b>, since Noah will always be with them."
+Event27.button1,Continue
+Event28.text,"""All that flattery will get you nowhere, so please, get ready, Valeria is in danger"". Then he turns away."
+Event28.button1,Fine
+TokenNoah2.text,Noah is trying to focus, we’d better leave him alone...
+TokenNoah2.button1,Continue
+Event54NoahAsombro.text,You focus on your inner power and try to cast an advanced spell, hoping it will be enough for Noah to realize you’re not useless ({lore}).
+Event54NoahAsombro.button1,Success
+Event54NoahAsombro.button2,Failure
+Token34Isobel2.text,Isobel is examining a grimoire
+Token34Isobel2.button1,Continue
+Event30.text,"""I’m glad Noah teamed up with you. I’d even say one of you caught his eye!"" (she chuckles)."
+Event30.button1,He's a charming man!
+Event31.text,"""I’m glad Noah teamed up with you. You must have really impressed him to get him to join you""."
+Event31.button1,Oh, it's nothing!
+Event32.text,Isobel smiles and starts patrolling the yard.
+Event32.button1,Continue
+Event55NoahCompaAsombrado.text,You succeed creating a voluminous light sphere, which you throw towards the sky. You watch it go up as it splits the clouds around.
+Event55NoahCompaAsombrado.button1,So, what do you think?
+Event33.text,"Noah looks genuinely surprised: ""Light spells are particularly difficult to cast… My apologies, it looks like you’re going to come in handy after all. I’ll be delighted to fight by your side""."
+Event33.button1,Alright
+Event34.text,You try to cast a light sphere, but you zone out and only create a sparkle of light.\nNoah giggles: <i>If you’re done, I’d like to start channeling my magic. True magic.</i>
+Event34.button1,Fine...
+Event35.text,"""I’m relieved to see Noah is with you. As they say… the more, the merrier! Do you want to ask something?""."
+Event35.button1,What do you think your mother intends to do?
+Event35.button2,How come Valeria didn’t warn Noah?
+Event36.text,"""It looks like you’ve already talked to Noah… Don’t worry, he might be abrupt, buy he’ll help us""."
+Event36.button1,I hope so...
+TokenPuertaVivero2.button1,{action} Force the lock
+EventNoahFlirteoAbreVivero.button1,Continue
+EventNoahAsombradoAbreVivero.text,Noah smiles at you: <i>There’s no need for you to show off your magic; I have the key to this door
+EventNoahAsombradoAbreVivero.button1,Continue
+TokenPuertaVivero2.button2,{action} Use your own strength
+EventNoahFlirteoAbreVivero.text,Noah smiles: <i>Oh, the conservatory… I have a lot of nice memories about it. I played a lot there when I was a kid… Someday I’ll talk you about my childhood. Anyways, I have the key, so we can get inside without further delay.</i>
+TokenPuertaVivero2.button3,{action} (with Noah) Ask for help
+TokenPuertaVivero2.text,The door seems to be locked, but it could be opened with a lockpick, or maybe with some hits. Noah might have the key, so you may want to bring him here.
+TokenPuertaCobertizo.text,The shed door looks fragile; we could get inside with no problems
+TokenPuertaCobertizo.button1,{action} Open
+Event56CobertizoAbierto.text,The shed is scrupulously tidy, but the amount of dust indicates it’s not been frequented for a long time.
+Event56CobertizoAbierto.button1,Continue
+Event57ColocaArmaCobertizo.text,On the table inside the shed there’s some kind of fire weapon.\n\n<i>Place the search token as indicated.
+Event57ColocaArmaCobertizo.button1,Continue
+Token35ArmaFuego.text,You find a fire weapon covered with dust. You may reload it if you search for ammo around this place.
+Token35ArmaFuego.button1,{action} Pick up the weapon
+Event58TomaArma.text,You get a {c:QItemArmaFuego}. You find ammunition close by, so you can reload it
+Event58TomaArma.button1,Continue
+Event39.text,On second thought, perhaps we should talk to Isobel and Noah before going into the mansion…...\n\n<i>(Since you can’t explore this path yet, this action doesn’t count. You can do another action instead)</i>
+Event39.button1,Continue
+Event40.text,On second thought, maybe we should follow Isobel’s advice and go talk to Noah before getting inside...\n\n<i>(Since you can’t explore this path yet, this action doesn’t count. You can do another action instead)</i>
+Event40.button1,Continue
+Event41.text,On second thought, talking to Isobel before getting inside seems a better idea...\n\n<i>(Since you can’t explore this path yet, this action doesn’t count. You can do another action instead)</i>
+Event41.button1,Continue
+Event23CplocarVistazoFinal.text,You can peek around the corner at the end of the hallway.
+Event23CplocarVistazoFinal.button1,Continue
+Event59ColocarProfundoPasillo.button1,Continue
+Event59ColocarProfundoPasillo.text,In the middle of the hallway you find a monster that moves easily over the puddles on the floor.\n\n<i>Place the deep one as indicated</i>
+EventColocaIsobelDentro.text,You can hear a woman mumbling to herself.\n\n<i>Add the character token as indicated.
+EventColocaIsobelDentro.button1,Continue
+Event43.text,"""Well, let’s get down to business. Would you like to ask something?""."
+Event43.button1,Do you know what your mother’s up to?
+Event43.button2,How come Valeria didn’t warn Noah?
+Event44.text,"A hooded person runs towards you: ""Trespassers! So you’re the one who made all that noise in the conservatory...""\n\n<i>Place a cultist as indicated</i>"
+Event44.button1,Continue
+TokenPuertaEscalerasConPasadizo.text,Ya te has infiltrado por el pasadizo, pero también puedes acceder por aquí.
+TokenPuertaEscalerasConPasadizo.button1,{action}Open the door
+Event51.text,When you open the door, you find some stairs. They should lead to the second floor of the Northeast wing.\n\n<i>Place the {c:TileEscaleras}</i>
+Event51.button1,Continue
+TokenBiblia.text,You can examine the books on this desk.
+TokenBiblia.button1,{action} Take a look at the books
+Event52.text,One of the books catches your eye. It contains some spells that could turn out useful. You decide to write down some notes.\n\n<i>You gain the spell {c:QItemHechizoEstudio}</i>
+Event52.button1,Continue
+Event53.text,While looking over the books you find one related to religious events. You take a look at it and find it useful, so you decide to carry it.\n\n<i>You get the {c:QItemBibliaReyJaime}</i>
+Event53.button1,Continue
+Event54.text,Farther in the study there’s another desk, but on this one there are some papers and a quill.
+Event54.button1,Continue
+TokenPruebaNoahNoHermano.text,There are some documents regarding the house administration. You also find a drawer that might contain more important stuff.
+TokenPruebaNoahNoHermano.button1,{action} Examine the drawer
+Event55.text,As much as you try to open the drawer, it’s clear it won’t open, since it’s locked. You’d better use a lockpick  ({observation};2)
+Event55.button1,Success
+Event55.button2,Failure
+Event56.text,After a while, you succeed opening the drawer. On the inside there are a even more papers… You look over them in the hope of finding something valuable. Not long after you find something that surprises you: A photo of young Noah!
+Event56.button1,There's a document attached...
+EventDescubrimientoFamiliaNoah.text,It’s a certificate of adoption! It seems Noah was the son of Mr. and Mrs. Robinson, one of the most famous wizards. The members of this family died while performing a sinister ritual, so the Wilsons must have adopted the orphan child, considering how powerful he would be.
+EventDescubrimientoFamiliaNoah.button1,Continue
+Event57.text,The lockpick breaks, so you’ll have to start over…...
+Event57.button1,Continue
+Event58.text,As much as you try to open the drawer, it’s clear it won’t open, since it’s locked. You’d better use a lockpick ({observation};2).\n\n<i>If you’re with Noah, he’ll want to help you.
+Event58.button1,Success
+Event58.button2,Failure
+Event58.button3,(with Noah) Ask for help
+Event59.text,"Noah winks at you: ""Of course I'll help you, hold tight the tension wrench, please"" ({observation};1)"
+Event59.button1,Success
+Event59.button2,Failure
+Event60.text,"Noah grunts: ""There goes nothing... We're gonna have to try again."""
+Event60.button1,Continue
+Event61.text,"""At least now I know why they're not much alike...""\n\n<i>You gain the {c:QItemCertificadoNoah} and a clue"
+Event61.button1,Continue
+Event63.text,After a while, you succeed opening the drawer. On the inside there are a even more papers… You look over them in the hope of finding something valuable. Not long after you find something that surprises you: A photo of young Noah!
+Event63.button1,There's a document attached...
+Event64.text,It’s a certificate of adoption! It seems Noah was the son of Mr. and Mrs. Robinson, one of the most famous wizards. The members of this family died while performing a sinister ritual, so the Wilsons must have adopted the orphan child, considering how powerful he would be.
+Event64.button1,Noah...
+Event65.text,"Noah's turned pale. You guess he turns away so you can't see him cry. However, he pretends to be fine: ""It doesn't matter, we have more important stuff to deal with, like finding Valeria"".\n\n<i>You gain the {c:QItemCertificadoNoah} and a clue"
+Event65.button1,Continue
+Event66.text,As much as you try to open the drawer, it’s clear it won’t open, since it’s locked. You’d better use a lockpick ({observation};2).\n\n<i>If you’re with Noah, he’ll want to help you.</i>
+Event66.button1,Success
+Event66.button2,Failure
+Event66.button3,{with Noah} I could use your help...
+Event67.text,"Noah lets out a guffaw: ""Ha! Obviously your light spells aren't gonna unlock the drawer. Hold tight the tension wrench while I unlock it."" ({observation};1)"
+Event67.button1,Success
+Event67.button2,Failure
+Event68.text,Maybe another time... Maybe not.
+Event68.button1,Continue
+Event69.text,There are some barrels near, they might contain something useful.
+Event69.button1,Continue
+TokenBarril.text,You can check it out.
+TokenBarril.button1,{action} Open it
+Event70.text,You remove the barrel lid carefully, to find some whiskey bottles inside.\n\n<i>You gain {c:QItemWhiskey}</i>
+Event70.button1,Continue
+SpawnHibridoDeProfundo1.button1,Continue
+SpawnHibridoDeProfundo1.text,You spot something not fully human by the shed...\n\n<i>Place the deep one hybrid as indicated
+Event71.text,On the walls there are the portraits of some members of the Wilson family.
+Event71.button1,Continue
+TokenRetratos.text,These are half-length portraits of the Wilsons.
+TokenRetratos.button1,{action} Inspect them
+Event72.text,There are a few portraits of Isobel and Valeria... It's amazing how they look so alike. As for Noah, his facial features are slightly different.\n\n<i> You gain a clue
+Event72.button1,Continue
+Event73.text,There are a few portraits of Isobel and Valeria... It's amazing how they look so alike. As for Noah, his facial features are slightly different. It's unsurprising, since he was adopted.\n\n<i>You gain a clue
+Event73.button1,Continuar
+Event74.text,There are a few portraits of Isobel and Valeria... It's amazing how they look so alike. As for Noah, his facial features are slightly different. It's unsurprising, since he was adopted.\n\n<i>You gain a clue</i>
+Event74.button1,Continue
+Event74.button2,(with Noah) Check on him
+Event75.text,"Noah looks at you while you're examining the portraits: ""Yeah, we already know why I stand out on this wall... Could we please continue the investigation?"""
+Event75.button1,Continue
+Event76.text,There are a few portraits of Isobel and Valeria... It's amazing how they look so alike. As for Noah, his facial features are slightly different.\n\n<i> You gain a clue</i>
+Event76.button1,Continue
+Event76.button2,(With Noah) Check on him
+Event77.text,"Noah swells with pride while looking at the portraits: ""I don't have those blue eyes, but you can't deny I'm charming, can you?"""
+Event77.button1,Continue
+Event78.text,There are a few portraits of Isobel and Valeria... It's amazing how they look so alike. As for Noah, his facial features are slightly different.\n\n<i>You gain a clue</i>
+Event78.button1,Continue
+Event78.button2,(With Noah) Check on him
+Event80.text,There are a few portraits of Isobel and Valeria... It's amazing how they look so alike. As for Noah, his facial features are slightly different.\n\n<i>You gain a clue</i>
+Event80.button1,Continue
+Event80.button2,(with Noah) Look at him
+Event81.text,"Noah smiles weakly at you: ""Given your talent with magic, you could pass off as a Wilson easily"""
+Event81.button1,Continue
+Event82.text,You see water flowing from the walls...
+Event82.button1,How strange...
+PuzzlePuertaDespacho.button1,Solve
+Event83.text,It's a mechanism made up of moving pieces ({observation}). You could unlock it if you focus.
+Event83.button1,{action} Try to open it
+Event83.button2,{action} (with Noah) Ask for help
+Event84.text,"Noah looks at you with determination: ""Two heads are better than one, let us get down to it"".\n\n<i>You have one additional move when resolving this puzzle"
+Event84.button1,Continue
+EventColocaObjDesp.text,In front of you there's a cupboard full with supplies.
+EventColocaObjDesp.button1,Continue
+Event85.text,On the desk there are some magical substances.
+Event85.button1,Continue
+TokenRecipientesDesp.text,The containers on the desk have been filled with alchemical substances. You can examine them.
+TokenRecipientesDesp.button1,{action} Investigate
+Event86.text,You identify some of the ingredients, as well as the position they are placed. You try to recall the spell that require those substances ({lore};2).
+Event86.button1,Success
+Event86.button2,Failure
+Event87.text,After some minutes thinking hard, you remember those were the exact ingredients needed for a magic transfusion spell. It's a spell that allows someone to drain a relative's magic if they kill them.
+Event87.button1,This doesn't look good at all...
+Event88.text,Daphne must be up to something really dangerous... And everything points that she intends to use Valeria.\n\n<i>You gain the {c:QItemComponentesRitual}.</i>
+Event88.button1,Continue
+Event89.text,As much as you try to remember, you can't identify the spell...
+Event89.button1,Continue
+SpawnSectarioCobertizo.button1,Continue
+Event91.text,You identify some of the ingredients, as well as the position they are placed. You try to recall the spell that require those substances ({lore};2).\n\n<i>If you're with Noah, he will be willing to help you.
+Event91.button1,Success
+Event91.button2,Failure
+Event91.button3,(Con Noah) Do these ingredients ring a bell to you?
+Event92.text,"Noah inspect the substances carefully. Not long after, he goes pale: ""It's a magic transfusion spell""."
+Event92.button1,Which means...
+Event93.text,"""Someone's going to kill, or already killed..., a relative so as to drain their magic. We need to find Valeria immediately""\n\n<i>You gain the {c:QItemComponentesRitual}"
+Event93.button1,Continue
+Event96.text,It's a mechanism made up of moving pieces ({observation}). You can try to unlock it.
+Event96.button1,{action} Try to unlock
+Event96.button2,Maybe another time...
+Event97.text,On your right there are some tools that give off light.
+Event97.button1,Continue
+TokenFuenteLuzBillar.text,On the island some objects emit light. You could borrow one.
+TokenFuenteLuzBillar.button1,Pick one up carefully
+Event98.text,You try to reach one of the light sources without getting burned ({agility};2)
+Event98.button1,Success
+Event98.button2,Failure
+EventConsigueLuzBillar.text,You grab the {c:QItemLuzBillar} and take it with you.
+EventConsigueLuzBillar.button1,Continue
+Event99.text,You grab the {c:QItemLuzBillar} so fast that you burn your hand. Suffer 1 facedown damage and gain the {c:QItemLuzBillar}.
+Event99.button1,Continue
+Event100.text,You grab the {c:QItemLuzBillar} so fast that you burn your hand. Suffer 1 facedown damage and gain the {c:QItemLuzBillar}.
+Event100.button1,Ouch!
+Event100.button2,(with Noah) Hear him out
+Event101.text,"Noah holds your hand and blushes: ""If you allow me, I can relieve your pain with a simple spell"".\n\n<i> Remove 1 facedown damage"
+Event101.button1,Thanks!
+Event102.text,You grab the {c:QItemLuzBillar} so fast that you burn your hand. Suffer 1 facedown damage and gain the {c:QItemLuzBillar}.
+Event102.button1,Ouch!
+Event102.button2,(with Noah) Hear him out
+Event103.text,"Noah smiles with pride: ""That, I can fix it, just wait and see"". Immediately after, he casts a healing spell on your burn.\n\n<i>Remove 1 facedown damage"
+Event103.button1,Thanks!
+TokenEstanteriaDespacho.text,There are a lot of items here, most of them seem useless, though. If you do some digging you might find something interesting.
+TokenEstanteriaDespacho.button1,Rummage
+Event104.text,There are many decorative stuff getting in your way ({observation})
+Event104.button1,Success
+Event104.button2,Failure
+Event105.text,After a while, you find something that can come in handy. You get the {c:QItemEstanteDesp}.
+Event105.button1,Continue
+Event106.text,You don't find anything useful, so you decide to move on.
+Event106.button1,Continue
+Event107.text,After a while, you find something that can come in handy. You get the {c:QItemEstanteDesp2}.
+Event107.button1,Continue
+Event108.text,There are more water puddles ahead, it might be a good idea to examine them.
+Event108.button1,Continue
+TokenCharcoBillar.text,Water is still flowing from the walls...
+TokenCharcoBillar.button1,Inspect
+Event109.text,You try to guess the source of the water ({observation})
+Event109.button1,Success
+Event109.button2,Failure
+Event110.text,The movement pattern and the flow of water reminds you of a specific type of spell; the one used to summon marine demons.\n\n<i>You gain a clue
+Event110.button1,Continue
+Event111.text,Even though you try hard, you don't identify the source...
+Event111.button1,Continue
+Event112.text,Inside the bedroom there's a tiny desk and a chest of drawers.
+Event112.button1,Continue
+TokenEscritorioDorm1.text,The desk is covered with notes, you could skim them.
+TokenEscritorioDorm1.button1,{action} Let's take a look
+Event113.text,It looks like the house administration was assigned to Valeria when Isobel and Noah moved out, since most of the papers are reports. Daphne must have wanted to keep her busy...\n\n<i> You gain a clue
+Event113.button1,Continue
+Event114.text,It looks like the house administration was assigned to Valeria when Isobel and Noah moved out, since most of the papers are reports. Daphne must have wanted to keep her busy...\n\n<i> You gain a clue
+Event114.button1,Continue
+Event114.button2,(Con Noah) Talk to him
+Event115.text,"Noah looks coldly furious: ""Valeria might not excel in the magic field, but reducing her to a secretary is another thing altogether... My mother has to be planning something seriously threatening if she's keeping her busy."""
+Event115.button1,Continue
+TokenCmoda.text,There are some magic books at the top of the chest of drawers.
+TokenCmoda.button1,{action} Examine them
+Event116.text,They're advanced offensive spells. Valeria had to know there was something dangerous going on and she was preparing herself. They might come in handy.\n\n<i>You learn the {c:QItemAjar} spell
+Event116.button1,Continue
+Event117.text,This door is surrounded by a magic field that prevents you from touching it. You could try to remove it, but you don't have many evidences on what's going on: it might be wiser to explore the mansion a bit more to have a better idea of what awaits inside.
+Event117.button1,{action} The sooner I get inside, the better
+Event117.button2,I'll come back later
+Event118.text,You're alone, and this spell is extremely advanced. Daphne must have worn herself out by casting it. You try to find a way to break it ({lore}+1;3).
+Event118.button1,Success
+Event121.text,"""Asmodeus"",""Leviathan"",""Satan"",""Mammon""... Which one could it be?\n\n<i>You remember the puddles in the billiard room and you consider the possibility that she's summoning Leviathan, since it's a marine monster."
+Event121.button1,Asmodeus
+Event121.button2,Leviathan
+Event121.button3,Satan
+Event122.text,Eventually you decide to gather information about Asmodeus, just in case...
+Event122.button1,Continue
+Event123.text,Eventually you decide to gather information about Leviathan, just in case......
+Event123.button1,Continue
+Event121.button4,Mammon
+Event124.text,Eventually you decide to gather information about Satan, just in case...
+Event124.button1,Continue
+Event125.text,Eventually you decide to gather information about Mammon, just in case...
+Event125.button1,Continue
+Event126.text,"""Asmodeus"",""Leviathan"",""Satan"",""Mammon""... Which one could it be?\n\n<i>You think about the wet environment in the house... it might be related."
+Event126.button1,Asmodeus
+Event126.button2,Leviathan
+Event126.button3,Satan
+Event126.button4,Mammon
+Event126.button5,(with Noah) Ask for help
+Event127.text,"Noah considers the possibilities for some time before speaking: ""Leviathan is a marine monster, so all this water would make sense should it be summoned. But that's the demon connected to envy, and I believe Satan, the one of wrath, could be also an option. Bear in mind that my mother's furiously angry right now. Whatever it is, I'll protect Valeria from it... and I'll protect you""."
+Event127.button1,Leviathan
+Event118.button2,Failure
+Event127.button2,Satan
+Event128.text,"Noah considers the possibilities for some time before speaking: ""Leviathan is a marine monster, so all this water would make sense should it be summoned. But that's the demon connected to envy, and I believe Satan, the one of wrath, could be also an option. Bear in mind that my mother's furiously angry right now. Either way, our magic skill is unmatched, so we'll take it down""."
+Event128.button1,Leviathan
+Event128.button2,Aamon
+EventBarril.text,You notice some of the barrels are full, so it seems a good idea to take a look at them.
+EventBarril.button1,Continue
+Event6ObjetosVivero.text,There are a few exotic plant species as well as tools that you might want to have in the future.
+TokenMaterialVivero.text,You can search carefully for something useful among the plants.
+TokenMaterialVivero.button1,{action} Start searching
+Event130.text,You move carefully among the plants, just in case some of them are poisonous. After a while looking around, you come to the conclusion there's nothing you could use later, but you see a shovel that might be used as a weapon, if necessary.\n\n<i>You get the {c:QItemPalaVivero}</i>
+Event130.button1,Continuae
+Event132.text,"""Asmodeus"",""Leviathan"",""Satan"",""Mammon""... Which one could it be?\n\n<i>You think about the wet environment in the house... it might be related."
+Event132.button1,Asmodeus
+Event132.button2,Leviathan
+Event132.button3,Satan
+Event132.button4,Mammon
+Event133.text,"""Asmodeus"",""Leviathan"",""Satan"",""Mammon""... Which one could it be?\n\n<i>You remember the puddles in the billiard room and you consider the possibility that she's summoning Leviathan, since it's a marine monster."
+Event133.button1,Asmodeus
+Event133.button2,Leviathan
+Event133.button3,Satan
+Event133.button4,Mammon
+Event133.button5,(with Noah) Ask for help
+Event119.button1,Try to undo the spell without help
+Event119.button2,(with Noah) Ask for help
+Event119.text,<i>Remember that Noah's with one of you, so maybe he can help you.</i>
+Event134.text,After a great effort, the magic field vanishes. When you open the door, you find a bedroom that, just like the rest of the house, is full of water puddles.
+Event134.button1,Continue
+Event135.text,Lying on the bed, there's a woman with her eyes closed. That must be Daphne.\n\n<i>Place the character token as indicated.
+Event135.button1,Continue
+Event120.text,This door is surrounded by a magic field that prevents you from touching it. You should try to remove it: you have all the evidence you need to face whatever is awaiting inside.
+Event120.button1,{action} Try to undo the spell
+Event136.text,You can't remove the field, so you'll have to try again...
+Event136.button1,Continue
+Event120.button2,I need to do something before...
+Event137.text,"Noah holds your hand and looks at you with confidence: ""We are going to undo this spell, together we can"".\n\n<i>The spell now requires ({lore};2)</i>"
+Event137.button1,Success
+Event137.button2,Failure
+Event138.text,"Noah looks at you with confidence: ""I'm certain you can handle this on your own, but allow me to help you"".\n\n<i>The spell now requires ({lore};2)"
+Event138.button1,Success
+Event138.button2,Failure
+SpawnSectarioBiblio.text,A hooded person is watching over the door in front of you.\n\n<i>Place a cultist as indicated.
+SpawnSectarioBiblio.button1,Continue
+TokenDafne.text,Daphne doesn't notice your presence.
+TokenDafne.button1,{action} Talk to her
+EventDafneMuertaSinNoah.text,You talk to Daphne, getting ready to attack her if needed. However, she doesn't answer; she appears to be in a trance, so you get closer with caution, but...
+EventExplicacionCaso.button1,Continue
+EventDafneMuertaConNoah.text,You talk to Daphne, getting ready to attack her if needed. However, she doesn't answer; she appears to be in a trance, so you get closer with caution, but...
+EventExplicacionSinOrigenNoah.button1,Continue
+EventExplicacionCaso.text,She's dead; she has no pulse and she's not breathing... Someone (or something) killed her without fighting. Suddenly, everything makes sense: Valeria was always scorned because of the lack of magic skill, and summoning a demon would be her way to show everyone how wrong they were. She had to use a magic transfusion spell on Daphne to have the amount of power she needed... But that wasn't enough, so she lured Isobel into the house.
+EventExplicacionConOrigenNoah.button1,We must find...
+EventExplicacionSinOrigenNoah.text,Why didn't she contact Noah? He's stronger than Isobel and she could have killed him with no effort, since he wouldn't be expecting the attack... We must have overlooked something. Anyways, it's time to move on.
+EventValeriaAparece.text,Suddenly, all the lights go out on the second floor.\n\n<i>Place a darkness token in every space on the second floor. If there's any fire token, remove it. Should you have to place one for any reason, ignore it.
+EventExplicacionConOrigenNoah.text,We already know Noah's not his brother, so it makes perfect sense that Valeria contacted Isobel instead of him; the transfusion spell would have been useless on him.
+EventValeriaAparece.button1,Continue
+Event141.text,The eerie silence is broken by a woman's scream...\n\n<i>Place the character token as indicated. If there's an investigator there, move it to an adjacent space of your choice.
+Event141.button1,Continuw
+EventDafneMuertaSinNoah.button1,She's not in a trance
+EventDafneMuertaConNoah.button1,Continue
+EventDafneMuertaConNoah.button2,(with Noah) Continue
+Event144.text,Noah runs to her mother and shakes her body: Mom! Open your eyes! But you know that won't happen... Daphne's dead. As for Noah, he still tries to wake her up, but the tears on his face indicate he already knows it's impossible...
+Event144.button1,Noah...
+Event145.text,"You hold Noah for some minutes, until you decide it's time for you to explain your conclusions, before it's too late: ""Someone, or something, killed her without fighting her. aleria was always scorned because of the lack of magic skill, and summoning a demon would be her way to show everyone how wrong they were. She had to use a magic transfusion spell on Daphne to have the amount of power she needed... But that wasn't enough, so she lured Isobel into the house..."""
+Event145.button1,Continue
+Event146.text,"You go on trying to soften the blow: ""Noah, she never called you because of what we found out: you're not her brother so the transfusion spell wouldn't have worked"". Noah nods as he tries to get his head together."
+Event146.button1,We need to move on...
+Event147.text,"You keep talking with care: ""I don't know why she didn't contact you; you're stronger than Isobel..."". Noah shrugs while he's wiping away his tears: ""I don't have the slightest idea, we never got along well, but maybe we missed something""."
+Event147.button1,We need to move on...
+Event148.text,"You hold Noah for some minutes, until you decide it's time for you to say something, before it's too late: ""Noah, we don't know who killed your mother, or if she died from trying something beyond her capacities... We need to find Valeria as soon as possible"". Noah nods as he gets up."
+Event148.button1,Continue
+Event149.text,She's dead. There are no signs of violence, but it's clear she didn't die naturally; someone (or something) killed her... Or maybe she died while trying something beyond her capacities. Either way, you have to do something, and fast.
+Event149.button1,Continue
+TokenValeria1.text,A blonde woman stands in the hallway. She appears to be scared, and she looks back and forth, as though she was worried that something showed up.
+TokenValeria1.button1,{action}Talk to her
+Event150.text,Thank the spirits you're here! Isobel is in danger, someone attacked her and I took her to my bedroom... She's seriously hurt, you should go check on her while I find the assailant.
+Event150.button1,Not so fast, murderer!
+Event150.button2,(with Noah) Let him talk
+Event151.text,"Noah turns red with anger: ""How can someone be so despicable?! We know everything, we know you killed mom and we know you intend to summon Asmodeus, but we won't let that happen."
+Event151.button1,Valeria laughs uproariously
+Event152.text,"""Asmodeus? Seriously?"" Valeria keeps laughing. ""And here I thought you were the smart one of us three; it seems you're nothing but a fool. What you are witnessing is not the arrival of Asmodeus, but the arrival of Leviathan."". Then Valeria casts a spell towards Noah."
+Event152.button1,Get in the way to protect Noah
+Event152.button2,Do not interfere
+EventNoahMuere.text,"Noah is in shock, so he doesn't have the time to deflect the spell. The magic throws him into the air, making him hit the wall hard. With a thud, Noah falls on the floor, lifeless. Valeria smirks: ""Oh, I've been dreaming about this for so long"".\n\n<i>Noah is dead, remove his token from the game. You don't roll the additional die when casting spells or attacking anymore."
+EventNoahMuere.button1,...
+EventNoahSalvado.text,You stand between Valeria and Noah and deflect the spell, but you get hurt in the process.\n\n<i>You suffer 2 facedown pain and 1 facedown horror
+EventNoahSalvado.button1,Continue
+EventNoahAgradece.text,"Noah holds you before you hit the floor: ""Got you! Fret not, I'm taking you out of here no matter how. However, I need to deal with this... woman before""."
+EventNoahAgradece.button1,Continue
+CustomMonsterValeria.info,-
+SpawnValeria.text,Valeria is decided to take you all down...\n\n<i>Place Valeria (Priest of Dagon) on the board and remove her character token. You found out her plan soon enough, so you must end her before the ritual reaches its zenith.</i>
+Event153.text,"You interrupt Valeria quickly: ""Stop acting, lady. I already know what you did to your mother, the same way I know you intend to summon Asmodeus, but I won't let you do it""."
+Event153.button1,Valeria laughs
+Event154.text,"After some laughs, Valeria speaks:""Asmodeus?, ¿seriously? And you are called investigators? You see, all this water doesn't announce the arrival of Asmodeus, but Leviathan."
+Event154.button1,What?!
+Event155.button1,Valeria laughs
+Event155.text,"You interrupt Valeria quickly: ""Stop acting, lady. I already know what you did to your mother, the same way I know you intend to summon Satan, but I won't let you do it""."
+Event156.text,"After some laughs, Valeria speaks:""Satan?, ¿seriously? And you are called investigators? You see, all this water doesn't announce the arrival of Satan, but Leviathan."
+Event156.button1,What?!
+Event157.text,"You interrupt Valeria quickly: ""Stop acting, lady. I already know what you did to your mother, the same way I know you intend to summon Mammon, but I won't let you do it""."
+Event157.button1,Valeria laughs
+Event158.text,"After some laughs, Valeria speaks:""Satan?, ¿seriously? And you are called investigators? You see, all this water doesn't announce the arrival of Mammon, but Leviathan."
+Event158.button1,What?!
+Event159.text,"You interrupt Valeria quickly: ""Stop acting, lady. I already know what you did to your mother, the same way I know you intend to summon Leviathan, but I won't let you do it""."
+Event159.button1,Valeria falls silent...
+CustomMonsterValeria.monstername,Valeria
+SpawnValeria.button1,Continue
+Event160.text,"Noah turns red with anger: ""How can someone be so despicable?! We know everything, we know you killed mom and we know you intend to summon Mammon, but we won't let that happen."
+Event160.button1,Continue
+Event161.text,"Noah turns red with anger: ""How can someone be so despicable?! We know everything, we know you killed mom and we know you intend to summon Satan, but we won't let that happen."
+Event161.button1,Valeria laughs
+Event162.text,"Noah turns red with anger: ""How can someone be so despicable?! We know everything, we know you killed mom and we know you intend to summon Leviathan, but we won't let that happen."
+Event162.button1,Valeria falls silent
+Event163.text,"""Mammon? Seriously?"" Valeria keeps laughing. ""And here I thought you were the smart one of us three; it seems you're nothing but a fool. What you are witnessing is not the arrival of Mammon, but the arrival of Leviathan."". Then Valeria casts a spell towards Noah.\nEvent163.button1,Get in the way to protect Noah\nEvent164.text,"""Satan? Seriously?"" Valeria keeps laughing. ""And here I thought you were the smart one of us three; it seems you're nothing but a fool. What you are witnessing is not the arrival of Satan, but the arrival of Leviathan."". Then Valeria casts a spell towards Noah.
+Event164.button1,Get in the way to protect Noah
+Event163.button2,Do not interfere
+Event164.button2,Do not interfere
+EventNoahAgradece2.text,"Noah holds you before you hit the floor: ""Hey, I'm not going to let you die here, we still have a lot to discuss."" Then he gets ready to attack Valeria."
+EventNoahAgradece2.button1,Continue
+Event165.text,Thank the spirits you're here! Isobel is in danger, someone attacked her and I took her to my bedroom... She's seriously hurt, you should go check on her while I find the assailant.
+Event165.button1,Not so fast, murderer...
+Event166.text,Valeria takes advantage of your confusion to attack you with a powerful spell. When it hits you, you feel your body fall to pieces.\n\n<i>Suffer 2 facedown pain and 1 facedown horror
+Event166.button1,We must stop her!
+Event167.text,Thank the spirits you're here! Isobel is in danger, someone attacked her and I took her to my bedroom... She's seriously hurt, you should go check on her while I find the assailant.
+Event167.button1,There's no time to waste
+EventColocaIsobelMuerta.text,<i>Place Isobel's token as indicated
+EventColocaIsobelMuerta.button1,Continue
+TokenIsobelMuerta.text,Isobel looks pale... This isn't good.
+TokenIsobelMuerta.button1,{action} Check on her
+Event168.text,You get closer to see how Isobel's doing and you realize she has no pulse and she doesn't breathe. How did this happen? You look for some kind of wound but there's none. There's no way a monster could have killed her without touching her. Unless...
+Event168.button1,It's Valeria's doing!
+Event169.text,She must have plotted the whole thing... In order to show she's not as weak as everyone thinks, she probably decided to cast one of the most difficult spells ever cast; the great demon summoning spell. If she required to kill her mother and her sister, it's obviously because she needed their power. A magic transfusion spell would have worked, even more if they didn't expect her betrayal.
+Event169.button1,Continue
+Event170.text,In fact, this explains why Valeria contacted Isobel instead of Noah; he's not her real brother and the transfusion spell wouldn't have been useful.
+Event170.button1,We must stop her
+EventLeviatnLlegada.text,You hear an awful noise coming from the hallway. Walls are shaking and water's rising against gravity.
+EventLeviatnLlegada.button1,What the...?!
+SpawnLeviatan.text,"Valeria screams while water twirls around her, and her body starts turning into something monstrous: ""This...shouldn't...happ..."". Some seconds later there's nothing left of her. In her place there's a huge snake-shaped monster...\n\n<i>You didn't find the evidences on time, so you found out the truth too late: Leviathan's been awakened, you must kill or die. Place Leviathan (Hunting horror) where Valeria was located</i>"
+SpawnLeviatan.button1,Continue
+CustomMonsterLeviatan.info,-
+CustomMonsterLeviatan.monstername,Leviathan
+Event171.text,You're alone, and this spell is extremely advanced. Daphne must have worn herself out by casting it. You try to find a way to break it ({lore}+1;3).
+Event171.button1,Success
+Event171.button2,Failure
+Event172.text,You get closer to see how Isobel's doing and you realize she has no pulse and she doesn't breathe. How did this happen? You look for some kind of wound but there's none. There's no way a monster could have killed her without touching her.
+Event172.button1,Continue
+Event172.button2,(with Noah) Help him
+Event173.text,Unless... She must have plotted the whole thing... In order to show she's not as weak as everyone thinks, she probably decided to cast one of the most difficult spells ever cast; the great demon summoning spell. If she required to kill her mother and her sister, it's obviously because she needed their power. A magic transfusion spell would have worked, even more if they didn't expect her betrayal.
+Event173.button1,Continue
+Event174.text,You turn around and find Noah hyperventilating. A few seconds later he falls on the floor, placing his hand on his chest. He must be suffering a heart attack, so you must choose whether to try to absorb part of his pain to save him, or see what happens...
+Event174.button1,Try to save him
+Event175.text,"Without wasting a second, you place your hands on his chest and feel his pain reaching your body; you suffer 1 damage. Then, Noah starts breathing normally and, after a while, he sits up. Eventually, he speaks: ""It's been Valeria. All this time. That scoundrel wanted to do something remarkable for once in her miserable life... And she killed my mother and my sister to get their power and do whatever she intends to do""."
+Event175.button1,Continue
+Event176.text,You think she could have used a transfusion spell, but in that case, it makes more sense that she'd used it on Noah, who's more powerful and wouldn't have expected the betrayal.
+Event176.button1,We had to miss some clue...
+Event177.text,A transfusion spell would have allowed Valeria to steal her mother's and sister's powers, considering they wouldn't expect the attack. It makes even more sense bearing in mind Valeria didn't contact Noah; she must have known he's not her real brother, and the spell wouldn't have worked.
+Event177.button1,Continue
+EventMuerteInvestigador.text,You can't risk your lives like this any longer... The situation got out your hand and you decide to flee before anyone else dies.
+EventMuerteInvestigador.button1,We'll have to try over...
+UITextoMuerteInvestigador.uitext,What you've suffered in that mansion is more than your body can bear. Not only were things out of control, but also one of you died while trying to find out what was happening. You hardly managed to run away from the monsters in the mansion, so none of you want to know anything about that demonic place.\n\n<i>Author's note: What a shame! It seems it didn't go well this time. But don't lose hope, I encourage you to try again, since there are a lot of variables that make each game easier or more difficult, such as starting items or even the outcome of the dice rolls. A multiple-ending story is waiting for you, cheer up!</i>\n\n\n
+UIBotonFinal.uitext,THE END\n
+UIBotonFinal.button1,Botón1
+EventValeriaAtaqueDistancia1.button1,Continue
+EventValeriaAtaqueDistancia1.text,Valeria reaches out and you feel your body soak in ice-cold water. You try to warm up the air surrounding you to avoid hypothermia ({lore};2). If you pass, the temperature rises and Valeria stops her spell. If you fail, the water penetrates your body and you start shivering; you suffer 1 pain and 1 horror.
+UIMarcadorFin.button1,Continue
+UITextoMuerteInvestigador.button1,Continue
+SpawnLeviatanTardio.text,It's Leviathan! You didn't find out what was happening in time, so now you only have two choices: defeat the demon, or die.\n\n<i> Place Leviathan (Hunting Horror) as indicated. If there's an investigator in that space, move it into an adjacent space.
+SpawnLeviatanTardio.button1,Continue
+Event182.button1,Botón1
+Event183.button1,Botón1
+EventValeriaAtaquesCuerpo.button1,Valeria attacks
+EventValeriaAtaquesCuerpo.button2,There are no investigators in this space
+EventValeriaAtaqueMelee1.text,Valeria moves towards you making thrusts with a cane covered in magic. You try to dodge them ({agility}). If you pass, you roll back and avoid the impacts. If you fail, Valeria hits your back and you feel the electricity flowing through your body; suffer 2 facedown pain.
+EventValeriaAtaquesCuerpo.text,Valeria moves swiftly 2 spaces to attack the nearest investigator with the highest {lore}.
+EventValeriaAtaqueMelee1.button1,Continue
+Event184.text,Valeria won't stop until she's hunted you all. Move her figure one additional space.
+Event184.button1,Continue
+EventValeriaAtaqueMelee2.text,Valeria approaches you and blinds you with a harsh light. When you recover your vision, you find her about to strike you with some sort of magical sword. You try to create a shield to avoid the upcoming strike ({lore};2). If you pass, your shield blocks the attack. If you fail, it's not strong enough; the sword runs it through and makes a cut in your arm, causing you dizziness; you suffer 1 facedown pain and 1 facedown horror.
+EventValeriaAtaqueMelee2.button1,Continue
+EventValeriaAtaquesDistancia.text,Valeria concentrates to gather all the power she can. Then she moves up to two spaces towards the nearest investigator with the highest {agility}
+EventValeriaAtaquesDistancia.button1,Valeria attacks
+EventValeriaAtaquesDistancia.button2,There's no investigator in that space or any adjacent
+EventValeriaAtaqueMelee3.text,Valeria throws herself at you, making you hit the wall. You suffer 1 facedown pain. When you collect yourself, you see her about to hit you with a magic cane. You try to dodge the impact and attack a weak spot ({observation};2). If you pass, you jump to one side and hit her side; Valeria suffers 1 pain. If you fail, you don't react on time, so the cane hits your head and you fall face down to the wet floor; you suffer 1 facedown pain.
+EventValeriaAtaqueMelee3.button1,Continue
+EventValeriaAtaqueMelee4.text,"Valeria uses the water around her to spring forward, reaching you quickly and trying to strangle you. Her sick face gives you the shivers; you suffer 1 horror. You try to wriggle out of her scaly ({strength};2). If you pass, you punch her head and get away. If you fail, the hypoxia makes your vision blur; you suffer 1 pain and gain the condition ""Dazed""."
+EventValeriaAtaqueMelee4.button1,Continue
+EventValeriaAtaqueMelee5.text,"Valeria unleashes her fury on you, striking your body with her magic cane and giving kicks unceasingly; you suffer 3 facedown pain (cancelled by {strength}). When she stops to regain her breath, you think it's the best moment to get away ({agility};2). If you pass, you run as fast as you can and avoid more hits. If you fail, you start running away but feel something hit your back; you gain the condition ""Stunned""."
+EventValeriaAtaqueMelee5.button1,Continue
+EventValeriaAtaqueMelee6.button1,Continue
+EventValeriaAtaqueMelee6.text,With a twist of her wrist, Valeria knocks you down with her cane. You fall face down to the water on the floor, feeling how Valeria's trying to drown you. The thought of drowning makes you panic; you suffer 3 horror (cancelled by {will}).
+EventValeriaAtaqueDistancia2.button1,Continue
+EventValeriaAtaqueDistancia3.text,Valeria put both her hands on the floor and closes her eyes. Suddenly, tentacles come out from the floor and try to grab you. You try to identify what you're facing ({will};2). If you pass, you notice it's an illusion spell, so you throw a near object to Valeria and force her to stop it. If you fail, the vision causes you a panic attack; you suffer 2 facedown horror.
+EventValeriaAtaqueDistancia2.text,A blue lightning emerges from Valeria's cane and zigzags towards you. You try to get out of its trajectory by throwing yourself to the wall ({agility};2). If you pass, you avoid the lightning in the nick of time. If you fail, the lightning is faster than you; it hits you and causes second-degree burns; you suffer 2 facedown pain.
+EventValeriaAtaqueDistancia3.button1,Continue
+Event186.text,Move Valeria's figure one additional space.
+Event186.button1,Continue
+EventValeriaAtaqueDistancia4.text,"Valeria raises both her hands. Soon you realize that the water beneath you is getting thicker. You try to find somewhere to jump on before the water turns rock ({agility};2). If you pass, you get to jump out of the mud before it turns completely solid. If you fail, the mud squeezes tightly your legs; you suffer 1 facedown pain and gain the condition ""Restrained""."
+EventValeriaAtaqueDistancia4.button1,Continue
+EventValeriaAtaqueDistancia5.text,"Valeria closes her eyes and starts spinning around her hands. Suddenly the water on the floor rises and start twirling around your body violently. The ice-cold water gets into your lungs and makes your body twist. You suffer 3 pain (cancelled by {will}). You use your strength to get out of it ({strength}). If you pass, you make it through the water bravely; you gain the condition ""Focused"". If you fail, you get out of the whirlpool, but the fear makes you run away."
+EventValeriaAtaqueDistancia5.button1,Continue
+EventValeriaAtaqueDistancia6.text,With a twist of wrist, Valeria raises water in the air. Before you can guess what she's planning to do, the water freezes into ice shards that hit your body. You try to take cover, but more ice shards appear everywhere. The physical pain is nothing compared to your fear; you suffer 3 horror (cancelled by {will}).
+EventValeriaAtaqueDistancia6.button1,Continue
+TokenBarril2.text,This barrel seems to be sealed...
+TokenBarril2.button1,{action} Try to open
+Event187.text,You use your strength to remove the lid ({strength}).
+Event187.button1,Success
+Event187.button2,Failure
+Event188.text,With a yank, you remove the barrel lid. Inside, there's salting meat... You don't intend to take it, but you do see something that catches your eye.\n\n<i>You get the {c:QItemBarril2}
+Event188.button1,Continue
+Event189.text,You try hard to open the barrel, but you don't succeed...
+Event189.button1,Continue
+EventValeriaMuere.text,Valeria falls lifeless at your feet. The water flooding the mansion starts evaporating until there's none left.
+EventValeriaMuere.button1,Continue
+Event190.text,Everything's over finally. After regaining your breath, you meet in the backyard. Neither Isobel nor Daphne survived Valeria's betrayal, but at least Noah's still with you.
+Event190.button1,Hear him out
+Event193.text,"Noah as exhausted as you are, but smiles faintly: ""You are some exceptional investigators. Without your help, Leviathan would be wandering the city, and many more would have died"". \nThen he reaches out to his partner, blushing: ""So... I'm not used to saying this kind of stuff, but you're everything I look for in someone... Maybe someday we could meet up and get to know each other under better circumstances""."
+Event193.button1,Continue
+Event194.text,"Noah as exhausted as you are, but smiles faintly: ""You are some exceptional investigators. Without your help, Leviathan would be wandering the city, and many more would have died"". \nThen he reaches out to his partner, smiling more widely: ""Having you by my side has been inspiring. And also a lesson in humility. I hope we can meet up soon to exchange ideas and knowledge""."
+Event194.button1,Continue
+Event195.text,"Noah as exhausted as you are, but smiles faintly: ""You are some exceptional investigators. Without your help, Leviathan would be wandering the city, and many more would have died"". After a while in silence, he adds with a smile: ""I guess I should've accepted your proposal and team up with you. Things could have been different""."
+Event195.button1,Continue
+Event191.text,Everything's finally over. After regaining your breath, you meet in the backyard. In the silence of the night, you think about everything that just happened, and you come to the conclusion that you might have prevented the Leviathan from wandering the city, but in the process you lost Isobel and Noah, which casts a gloom over you...
+Event191.button1,Go home
+EventEsquivarValeria.button1,Botón1
+EventValeriaEvitar1.text,Valeria's distracted trying to cast some spell... You try to pass by her side without making noise ({agility};2). If you succeed, you don't draw her attention. If you fail, she notices your presence, so you must forfeit your action.
+EventValeriaEvitar1.button1,Continue
+EventValeriaEvitar2.text,Valeria tries to hit you with her magic cane. You wait for the right moment to counter her attack and get away ({strength};2). If you pass, you hit Valeria in the nick of time, so you get to flee successfully. If you fail, she dodges your blow and keeps trying to hit you; you must forfeit your action.
+EventValeriaEvitar2.button1,Continue
+EventValeriaEvitar3.text,Valeria uses water flows to keep you close to her. You try to cast a counterspell in order to stand a chance of getting away ({lore}). If you pass, you turn the flows against her and run away. If you fail, you get away, but your spell isn't strong enough and your lungs fill up with water; you suffer 1 facedown pain.
+EventValeriaEvitar3.button1,Continue
+EventValeriaEvitar4.text,You're very close to Valeria, buy if you tackle her from behind, you might stun her and have the opportunity to escape. You gather your courage ({will};2). If you pass, you indeed stun her with an unexpected blow. If you fail, she finds out your plan before you get to her; you must forfeit your action.
+EventValeriaEvitar4.button1,Continue
+EventValeriaEvitar5.text,Valeria's not too far from you. You try to find a way around her without being detected ({observation}). If you pass, you take advantage of your surroundings. If you fail, on your way you hit something you didn't see, so Valeria notices you and watches you as you run, letting out a bloodcurdling scream. You manage to escape, but the sound of her scream disturbs your mind; you suffer 1 horror.
+EventValeriaEvitar5.button1,Continue
+EventValeriaEvitar6.text,Valeria casts blue lightnings at you when she discovers your attempt to flee. To avoid the electricity you try zigzagging ({agility};2). If you pass, you manage to escape without getting hurt. If you fail, one of the lightnings reaches you; you get away wounded (suffer 1 pain).
+EventValeriaEvitar6.button1,Continue 
+EventHorrorValeria.button1,Botón1
+EventValeriaHorror1.text,Valeria sings demonic chants. You don't understand what she's saying, but, whatever it is, it can't be anything good. A shiver runs through your body ({will}). If you pass, you don't allow her to frighten you. If you fail, the fear grips you; you suffer 1 horror.
+EventValeriaHorror1.button1,Continue
+EventValeriaHorror2.text,Valeria casts every kind of spells around her. You manage to hide somewhere near, and you start wondering if you'll get out of this alive ({will}). If you pass, you collect yourself and decide to move on. If you fail, your anxiety grows even more; suffer 2 facedown horror.
+EventValeriaHorror2.button1,Continue
+EventValeriaHorror3.button1,Continue
+EventValeriaHorror4.button1,Continue
+EventValeriaHorror3.text,Watching Valeria convulse as she laughs is something that disturbs your mind. Suffer 2 facedown horror (cancelled by {will}).
+EventValeriaHorror5.text,The lost look on Valeria's eyes fixes on you. They don't reflect any sign of compassion, and you panic on the thought of dying soon; you put faceup 2 of your horror cards (cancelled by {will}).
+EventValeriaHorror4.text,Valeria's magic makes the water on the floor shake violently. You try to move as safely as possible ({agility};2). If you pass, you keep your balance. If you fail, you slip on the wet floor and fall, getting soaked and waiting for the worst; suffer 1 facedown horror.
+EventValeriaHorror5.button1,Continue
+EventValeriaHorror6.text,You see a replica of you screaming in pain. You try to dispel that illusion ({lore};2). If you pass, with an easy spell you make your dopplegänger disappear. If you fail, you're too shocked to try to cast a spell; put faceup 1 horror and suffer one additional horror.
+EventValeriaHorror6.button1,Continue
+quest.authors_short,F. J. Reina
+quest.authors,F. J. Reina
+quest.synopsys,The madness of Daphne, a widow witch, puts her daughter in danger. Save her and find out what Daphne's up to.
+EventLeviatanAtaquesDistancia.text,Roaring with fury, Leviathan rushes to its nearest prey. Move its figure two spaces towards the nearest investigator with the highest {lore}.
+EventLeviatanAtaquesMelee.button1,The demon attacks
+EventLeviatanAtaquesMelee.text,Leviathan moves swiftly two spaces towards the nearest investigator with the lowest {will}.
+EventLeviatanAtaqueMelee1.button1,Continue
+EventLeviatanAtaquesMelee.button2,There's no investigator in this space
+EventLeviatanAtaqueMelee1.text,Leviathan jumps on you and winds tightly around your body, making your whole body hurt and causing hypoxia. Suffer 1 facedown pain and 1 facedown horror. Putting in a great deal of effort, you try to escape its pressure ({strength};2). If you pass, you manage to run away from it after hitting it on a weak spot. If you fail, you feel your muscles go numb; put faceup 1 damage.
+EventLeviatanAtaqueMelee2.text,The demon hits the floor very hard, making it vibrate. You lose your balance and fall to the floor; suffer 2 facedown damage (cancelled by {agility}).
+EventLeviatanAtaqueMelee2.button1,Continue
+EventLeviatanAtaqueMelee3.text,Leviathan emits a deafening sound that resounds in your head. You suffer 1 horror. When you collect yourself, you watch the demon as it gets closer to you with a lightning speed; it's going to hit you from one moment to another. You try to calculate the right moment to jump to one side and avoid the collision ({will};2). If you pass, you avoid it by jumping on the right time. If you fail, you miscalculated, so you're knocked down by the demon; put faceup two of your pain cards.
+EventLeviatanAtaqueMelee3.button1,Continue
+EventLeviatanAtaqueMelee4.button1,Continue
+EventLeviatanAtaqueMelee5.button1,Continue
+EventLeviatanAtaqueMelee4.text,"Leviathan opens its mouth and reveals its sharp fangs. When you realize it's about to bite you, you try to cast a spell that allows you to run faster ({agility};2). If you pass, you manage to escape the demon, only with some scratches; suffer 1 facedown pain. If you fail, Leviathan sinks its fangs on your leg; suffer 2 facedown pain and gain the condition ""Restrained"". "
+EventLeviatanAtaqueMelee5.text,You hit the demon trying to escape, but it only gets angrier, so it throws you through the air. Your back hits hard the wall; suffer 2 pain (cancelled by {strength}). When you get up you notice your wounds are not superficial; put faceup one of your horror cards.
+Event200.text,Not finding any prey, Leviathan smashes the floor with its tail, causing a minor earthquake. Every investigator on the same floor than Leviathan suffer 1 facedown damage (cancelled by {agility}). Then, move the demon one additional space.\n\n<i>The floors are: Second (Bedrooms, Hallways, Office, Stairs and Library), First (Tool Shed, Root Cellar, Conservatory and Study) y Exterior (Yards).</i>
+Event200.button1,Continue
+EventLeviatanAtaqueMelee6.text,"The havoc wreaked by Leviathan makes a piece of furniture crush you against the floor. You suffer 3 facedown damage (cancelled by  {will}). After the impact, you try to get rid of its pressure ({agility}). If you pass, you manage to push it aside and get away. If you fail, it's heavier than you thought; you gain the condition ""Restrained""."
+EventAtaquesLeviatan.button1,Botón1
+EventLeviatanAtaquesDistancia.button1,Leviathan attacks
+EventLeviatanAtaquesDistancia.button2,There's no investigator in this space or any adjacent.
+Event198.text,Not finding any prey, the demon gets even more furious. Its yelling makes the water on the floor become acidic, so it corrodes your feet.  Every investigator on the same floor than Leviathan suffer 1 facedown damage (cancelled by {lore}). Then, move the demon one additional space.\n\n<i>The floors are: Second (Bedrooms, Hallways, Office, Stairs and Library), First (Tool Shed, Root Cellar, Conservatory and Study) y Exterior (Yards).</i>
+Event198.button1,Continue
+EventLeviatanAtaqueDistancia1.text,"Leviathan's swift moves create water flows that make you lose your balance, so you fall and get swept along by them. You suffer 2 facedown pain (cancelled by {strength}). You try to increase the water density with a spell to stop the flows ({lore};2). If you pass, your plan goes well. If you fail, the water carries you until your head hits something; you gain the condition ""Dazed""."
+EventLeviatanAtaqueDistancia1.button1,Continue
+EventLeviatanAtaqueDistancia2.button1,Continue
+EventLeviatanAtaqueDistancia3.button1,Continue
+EventLeviatanAtaqueMelee6.button1,Continue
+EventLeviatanAtaqueDistancia3.text,Leviathan looks suspiciously calm, with its head resting on the floor. Suddenly, whirlpools start appearing all over the floor, and one of them catches you, soaking your clothes and filling your lungs; suffer 1 pain. You try to get rid of its pull ({strength};2). If you pass, you manage to escape when the speed decreases. If you fail, the whirlpool eventually stops, but it throws you through the air; suffer 1 facedown damage.
+EventLeviatanAtaqueDistancia4.text,Tentacles emerge from the floor, trying to grab you. You try to avoid them, running and jumping around ({agility};2). If you pass, you indeed avoid them, but the fear causes you anxiety; suffer 1 horror. If you fail, one of the tentacles drags you off, making your head hit the floor; suffer 2 facedown pain.
+EventLeviatanAtaqueDistancia4.button1,Continue
+EventLeviatanAtaqueDistancia5.button1,Continue
+EventLeviatanAtaqueDistancia6.text,The demon lashes you with its tail, which is sharper than you expected; put faceup 2 of your pain cards. You try to treat the wounds with a healing spell ({lore};2). If you pass, they start to scar over. If you fail, the spell just makes them worse; suffer 1 facedown pain.
+EventLeviatanAtaqueDistancia5.text,"Leviathan starts absorbing water, dragging you in the process. You try to grab hold of anything around you ({strength};2). If you pass, you avoid getting strangled by the demon, but you need to stop to recover; you gain the condition ""Restrained"". If you fail, the demon encircles you and squeezes your body hard; suffer 2 facedown damage and gain the condition ""Restrained""."
+EventLeviatanAtaqueDistancia6.button1,Continue
+EventLeviatanAtaqueDistancia2.text,The demon exhales toxic gases that poison its surroundings. Put faceup one of your horror cards. You run away and try to avoid breathing it ({agility};2). If you pass, you hardly get away. If you fail, the gas burns your lungs; put faceup 2 of your pain cards.
+EventEvitarLeviatan.button1,Botón1
+EventLeviatanEvitar1.button1,Continue
+EventLeviatanEvitar2.text,Leviathan attacks you unceasingly, but you hope you can get away now that it's gathering strength to pounce on you ({agility};2). If you pass, you roll to one side just in time to avoid the attack, so you get to run away. If you fail, Leviathan smacks you against a wall; suffer 1 pain.
+EventLeviatanEvitar1.text,Leviathan's presence is imposing, but you know you can escape it if you find something to take cover behind ({observation};2). If you pass, you manage to avoid the demon by taking advantage of the shadows. If you fail, it seems there's no way out; you must forfeit your action.
+EventLeviatanEvitar2.button1,Continue
+EventLeviatanEvitar3.text,You believe that casting a decoy spell might give you a chance to escape ({lore};2). If you pass, you fool the demon. If you fail, the decoy's not realistic enough, so you don't fool it; you must forfeit your action.
+EventLeviatanEvitar3.button1,Continue
+EventLeviatanEvitar4.button1,Continue
+EventLeviatanEvitar4.text,You make out a possible escape route, just behind Leviathan. You only need to calm down and don't draw its attention ({will};2). If you pass, you manage to settle down and pass by undetected. If you fail, your nerves are on edge, so you gasp and the demon turns around, hitting you before you can react; suffer 1 facedown damage before fleeing.
+EventLeviatanEvitar5.text,The path you could use to escape is blocked by one of the furniture pieces that Leviathan's hurled around. You try to move it aside ({strength};2). If you pass, you move it carefully. If you fail, it's too heavy for you to move it; you must forfeit your action.
+EventLeviatanEvitar5.button1,Continuar
+EventLeviatanEvitar6.text,You try to blind Leviathan with a beam of light ({lore};2). If you pass, the demon howls and starts stumbling. If you fail, Leviathan avoids the beam; you must forfeit your action.
+EventLeviatanEvitar6.button1,Continue
+EventLeviatanHorror.button1,Botón1
+EventLeviatanHorror1.text, You watch Leviathan as it moves over the floor, the walls and even the ceiling, destroying everything in its way. Horrified, you wonder if you'll be able to be the next thing destroyed. You suffer 2 horror (cancelled by {will}).
+EventLeviatanHorror1.button1,Continue
+EventLeviatanHorror2.text,Leviathan's howling resound in the mansion, as well as in your head. Being as dark as it is, you can't know for sure whether the demon's close or not, so the fear grips you. Put faceup 1 of your horror cards and suffer 1 facedown horror.
+EventLeviatanHorror2.button1,Continue
+EventLeviatanHorror3.button1,Continue
+EventLeviatanHorror4.text,The havoc that Leviathan wreaks makes you think about how short your life can be. The thought of dying here makes the air really thin to you; suffer 3 facedown horror (cancelled by {will}).
+EventLeviatanHorror3.text,You try to run away from Leviathan as fast as you can. You finally reach a door, but it's locked, so you try to break it down ({strength};2). If you pass, you manage to break it down with a kick and get inside the room safely. If you fail, you're not strong enough, so you stand breathing heavily, looking for other options; suffer 2 facedown horror.
+EventLeviatanHorror4.button1,Continue
+EventLeviatanHorror5.text,You're clothes are so cold and wet that you suffer hypothermia, which reduces your capacity to think clearly. You try to get warmer by stretching your muscles ({strength};2). If you pass, little by little you increase your temperature. If you fail, the cold gets even deeper in your body and you can only think about death; suffer 1 horror.
+EventLeviatanHorror5.button1,Continue
+EventLeviatanHorror6.button1,Continue
+EventLeviatanHorror6.text,The water level rises quickly, which makes you remember how bad you are at swimming... If you don't find somewhere to get on top, you fear that you'll die. You find some object around you ({observation};2). If you succeed, you climb onto a table, so your fear disappears. If you fail, you don't find any object that can help you, so you start hyperventilating; suffer 2 facedown horror.
+UITextoFinValeriaNoahMuerto.uitext,"EPILOGUE\n\n It's been some days since you stopped Valeria before she got to summon Leviathan. You've been recovering physically, as well as mentally, but you can't stop wondering why someone would want to summon such a powerful demon.\n\n  The police started searching the mansion for evidence and information as soon as your investigation team solved the case. During their search, the police found, among Valeria's belongings, an agenda sealed with magic. After a few days trying to break the seal, they managed to do it and found out that Valeria wasn't the only one that intended to summon the demon: apparently, she met frequently a guy named Tommy Hughes, member of a group (probably cult) called "The fallen light". Something tells you this hasn't ended here...\n\n<i>Author's note: Congratulations! You managed to stop Valeria on time. However, you might want to try again the scenario to see what would have happened should Noah be alive. Or perhaps you found it easy and you want to face Leviathan!</i>\n\n\n\n\n\n"
+EventFinNoahMuertoValeria.button1,Continue
+UIENDValeriaNoahMuerto.uitext,THE END
+UIENDValeriaNoahMuerto.button1,Botón1
+UITextoFinValeriaNoahSolo.uitext,"EPILOGUE\n\n It's been some days since you stopped Valeria before she got to summon Leviathan. You've been recovering physically, as well as mentally, but you can't stop wondering why someone would want to summon such a powerful demon.\n\n  The police started searching the mansion for evidence and information as soon as your investigation team solved the case. During their search, the police found, among Valeria's belongings, an agenda sealed with magic. After a few days trying to break the seal, they managed to do it and found out that Valeria wasn't the only one that intended to summon the demon: apparently, she met frequently a guy named Tommy Hughes, member of a group (probably cult) called "The fallen light". Something tells you this hasn't ended here...\n\n<i>Author's note: Congratulations! You managed to stop Valeria on time. However, you might want to try the scenario again, to team up with Noah (he'll help you and you'll unlock additional dialogs). Or maybe, if you think it was too easy... You may want to face Leviathan itself!</i>\n\n\n\n\n\n"
+UITextoFinValeriaNoahFlirt.uitext,"EPILOGUE\n\n It's been some days since you stopped Valeria before she got to summon Leviathan. You've been recovering physically, as well as mentally, but you can't stop wondering why someone would want to summon such a powerful demon. As for Noah, not only is he building up an intimate relationship with one of you, but also has joined your team to help you in the future.\n\n  The police started searching the mansion for evidence and information as soon as your investigation team solved the case. During their search, the police found, among Valeria's belongings, an agenda sealed with magic. After a few days trying to break the seal, they managed to do it and found out that Valeria wasn't the only one that intended to summon the demon: apparently, she met frequently a guy named Tommy Hughes, member of a group (probably cult) called "The fallen light". Something tells you this hasn't ended here...\n\n<i>Author's note: Congratulations! You managed to stop Valeria on time and get Noah to join your team. If you believe the scenario to be easy, you might want to try again and face Leviathan.\n</i>\n\n\n\n\n"
+UITextoFinValeriaNoahAsom.uitext,"EPILOGUE\n\n It's been some days since you stopped Valeria before she got to summon Leviathan. You've been recovering physically, as well as mentally, but you can't stop wondering why someone would want to summon such a powerful demon. As for Noah, he joined your investigation team since your abilities and knowledge caught his eye.\n\n  The police started searching the mansion for evidence and information as soon as your investigation team solved the case. During their search, the police found, among Valeria's belongings, an agenda sealed with magic. After a few days trying to break the seal, they managed to do it and found out that Valeria wasn't the only one that intended to summon the demon: apparently, she met frequently a guy named Tommy Hughes, member of a group (probably cult) called "The fallen light". Something tells you this hasn't ended here...\n\n<i>Author's note: Congratulations! You managed to stop Valeria on time and get Noah to join your team. If you believe the scenario to be easy, you might want to try again and face Leviathan.\n\n\n\n\n\n</i>"
+EventLeviatanMuere.button1,Continue
+Event202.text,Gathering your strength with effort, you move to the yard, where you all meet up. Then you lie on the floor and start regaining your breath.
+EventLeviatanMuere.text,With a heavy thud, Leviathan falls down and starts fading away, as well as the water; everything's over.
+Event202.button1,Continue
+Event203.text,You stare at the crumbling mansion and realize the damage wasn't only material; Isobel and Noah are dead, which fills your heart with sadness. However, at the end of the day you did stop Leviathan before it got away, so you can call it a success.
+Event203.button1,Continue
+Event174.button2,Wait to see what happens
+Event204.text,You place Noah on the armchair, but it's useless; his heart couldn't resist so many losses in so little time. You close his eyes, tears running down your face.
+Event204.button1,Continue
+Event205.text,You try to figure out what just happened... Then you realize! Everything is Valeria's doing! She must be trying to show the world she's not the most useless sibling of them three. If she had to kill her mother and her sister, it's because she needed their power. A magic transfusion spell would have worked, and even more knowing they wouldn't expect such a betrayal.
+Event205.button1,Continue
+UITextoFinalLeviatanNoahMuerto.uitext,"EPILOGUE\n\n It's been some days since you defeated Leviathan. You've been recovering mentally, as well as physically, but you still wonder what would have happened if Leviathan had escaped the mansion and wandered the city.\n\n  The police started to search the ruined mansion for information and evidence after your team solved the case. During their search, the police found, among Valeria's belongings, an agenda sealed with magic. After a few days trying to break the seal, they managed to do it and found out that Valeria wasn't the only one that intended to summon the demon: apparently, she met frequently a guy named Tommy Hughes, member of a group (probably cult) called "The fallen light". Something tells you this hasn't ended here...\n\n<i>Author's note: Congratulations! You defeated one of the most terrifying demons in history. However, you can try again the scenario and see what would have happened if you had found out all of the clues before entering Daphne's bedroom. You can also try to save Noah and see what would be of him.\n\n\n\n\n\n</i>"
+Event206.text, As you lie on the grass you watch the remains of the mansion. The loss wasn't only material, since Isobel died at the hands of her sister. At least, Noah managed to escape alive in all this mess.
+Event206.button1,Talk to him
+EventFinLeviatanNoahVivoSolo.button1,Continue
+EventFinLeviatanNoahVivoFlirt.text,"Noah looks utterly exhausted. He approaches his investigation partner: ""Fighting Leviathan was probably the toughest thing I'll ever have to do. But I'm glad I had someone as exceptional as you are by my side... I hope this isn't the last time we see each other""."
+EventFinLeviatanNoahVivoSolo.text,"Noah seems haunted by guilt: ""I know we did good when we defeated that monster, but I believe this is all because of me, I should have known better..."" After some minutes, he continues, looking calmer: ""At least no one else will die because of Valeria's madness. Thanks to you""."
+UITextoFinLeviatanNoahSolo.uitext,"EPILOGUE\n\n It's been some days since you defeated Leviathan. You've been recovering mentally, as well as physically, but you still wonder what would have happened if Leviathan had escaped the mansion and wandered the city. Noah, grateful for your help, decides to join your team in order to help you out in future cases. There's no doubt he will be a great source of help.\n\n  The police started to search the ruined mansion for information and evidence after your team solved the case. During their search, the police found, among Valeria's belongings, an agenda sealed with magic. After a few days trying to break the seal, they managed to do it and found out that Valeria wasn't the only one that intended to summon the demon: apparently, she met frequently a guy named Tommy Hughes, member of a group (probably cult) called "The fallen light". Something tells you this hasn't ended here...\n\n<i>Author's note: Congratulations! You defeated one of the most terrifying demons in history. However, you can try again the scenario and see what would have happened if you had found out all of the clues before entering Daphne's bedroom. You can also try to get Noah by your side and take advantage of his skills (in addition to unlocking new dialogs).\n\n\n\n\n\n\n</i>"
+EventFinLeviatanNoahVivoFlirt.button1,Continue
+UITextoLeviatanNoahFlirt.uitext,"EPILOGUE\n\n It's been some days since you defeated Leviathan. You've been recovering mentally, as well as physically, but you still wonder what would have happened if Leviathan had escaped the mansion and wandered the city. Noah's started a intimate relationship with his partner, and he has also decided to join your team so as to help you in future cases.\n\n  The police started to search the ruined mansion for information and evidence after your team solved the case. During their search, the police found, among Valeria's belongings, an agenda sealed with magic. After a few days trying to break the seal, they managed to do it and found out that Valeria wasn't the only one that intended to summon the demon: apparently, she met frequently a guy named Tommy Hughes, member of a group (probably cult) called "The fallen light". Something tells you this hasn't ended here...\n\n<i>Author's note: Congratulations! You defeated one of the most terrifying demons in history. However, you can try again the scenario and see what would have happened if you had found out all of the clues before entering Daphne's bedroom.\n\n\n\n\n\n</i>"
+UITextoLeviatanNoahAsom.uitext,"EPILOGUE\n\n It's been some days since you defeated Leviathan. You've been recovering mentally, as well as physically, but you still wonder what would have happened if Leviathan had escaped the mansion and wandered the city. Noah, amazed by your abilities and knowledge, has joined your team to help you out in future cases.\n\n  The police started to search the ruined mansion for information and evidence after your team solved the case. During their search, the police found, among Valeria's belongings, an agenda sealed with magic. After a few days trying to break the seal, they managed to do it and found out that Valeria wasn't the only one that intended to summon the demon: apparently, she met frequently a guy named Tommy Hughes, member of a group (probably cult) called "The fallen light". Something tells you this hasn't ended here...\n\n<i>Author's note: Congratulations! You defeated one of the most terrifying demons in history. However, you can try again the scenario and see what would have happened if you had found out all of the clues before entering Daphne's bedroom.\n\n\n\n\n\n\n</i>"
+Event209.text,"Noah is regaining his breath along with you. When he's visibly recovered, he talks to his partner: ""You know what? That demon is probably the toughest challenge I'll ever face. Fighting by your side has been inspirating... I offer my respects, and my admiration, to you""."
+Event209.button1,Continue
+SpawnSectarioCobertizo.text,You see a hooded person by the shed, and they don't seem friendly...
