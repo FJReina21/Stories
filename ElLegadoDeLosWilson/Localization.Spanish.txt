@@ -1,0 +1,729 @@
+.,Spanish
+quest.name,El legado de los Wilson (parte II)
+EventAtaquesHannibal.button1,Botón1
+EventInicioEleccion.button1,Continuar
+UI0.uitext,Debes decidir cómo abordarás la misión. Tu elección repercutirá en tu ubicación inicial, parte del tablero y la forma en la que entrarás en la mansión. Además, cada modo tiene una funcionalidad única.\n\n<i>Infiltrarse entre los invitados tiene una dificultad estándar, mientras que hacerlo con magia puede ser algo más desafiante. Por lo tanto, si es la primera vez que lo jugáis, os recomiendo infiltraros entre los invitados.
+UI3.uitext,Infiltrarse con magia
+UI1.button1,Continuar
+UI4.uitext,Infiltrarse entre los invitados
+UI2.button1,Botón1
+EventInicioPlaza.button1,Continuar
+EventObjetosPlaza.text,La puerta de la mansión está custodiada por un guardaespaldas, quizá podáis llegar a un acuerdo. También podéis explorar los alrededores.
+UI4.button1,Botón1
+EventInicioPatio.text,"Decidisteis aceptar la petición de Noah y este realizó un hechizo de teletransporte usando como imán una de las cartas que Tommy envió a Valeria. Sin embargo, cuando recobráis la visión veis que habéis chocado contra una de las paredes de la mansión y os encontráis en el patio. Noah resopla: ""Vaya, no pensaba que ese tal Tommy fuese tan listo como para proteger la casa con magia. En fin, tendremos que entrar con sigilo""."
+UI3.button1,Botón1
+EventInicioPatio.button1,Continuar
+TokenPortero.text,Hay un hombre con túnica negra custodiando la entrada de la mansión, debe de ser uno de los invitados de la ceremonia.
+TokenPortero.button1,{action} Hablar
+EventInicioPlaza.text,Tras un largo viaje hasta las afueras de Massachusetts, llegáis a la plaza de un pequeño pueblo. Frente a vosotros se halla la mansión Hughes.\nDispones de {var:Dinero}$. Cada investigador gana una pista.\n\n<i>Coloca la {c:TilePlaza}</i>
+EventObjetosPlaza.button1,Continuar
+TokenVistazoMercado.text,Se oye el sonido de gente charlando por aquí.
+TokenVistazoMercado.button1,{action} Acercarse
+TokenVistazoTienda.text,Por aquí hay una calle desierta, quizá puedas echar un vistazo.
+TokenVistazoTienda.button1,{action} Explorar
+TokenMonedasFuente.text,Algo brilla bajo el agua...
+TokenMonedasFuente.button1,{action} Intentar ver qué es ({observation})
+Event0MonedasFuente.text,La fuente que hay frente a vosotros parece contener objetos que han debido de ser arrojados.
+Event0MonedasFuente.button1,Continuar
+EventVerMonedas.button1,Éxito
+EventVerMonedas.button2,Fracaso
+EventExitoMonedas.text,Parece tratarse de simple chatarra.. pero al acercarte ves que hay algunas monedas. Alguien debió de pedir un deseo, pero esas monedas no van a ayudarle estando ahí, así que las tomas. \n\n<i>Ahora dispones de {var:Dinero}$
+EventVerMonedas.text,Te acercas al agua para discernir de dónde proviene ese brillo ({observation};2)
+EventExitoMonedas.button1,Continuar
+Event0.text,Para consultar vuestro dinero, podéis clicar en este token (no es necesario que lo coloquéis)
+Event0.button1,Continuar
+TokenDinero.text,Ahora mismo dispones de {var:Dinero}$.
+TokenDinero.button1,Continuar
+EventColocaMercado.text,El bullicio se debe a la existencia de un mercado en las cercanías de la mansión. Igual podeís encontrar algo de utilidad.\n\n<i>Coloca el {c:TileMercado} y las fichas de búsqueda como se muestra
+EventColocaMercado.button1,Continuar
+TokenMercaderTextil.text,Un señor mayor atiende un puesto que parece ser de textiles.
+TokenMercaderTextil.button1,{action} Ver qué tiene a la venta
+EventVentaTextil.text,"El tendero te dirige una sonrisa: ""¡Hola! Tenemos todo tipo de prendas: camisas de seda, pantalones, túnicas..."""
+EventVentaTextil.button1,Espere, ¿tiene túnicas?
+Event1.text,"Una de esas túnicas negras debería servir para colarte en la mansión, así que preguntas su precio. ""Vale tan solo 7$, ¿qué me dice?"""
+Event1.button1,Ahora mismo no tengo tanto dinero...
+Event2.text,"El tendero te responde con una sonrisa triste: ""Vaya, una lástima. Si en otro momento puede y le interesa seguiré aquí""."
+Event2.button1,Continuar
+TokenMercaderTextil2.text,El tendero sigue atendiendo a clientes.
+TokenMercaderTextil2.button1,Hablar
+Event3.text,"Cuando te vuelve a ver, se alegra visiblemente: ""¡Hola otra vez! ¿Dispones de la suma que acordamos?"""
+Event3.button1,Todavía no...
+Event4.text,"""Bueno, no pasa nada. Sin prisas, no voy a irme aún"". Acto seguido el tendero sigue con su trabajo"
+Event4.button1,Continuar
+Event6.text,"Una de esas túnicas negras debería servir para colarte en la mansión, así que preguntas su precio. ""Vale tan solo 7$, ¿qué me dice?"""
+Event6.button1,Comprar
+Event6.button2,Ahora mismo no
+Event7ObtieneTunica.text,"""Me las llevo"", respondes con decisión. El tendero te agradece la compra y te entrega tu lote de túnicas negras. \nUnos intantes después te retiras detrás de un puesto para ponértela (el resto del equipo también se viste)."
+Event7ObtieneTunica.button1,¡Hora de disfrazarse!
+Event7.text,"Cuando te vuelve a ver, se alegra visiblemente: ""¡Hola otra vez! ¿Dispones de la suma que acordamos?"""
+Event7.button1,Sí, aquí tiene
+Event7.button2,Ahora mismo no
+Event7ObtieneTunica.button2,(Con Noah) ¡Hora de disfrazarse!
+Event8.text,"Después de vestiros, Noah suelta un bufido: ""Un horrendo cazador tendría mejor gusto eligiendo ropa; no entiendo cómo esos tipos pueden llevar algo tan ridículo"""
+Event8.button1,Deja de quejarte y movámonos
+Event10.text,"Noah es vuestro compañero: uno de los investigadores estará acompañado por él, por lo que debéis colocar su ficha sobre una de vuestras cartas de investigador. Este investigador cuenta con un dado adicional al atacar (con {strength}) o al lanzar hechizos (con {lore}), ya que Noah lo ayudará. Ademas este investigador deberá elegir la opción ""(con Noah)"" siempre que le aparezca. Noah no puede cambiar de acompañante durante la partida, por lo que decidid bien."
+Event10.button1,Continuar
+TokenNoah1.text,Este es Noah, debe estar colocado sobre la carta del investigador al que hayáis decidido que acompañará.
+TokenNoah1.button1,Continuar
+TokenMercaderHierbas.text,Una mujer joven organiza las hierbas de su puesto.
+TokenMercaderHierbas.button1,{action} Ver qué tiene en venta
+Event9.text,"La mujer te saluda alegremente: ""¡Buenas! Llegas un poco tarde, pero todavía tengo algunos productos que pueden interesarte"""
+Event9.button1,Ver {c:QItemVendaTienda}
+Event9.button2,(Con Noah) Ver {c:QItemVendaTienda}
+Event9.button3,Ver valeriana
+Event9.button4,(Con Noah) Ver valeriana
+Event17.text,Hay varios tipos de hierbas: aromáticas, infusiones... En concreto llama tu atención un saquito de valeriana, una hierba utilizada para combatir el insomnio. Su precio es de 3$.
+Event11.text,Echas un vistazo a las vendas, y piensas que podrían serte de gran utilidad una vez en la mansión. Tienen un precio de 3$.
+Event11.button1,Comprar
+Event11.button2,No comprar
+Event13.text,Le entregas el dinero a la tendera y tras agradecérte la compra se retira a buscar más mercancía.\n\n<i>Obtienes {c:QItemVendaTienda}
+Event13.button1,Continuar
+Event14.text,No tienes pensado gastar esa cantidad de dinero, al menos por el momento.
+Event14.button1,Continuar
+Event15.text,"Noah agarra las vendas que estabas inspeccionando y asiente con decisión: ""Sin duda nos pueden venir bien, la ultima vez nos salvamos por los pelos. Además solo cuestan 3$"""
+Event15.button1,Comprar
+Event15.button2,No comprar
+Event12.text,Observas las vendas y piensas que te podrían venir bien, pero no tienes los 3$ que cuestan...
+Event12.button1,Continuar
+Event16.text,"Noah agarra las vendas que estabas inspeccionando y asiente con decisión: ""Sin duda nos pueden venir bien, la ultima vez nos salvamos por los pelos. Una lástima que valgan 3$ que no tenemos"""
+Event16.button1,Continuar
+Event17.button1,Comprar
+Event17.button2,Mejor no
+Event18.text,Entregas tu dinero a la tendera y te llevas el saquito de valeriana. Acto seguido, la tendera se retira a buscar más mercancía.
+Event18.button1,Continuar
+Event19.text,No tienes pensado gastar esa cantidad de dinero de momento, así que te alejas.
+Event19.button1,Continuar
+Event20.text,Hay varios tipos de hierbas: aromáticas, infusiones... En concreto llama tu atención un saquito de valeriana, una hierba utilizada para combatir el insomnio. Su precio es de 3$, por lo que no te la puedes permitir aún.
+Event20.button1,Continuar
+Event21.text,"Noah te mira enarcando una ceja: ""¿Valeriana?,¿en serio? ¿La hierba con nombre de mi no-tan-hermana a la que vencimos después de que matara a Isobel y Daphne? ¿Tienes miedo y necesitas relajarte o qué?"" Noah sacude la cabeza: ""En fin, cómprala si quieres, solo vale 3$, pero ni te pienses que te voy a coger en brazos si te duermes"""
+Event21.button1,Comprar
+Event21.button2,No comprar
+Event22.text,"Noah te mira enarcando una ceja: ""¿Valeriana?,¿en serio? ¿La hierba con nombre de mi no-tan-hermana a la que vencimos después de que matara a Isobel y Daphne? ¿Tienes miedo y necesitas relajarte o qué?"" Noah sacude la cabeza: ""En fin, no tiene los 3$ que vale, así que mejor movámonos""."
+Event22.button1,Continuar
+TokenNinoMercado.text,Un niño carga barriles de un lado para otro
+TokenNinoMercado.button1,{action} Ayudarle
+TokenNinoMercado.button2,{action} (Con Noah) Ayudarle
+Event23.text,Te acercas al joven y le ofreces tu ayuda para desplazar los barriles, ya que ves que se encuentra agotado ({strength;2}).
+Event23.button1,Éxito
+Event23.button2,Fracaso
+Event25.text,Con un esfuerzo ayudas al muchacho a trasladar los barriles. Cuando acabáis, este decide darte 2$ como agradecimiento.
+Event25.button1,Continuar
+Event27.text,Intentas ayudar al muchacho a llevar todos los barriles, pero te agotas antes de tiempo; sufres 1 de daño bocabajo. Aun así, te agradece el gesto con 1$.
+Event27.button1,Continuar
+Event24.text,"Noah parece preocuparse por el muchacho: ""Eh, grandullón, ¿necesitas ayuda?"". El muchacho os agradece el gesto y comenzáis a transportar barriles ({strength})."
+Event24.button1,Éxito
+Event24.button2,Fracaso
+Event28.text,En pocos minutos Noah y tú conseguís transportar todos los barriles. El niño entrega 2$ a Noah como agradecimiento.
+Event28.button1,Continuar
+Event29.text,Los barriles son más pesados de lo que os imaginábais, y el cansancio hace que busquéis una excusa para retiraros. El niño continúa su trabajo, pero antes os da 1$ como agradecimiento.
+Event29.button1,Continuar
+Event31.text,En el centro del mercado la multitud parece estar reunida.
+Event31.button1,Continuar
+TokenDemoPreston.text,Al parecer la gente cuchichea sobre la presencia del millonario Preston Fairmont. Quizá este pueda acceder a responder preguntas personales, por dinero, claro...
+TokenDemoPreston.button1,{action} (Preston F.) Entrevistarse
+Event33.text,La gente comienza a hacer toda clase de preguntas (sobre todo íntimas) a Preston. Este intenta responder tratando de parecer lo más interesante posible ({influence};2)
+Event33.button1,Éxito
+Event33.button2,Fracaso
+Event34.text,Tras una docena de preguntas y sus respuestas, la historia de Preston, su padre, y la Orden del Crepúsculo de Plata han dejado satisfecho al populacho. Como pago, recibes 3$.
+Event34.button1,Continuar
+Event35.text,La historia del padre de Preston y su vinculación con la Orden del Crepúsculo de Plata no parece interesar a la gente. Aun así, un joven te da 1$ por lástima.
+Event35.button1,Continuar
+TokenDemoRita.text,Al parecer se va a celebrar una competición de velocidad. Quizá Rita Young quiera participar y ganar algo de dinero.
+TokenDemoRita.button1,{action} (Rita Y.) Participar
+Event37.text,Rita se prepara para la carrera calentando sus músculos. Cuando está preparada se dirige a la salida y comienza a correr ({agility};2).
+Event37.button1,Éxito
+Event37.button2,Fracaso
+Event38.text,Tras una breve carrera por los alrededores del pueblo, Rita llega a la meta en primer lugar. Como premio, recibe 3$.
+Event38.button1,Continuar
+Event39.text,Aun corriendo con todas sus fuerzas, Rita no consigue ganar la carrera, pero recibe 1$, ya que quedó en tercer lugar.
+Event39.button1,Continuar
+TokenDemoAgatha.text,Al parecer la gente se reúne para contar historias impresionantes (aunque de dudosa veracidad) sobre magia y demonios. Agatha Crane podría aprovechar y narrar sus experiencias con los fantasmas.
+TokenDemoAgatha.button1,{action} (Agatha C.) Hablar sobre fantasmas
+Event41.text,Comienzas a explicar tus investigaciones sobre los fantasmas y cómo conviven entre los vivos sin que estos lo sepan ({lore};2).
+Event41.button1,Éxito
+Event41.button2,Fracaso
+Event42.text,La gente queda fascinada por tus hallazgos y te pagan para que les reveles información más confidencial. Recibes 3$.
+Event42.button1,Continuar
+Event43.text,Tus explicaciones no acaban de convencer a la gente, por lo que deciden irse a hacer otras cosas. Con las prisas, ves cómo a uno de los oyentes se le cae una moneda. Ganas 1$.
+Event43.button1,Continuar
+TokenDemoPadreMateo.text,La gente cuchichea sobre la presencia de una secta en el pueblo y sobre la llegada de Satán. Quizá el Padre Mateo pueda tranquilizarlos.
+TokenDemoPadreMateo.button1,{action} (Padre M.) Reconfortar a la gente
+Event45.text,El Padre Mateo recurre a pasajes bíblicos para explicar a la muchedumbre que Satán no vendrá a la Tierra, ya que Dios vela por ellos ({influence};2).
+Event45.button1,Éxito
+Event45.button2,Fracaso
+Event46.text,La gente parece reconfortada con tus palabras, y agradece tu labor como pastor entregándote 3$.
+Event46.button1,Continuar
+Event47.text,Tus explicaciones les resultan complejas y difíciles de entender, por lo que no quedan muy tranquilos. Aun así, una mujer mayor te da 1$ como agradecimiento por tu labor.
+Event47.button1,Continuar
+TokenDemoWilliam.text,Al parecer hay varias personas representando una pequeña obra de teatro. Quizá William Yorick pueda participar, debido a su carreara como actor.
+TokenDemoWilliam.button1,{action} (William Y.) Actuar
+Event49.text,William Yorick se presenta y anuncia que va a representar un pequeño monólogo de Hamlet ({will};2).
+Event49.button1,Éxito
+Event49.button2,Fracaso
+Event50.text,Tras interpretar la escena de Hamlet, el público queda boquiabierto y comienza a aplaudir. Además, deciden pagarte por tu actuación; recibes 3$.
+Event50.button1,Continuar
+Event51.text,William actúa con soltura, pero al parecer al populacho no le interesa demasiado la tragedia de Shakespeare. De todos modos, alguien le arroja una moneda; recibe 1 $:
+Event51.button1,Continuar
+TokenDemoMinh.text,Al parecer la gente se congrega debido a una disputa que hay entre un local y un japonés. Minh Thi Phan podría actuar como intérprete para ayudar a solucionar el problema.
+TokenDemoMinh.button1,{action} (Minh T. P.) Ayudar
+Event53.text,Minh se interpone entre ambos y se ofrece como intérprete. Cuando aceptan, comienza a traducir para ambos ({influence};2).
+Event53.button1,Éxito
+Event53.button2,Fracaso
+Event54.text,Sin mucha dificultad traduce lo que ambos querían decir y finalmente llegan a la conclusión de que era un malentendido. Como agradecimiento, pagan 3$ por los servicios de interpretación.
+Event54.button1,Continuar
+Event55.text,Ambos hablan muy rápido, y la presión por intentar saber qué quieren decir y traducirlo es demasiada; a duras penas Minh consigue ayudarlos a entenderse y llegar a un acuerdo. Uno de ellos de paga 1$ como gesto de gratitud.
+Event55.button1,Continuar
+TokenDemoCarson.text,Al parecer la gente se reúne debido a que se han roto varias cajas de mercancías y está todo hecho un desastre. Carson Sinclair podría ayudar a organizar los productos gracias a su experiencia como mayordomo.
+TokenDemoCarson.button1,{action} (Carson S.) Ayudar
+Event57.text,Carson piensa en una manera de colocar los productos de forma rápida y eficaz ({observation};2).
+Event57.button1,Éxito
+Event57.button2,Fracaso
+Event58.text,En un abrir y cerrar de ojos, todo queda ordenado perfectamente gracias a la experiencia de Carson. Los tenderos te recompensan con 3$.
+Event58.button1,Continuar
+Event59.text,Intentas ayudar a organizar los productos como mejor crees oportuno, pero tardas demasiado y al final se apañan solos. Aun así, un tendero te da 1$ como agradecimiento por intentarlo.
+Event59.button1,Continuar
+TokenDemoWendy.text,Al parecer el revuelo se debe a un ladrón que huye del mercado. Wendy Adams podría ayudar a recuperar el objeto robado, ya que está acostumbrada a deambular entre callejones.
+TokenDemoWendy.button1,{action} (Wendy A.) Ir a por el ladrón
+Event61.text,El ladrón no está muy lejos, por lo que Wendy decide ir a por él a través de un callejón paralelo ({agility};2).
+Event61.button1,Éxito
+Event61.button2,Fracaso
+Event62.text,Wendy consigue adelantar al ladrón y robarle el paquete tan rápidamente que no le da tiempo a reaccionar. Cuando regresa al mercado, el propietario del paquete le da 3$ como agradecimiento.
+Event62.button1,Continuar
+Event63.text,Wendy adelanta al ladrón y le quita el paquete robado, pero se le cae al suelo de vuelta al mercado. Al parecer era una pequeña escultura que ahora está rota. Aun así el propietario te agradece el intento con 1$.
+Event63.button1,Continuar
+EventColocarTienda.text,La tienda que hay frente a ti parece estar abierta; quizá puedas comprar algo.
+EventColocarTienda.button1,Continuar
+TokenEspiarEntrada.button1,{action} Esperar aquí
+TokenMonedero.text,Hay algo en el suelo...
+Event65.text,Tras un rato esperando en la oscuridad, te das cuenta de que todos los invitados que han accedido a la mansión llevan túnicas negras; quizá si consiguieras algo similar podrías entrar.\n\n<i>Ganas una pista
+Event65.button1,Continuar
+TokenEspiarEntrada.text,Desde esta esquina se puede observar si alguien entra o sale de la mansión.
+TokenMonedero.button1,{action} Acercarse para ver qué es
+Event67.text,Se trata de un monedero... A alguien ha debido caérsele. Buscas algún documento de identidad pero no hay ninguno, solo 5$ que decides quedarte ya que nadie podrá probar que son suyos.
+Event67.button1,Continuar
+TokenEquipoTienda.text,En esta vitrina hay varios objetos de equipo.
+TokenEquipoTienda.button1,Echar un vistazo
+Event68.text,Entre los diversos útiles encuentras objetos interesantes como {c:QItemEquipoTienda} o {c:QItemEquipoTienda2}. Cada uno vale 2$
+Event68.button1,{action} Comprar {c:QItemEquipoTienda}
+Event68.button2,{action} Comprar {c:QItemEquipoTienda2}
+Event68.button3,No comprar nada por ahora
+Event69.text,Al final te decides a comprar el objeto, por lo que pagas los 2$ a la dueña de la tienda. Consigues el siguiente objeto: {c:QItemEquipoTienda}.
+Event69.button1,Continuar
+Event70.text,Al final te decides a comprar el objeto, por lo que pagas los 2$ a la dueña de la tienda. Consigues el siguiente objeto: {c:QItemEquipoTienda2}.
+Event70.button1,Continuar
+TokenDuenaTienda.text,Hola, soy la dueña de la tienda. Si queréis comprar algo, solo tenéis que acercaros a la vitrina y elegir el objeto.
+TokenDuenaTienda.button1,Continuar
+TokenArmaTienda.text,En esta vitrina hay armas de filo, quizá una os venga bien.
+TokenArmaTienda.button1,Echar un vistazo
+Event72.text,De entre las armas que hay a la venta, dos os llaman la atención: {c:QItemArmaTienda} y {c:QItemArmaTienda2}. Cada una vale 2$.
+Event72.button1,{action} Comprar {c:QItemArmaTienda}
+Event72.button2,{action} Comprar {c:QItemArmaTienda2}
+Event72.button3,No comprar nada por ahora
+Event73.text,Al final te decides por esta arma, así que la tomas y pagas a la dueña de la tienda. Consigues la siguiente arma: {c:QItemArmaTienda}.
+Event73.button1,Continuar
+Event74.text,Al final te decides por esta arma, así que la tomas y pagas a la dueña de la tienda. Consigues la siguiente arma: {c:QItemArmaTienda2}.
+Event74.button1,Continuar
+Event75.text,"Sin retirarse la capucha, el hombre os habla de forma brusca: ""¿Qué miráis? Se ve a la legua que no sois parte de nosotros así que largo"".\n\n<i>Vas a tener que buscar una forma de colarte"
+Event75.button1,Continuar
+Event76.text,Gracias a la túnica el vigilante no sospecha de ti, por lo que te deja entrar en la mansión inmediatamente.
+Event76.button1,Allá vamos
+EventColocaHall.text,Al entrar en el hall notas que la temperatura de la mansión es muy baja; tu aliento se hace visible en el gélido aire.\n\n<i>Coloca el {c:TileHall}</i>
+EventColocaHall.button1,Continuar
+Event77.text,Dos encapuchados hablan en susurros en una esquina.\n\n<i>Coloca dos sectarios donde se indica. No los podéis atacar ya que os descubrirían, así que dejadlos ahí por el momento
+Event77.button1,Continuar
+Event78.text,El resto de la mansión parece ser accesible...
+Event78.button1,Continuar
+TokenSectario2Hall.text,Estos hombres están hablando de algo secreto y no quieren ser molestados...
+TokenSectario2Hall.button1,Continuar
+TokenSectario1Hall.text,Estos hombres están hablando de algo secreto y no quieren ser molestados...
+TokenSectario1Hall.button1,Continuar
+Event76.button2,(Con Noah) Allá vamos
+Event79.text,"Noah suelta una risita: ""Pues vaya un guardián, te pones este trapo en la cabeza y ya eres miembro de su selecto grupo""."
+Event79.button1,¡Shh!
+quest.authors,F. J. Reina
+quest.authors_short,F. J. Reina
+Event81.text,Entre los diversos útiles encuentras objetos interesantes como {c:QItemEquipoTienda} o {c:QItemEquipoTienda2}. Cada uno vale 2$, por lo que no puedes permitírtelos.
+Event81.button1,Continuar
+Event82.text,De entre las armas que hay a la venta, dos os llaman la atención: {c:QItemArmaTienda} y {c:QItemArmaTienda2}. Cada una vale 2$, por lo que no te las puedes permitir.
+Event82.button1,Continuar
+EventHechizoInvisible.button1,Continuar
+TokenVistazoEntradaTrasera.text,Por aquí parece que podéis acceder a una puerta trasera de la mansión.
+EventHechizoInvisible.text,"Parece que más adelante hay una entrada trasera, pero está custodiada, por lo que Noah decide hacer algo al respecto: ""No nos podrán atrapar si no nos ven; puedo lanzar un hechizo de invisibilidad que creo que durará lo suficiente como para infiltrarnos"". Tras recitar palabras en un idioma desconocido, os volvéis invisibles."
+TokenVistazoEntradaTrasera.button1,{action} Explorar
+Event83.text,En los alrededores del lago hay objetos abandonados, quizá queráis echarles un vistazo.\n\n<i>Cada investigador gana 1 pista
+Event83.button1,Continuar
+Token6.text,Aquí hay un colgante con un símbolo arcano grabado.
+Token6.button1,{action} Intentar identificar
+Event84.text,Tomas cuidadosamente el colgante del suelo, e inspeccionas el símbolo para tratar de averiguar sus propiedades ({lore};2).
+Event84.button1,Éxito
+Event84.button2,Fracaso
+Token7.text,Junto al agua hay una piedra brillante que te suena familiar.
+Token7.button1,{action} Acercarse
+Event85.text,Te acercas a la piedra y la sujetas con cuidado. Tras examinarla la reconoces perfectamente, es un {c:QItemTalisman}.
+Event85.button1,Continuar
+Event87.text,Tras un detenido estudio, llegas a la conclusión de que es un talismán que otorga velocidad, por lo que te puede ser útil para huir de un enemigo. Consigues el {c:QItemColgante}.
+Event87.button1,Continuar
+EventColocaEntradaTrasera.text,Os acercáis a la entrada trasera de la mansión, que se encuentra custodiada por un guardia.\n\n<i>Coloca la {c:TileParcela2} y el sectario donde se indica, aunque este no se activará de momento.</i>
+EventColocaEntradaTrasera.button1,Continuar
+Event89.text,Los vigilantes no pueden veros, pero no están sordos y no son tontos; tendréis que buscar un modo de evitarlos. Cada intento fallido incrementará el nivel de sospecha: Bajo (0-2), Medio (3-4) y Alto (5+). Si el nivel es bajo, no tendréis excesivos problemas una vez lleguéis al hall; si es medio, los enemigos estarán algo preocupados y decidirán prepararse para un posible combate; si el nivel es alto, los guardias pedirán refuerzos. \n\nEl nivel de sospecha actual es de {var:sospecha}.
+Event89.button1,Continuar
+Token9.text,Podéis situaros tras estos arbustos y tratar de lanzar un objeto para alejar al guardia de la puerta.
+Token9.button1,{action} Lanzar piedra
+Event90.text,Lanzas la piedra lo más fuertemente que puedes {agility}.
+Event90.button1,Éxito
+Event90.button2,Fallo
+Event91.text,Con gran rapidez la piedra vuela por el jardín y aterriza detrás de un banco. El guardia, sorprendido, se acerca para ver de qué se trata.
+Event91.button1,Continuar
+Token10.text,El guardia está buscando el origen del sonido.
+Token10.button1,Continuar
+Token8.text,El guardia custodia la puerta
+Token8.button1,Continuar
+Token11.text,Podéis entrar silenciosamente ahora que el guardia no vigila la puerta.
+Token11.button1,{action} Explorar
+Event92.text,Lanzas la piedra con gran velocidad, pero golpeas sin querer el arbusto. El guardia se extraña, ya que oye el sonido de la piedra a la vez que el del arbusto. Tras unos segundos, decide ir a buscar la piedra, pero mira con recelo los arbustos en los que os encontráis.\n\n<i>El nivel de sospecha ha subido en 1. Nivel de sospecha actual: {var:sospecha}.
+Event92.button1,Continuar
+Event93.text,"Noah es vuestro compañero: uno de los investigadores estará acompañado por él, por lo que debéis colocar su ficha sobre una de vuestras cartas de investigador. Este investigador cuenta con un dado adicional al atacar (con {strength}) o al lanzar hechizos (con {lore}), ya que Noah lo ayudará. Ademas este investigador deberá elegir la opción ""(con Noah)"" siempre que le aparezca. Noah no puede cambiar de acompañante durante la partida, por lo que decidid bien."
+Event93.button1,Continuar
+TokenNoah2.text,Este es Noah. Debe estar colocado sobre la carta del investigador elegido como acompañante.
+TokenNoah2.button1,Continuar
+Event95.text,Tras un rato examinando el colgante, llegas a la conclusión de que no reconoces el símbolo, por lo que es mejor dejarlo en el suelo por si es maligno.
+Event95.button1,Continuar
+Token12.text,Vuestro nivel de sospecha actual es de: {var:sospecha}
+Token12.button1,Continuar
+Event96.text,Podéis comprobar vuestro nivel de sospecha clicando en este token en cualquier momento.
+Event96.button1,Continuar
+Event97.text,Con mucho cuidado abrís la puerta sin que el guardia lo vea y entráis. Dentro veis una especie de sótano, y unas escaleras vigiladas por otro guardia.
+Event97.button1,Continuar
+Event98.text,El sótano está repleto de útiles, alguno os debería servir para distraerlo.
+Event98.button1,Continuar
+Token16.text,Esta caja está llena de arena de color azul, quizá puedas acercarte un poco y examinarla.
+Token16.button1,{action} Echar un vistazo
+Event99.text,Al parecer se trata de polvo de azurita, un ingrediente usado para realizar invocaciones. Deben estar planeando invocar a otros de los demonios del libro que encontrasteis en la mansión de los Wilson.\n\n<i>Ganas una pista
+Event99.button1,Continuar
+Token14.text,En estas cajas hay diversos objetos metálicos, quizá podáis utilizarlos para distraer al guardia.
+Token14.button1,{action} Distraer
+Token14.button2,{action} (Con Noah) Distraer
+Event101.text,Intentas mover algunos objetos metálicos con un hechizo de telequinesis para atraer la atención del guardia ({lore};3).
+Event101.button1,Éxito
+Event101.button2,Fracaso
+Event103.text,"Con mucho cuidado consigues mover algunos tornillos, generando un leve sonido que llama la atención del guardia: ""¿Qué es eso?, ¿ratas?"". El guardia se comienza a buscar debajo de la mesa."
+Event103.button1,Continuar
+Token17.text,El guardia rebusca en el suelo.
+Token17.button1,Continuar
+Event104.text,Podéis acceder a la siguiente habitación sin chocaros con el guardia.
+Event104.button1,Continuar
+Token15.text,En estas ánforas hay distintas clases de hierbas aromáticas.
+Token15.button1,{action} Intentar reconocer
+Event107.text,Intentas distinguir alguna de las hierbas por su olor y color ({lore};2)
+Event105.text,Intentas mover unos tornillos pero... ¡acabas tirando las cajas al suelo! El guardia acude inmediatamente, pero tiene claro que una rata no podría haber hecho algo así.\n\n<i>El nivel de sospecha aumenta en 2.
+Event105.button1,Continuar
+Event102.text,"Noah te susurra al oído: ""No puedo esperar a ver la cara de ese tío cuando oiga los tornillos moverse"". Lo mandas a callar discretamente y te dispones a lanzar un hechizo de telequinesis con su ayuda ({lore};2)."
+Event102.button1,Éxito
+Event102.button2,Fracaso
+Event106.text,"Con el breve sonido de los tornillos moviéndose, el guardia se sobresalta: ""¡Caray! Estas ratas me ponen de los nervios"". A Noah se le escapa una pequeña carcajada y el guardia se inquieta: ""¿Qué ha sido eso? Esto me da mala espina..."". Acto seguido se dirige a buscar las supuestas ratas, pero intranquilo por el sonido de Noah.\n\n<i>El nivel de sospecha ha aumentado en 2."
+Event106.button1,Continuar
+Token18.text,Esta puerta debe de dar acceso a la primera planta.
+Token18.button1,{action} Explorar
+Event107.button1,Éxito
+Event107.button2,Fracaso
+Event108.text,Tras un análisis rápido, determinas que la mayor parte de las hierbas es valeriana. No sabes qué uso puede tener para invocar a un demonio, pero decides llevarte un poco por si acaso.
+Event108.button1,Continuar
+Event109.text,Los olores se mezclan demasiado y te impiden reconocer ninguna de las hierbas...
+Event109.button1,Continuar
+EventColocaPasilloSotano.text,Llegas a un pasillo en el que hay un guardia de espaldas a ti. A vuestra derecha hay otra puerta.\n\n<i>Añade las fichas de búsqueda y exploración sobre el {c:TilePasillo2}. Coloca también el sectario donde se indica.
+EventColocaPasilloSotano.button1,Continuar
+Token22.text,Los textos que está revisando el guardia parecen importantes. Debe de haber algún modo de alejarlo de ellos.
+Token22.button1,Continuar
+Token21.text,El guardia está revisando los documentos que hay sobre la mesa.
+Token21.button1,Continuar
+Token13.text,El guardia vigila la escalera sin moverse.
+Token13.button1,Continuar
+Token23.text,Podéis abrir esta puerta con cuidado; el guardia está concentrado en su lectura y no debería de oíros.
+Token23.button1,{action} Abrir
+EventColocaAlmacen.text,Pasáis con cuidado y llegáis a una especie de almacén. Debéis encontraros muy cerca de la entrada de la mansión... De repente, veis como vuestra ropa se comienza a hacer visible, por lo que buscáis cobertura rápidamente. Si queréis entrar en la mansión, tendréis que buscar una nueva forma, ya que el hechizo de invisibilidad requiere una cantidad de magia de la que ya no disponéis.\n\n<i>Coloca el {c:TileAlmacen} y las fichas como se indica.</i>
+EventColocaAlmacen.button1,Continuar
+TokenTunicas.button1,{action} Buscar
+TokenTunicas.button2,{action} (Con Noah) Buscar
+Event111.text,"Noah se acerca al mueble y niega con la cabeza: ""Está cerrada... Pero podemos intentar forzar la cerradura, ¿me echas una mano?""\n\n<i>Tienes un movimiento extra en el siguiente puzzle"
+Event110.text,En efecto, el mueble está cerrado con un mecanismo sencillo, así que intentas abrirlo ({observation}).
+Event110.button1,Continuar
+Event112.text,Con paciencia y habilidad, consigues abrir el mueble. En su interior encuentras túnicas y accesorios de la secta, por lo que no dudas en avisar a tus compañeros y os disfrazáis.
+PuzzleArmarioTunicas.button1,Resolver
+Event112.button1,Continuar
+Token25.text,Esta puerta debería de conducir al interior de la mansión. Con vuestros disfraces no deberíais de tener problemas.
+Token25.button1,{action} Explorar
+Token26.text,Esta puerta debería de dar al interior, pero es mejor que no la atraveséis hasta que encontréis un modo de pasar desapercibidos.
+Token26.button1,Continuar
+TokenTunicas.text,Aquí hay un mueble de madera que puede tener algo interesante, aunque parece estar cerrado.
+Event111.button1,Continuar
+Event113.text,Ahora que estáis disfrazados, podéis explorar la mansión sin que os detecten.
+Event113.button1,Continuar
+TokenRitualResurreccion.text,Esta caja está protegida con un encantamiento, por lo que debe de contener algo importante...
+TokenRitualResurreccion.button1,{action} Deshacer encantamiento
+Event114.text,Te concentras para disipar la barrera que protege la caja ({lore};2)
+Event114.button1,Éxito
+Event114.button2,Fracaso
+Event115.text,Con gran habilidad, consigues disipar la barrera sin causar daños a la caja. En su interior encuentras distintos elementos usados en rituales, pero no se parecen a los usados por Valeria cuando intentó invocar a Leviatán... Quizá cada demonio requiere sus propios ingredientes, además de su hechizo, y están intentando invocar a uno de los restantes: Asmodeo, Mammon o Aamon.\n\n<i>Consigues los {c:QItemRitual} y una pista
+Event115.button1,Continuar
+Token27.text,En estas cajas hay distintos químicos, uno de ellos es cloroformo. Quizá puedas usarlo para dormir al guardia del pasillo y ver qué estaba leyendo.
+Token27.button1,Acercarse con sigilo
+Event117.text,Echas algo de cloroformo en una tela del almacén y te acercas con sigilo al guardia ({agility};2)
+Event117.button1,Éxito
+Event117.button2,Fracaso
+Event118.text,Con suma rapidez te acercas al guardia y colocas la tela en su rostro. Antes de que pueda avisar a nadie, cae dormido. Ahora puedes comprobar los documentos.\n\n<i> Retira el sectario del tablero y coloca a tu personaje en su lugar</i>
+Event118.button1,Continuar
+Token28.text,Los documentos siguen en la mesa. Ahora que el guardia está dormido, puedes leerlos detenidamente.
+Token28.button1,{action} Examinarlos
+Event119.text,Por desgracia los documentos están escritos en una lengua arcana que desconoces. Sin embargo, mirando en los cajones de la mesa encuentras algo bastante útil.\n\n<i>Encuentras una {c:QItemPistola}
+Event119.button1,Continuar
+Token24.text,En esta pared hay una especie de ventana de madera. Puedes echar un vistazo para ver qué hay al otro lado.
+Token24.button1,{action} Mirar
+Event120.text,Cuando abres la ventana, descubres que... ¡no da a ninguna habitación! En su lugar hay una llave de oro, que decides llevar contigo por si acaso.\n\n<i> Recibes la {c:QItemLlave}
+Event120.button1,Continuar
+Event121.text,Te acercas con sigilio al guardia, pero la madera a tus pies cruje y te descubre. Rápidamente te abalanzas sobre él y lo noqueas, pero el ruido ha podido alertar a alguien...\n\n<i>El nivel de sospecha ha aumentado en 2. Coloca al investigador donde se encontraba el guardia.
+Event121.button1,Continuar
+Event122.text,Al entrar en el hall notas que la temperatura de la mansión es muy baja; tu aliento se hace visible en el gélido aire.\n\n<i>Coloca el {c:TileHall}</i>
+Event122.button1,Continuar
+Event123.text,Habéis logrado infiltraros en la mansión con un nivel de sospecha <b>bajo</b>, por lo que la seguridad es estándar y no está demasiado preparada para enfrentar a intrusos.
+Event123.button1,Continuar
+Event124.text,Habéis logrado infiltraros en la mansión con un nivel de sospecha <b>medio</b>, por lo que la seguridad es estándar, aunque se han equipado con protección adicional por si acaso tuviesen problemas...
+Event124.button1,Continuar
+Event125.text,Habéis logrado infiltraros en la mansión con un nivel de sospecha <b>alto</b>, por lo que se ha extremado la seguridad llamando a enemigos más duros...
+Event125.button1,Continuar
+Event116.text,Intentar disipar la barrera pero te resulta demasiado complicado... Finalmente acabas rindiéndote y decides pararte a descansar.
+Event116.button1,Continuar
+Event127.text,Dos encapuchados hablan en susurros en una esquina.\n\n<i>Coloca dos sectarios donde se indica. No los podéis atacar ya que os descubrirían, así que dejadlos ahí por el momento</i>
+Event127.button1,Continuar
+Event128.text,El resto de la mansión parece accesible.\n\n<i>Coloca las fichas de exploración como se indica
+Event128.button1,Continuar
+Event129.text,Al parecer se ha corrido la voz de que sucede algo extraño. Los sectarios han sido remplazados por híbridos de profundo...\n\n<i>Coloca los híbridos de profundo donde se indica. No podeís atacarlos ya que os descubrirían.
+Event129.button1,Continuar
+quest.synopsys,Tras derrotar a Valeria, la policía os avisa de su relación con una misteriosa secta, La Luz Caída.
+Event130.text,<i>Recordad, vuestro objetivo es averiguar qué trama La Luz Caída y detenerlos. Teniendo en cuenta que Valeria intentaba invocar un gran demonio, deberíais buscar información sobre aquel al que seguramente tratan de invocar, para combatirlo eficazmente en caso necesario.
+Event130.button1,Continuar
+Token1.text,Esta puerta está cerrada con un candado. Podríais intentar forzarlo, pero hay enemigos delante, así que debéis buscar otra forma.
+Token1.button1,Continuar
+Token4.text,Esta puerta parece accesible.
+Token4.button1,{action} Abrir
+Token5.text,Esta puerta parece accesible.
+Token5.button1,{action} Abrir
+Token31.text,Hay una lámpara en esta mesita, quizá puedas llevártela.
+Token31.button1,{action} Llevarse la lámpara
+Event131.text,Intentas tomar la lámpara lo más rápidamente posible, para que los enemigos de la sala no sospechen ({agility};2).
+Event131.button1,Éxito
+Event131.button2,Fracaso
+Event132.text,En un abrir y cerrar de ojos, agarras la lámpara y la escondes.\n\n<i>Obtienes la {c:QItemLampara}.
+Event132.button1,Continuar
+Event133.text,Justo cuando vas a agarrar la lámpara alguien te observa, por lo que debes renunciar a tu intento.
+Event133.button1,Continuar
+Token32.text,Aquí hay una pequeña mesa, quizá haya algo en los cajones.
+Token32.button1,{action} Buscar
+Event134.text,Hay un montón de pequeños objetos en los cajones, pero están desordenados y cuesta ver si hay algo de valor ({observation};2).
+Event134.button1,Éxito
+Event134.button2,Fracaso
+Event135.text,Tras rebuscar minuciosamente, un objeto brillante llama tu atención. Consigues el {c:QItemReloj}
+Event135.button1,Continuar
+Event136.text,Estos cajones son un desastre, y decides que no tienes tiempo suficiente como para detenerte a revisar cada objeto.
+Event136.button1,Continuar
+Token33.text,Hay un retrato de varias personas, probablemente se trate de la familia Hughes.
+Token33.button1,{action} Echar un vistazo
+Event137.text,Al parecer la familia no es muy numerosa, pero se ven orgullosos de sí mismos; deben de ser bastante peligrosos...\n\n<i>Ganas una pista
+Event137.button1,Continuar
+Event137.button2,(Con Noah) Continuar
+Event138.text,"Noah sacude la cabeza y te susurra, con cuidado de no llamar la atención de nadie: ""Parecen majestuosos, pero los Hughes no son comparables a otras familias de magos como los Wilson, o, aunque esté mal que lo diga, mi familia verdadera, los Robinson""."
+Event138.button1,Continuar
+EventColocaBiblio.button1,Continuar
+Token34.text,En estas estanterías hay toda clase de libros. Alguno puede ser de utilidad.
+EventColocaBiblio.text,Llegas a una biblioteca que se encuentra igual de fría que el hall. En ella no hay nadie, por lo que podéis buscar con mayor tranquilidad.\n\n<i>Coloca la {c:TileBiblioteca} y las fichas de búsqueda.</i>
+Token34.button1,{action} Examinar los libros
+Token34.button2,{action} (Con Noah) Examinar los libros
+Event139.text,Intentas averiguar si alguno de los libros puede contener información mirando sus títulos ({lore};2).
+Event139.button1,Éxito
+Event139.button2,Fracaso
+Event140.text,Tras echar una ojeada te das cuenta de que la mayoría de los libros son novelas, pero uno de ellos es un libro de hechizos, por lo que lo lees brevemente.\n\n<i>Ganas el siguiente hechizo; {c:QItemHechizoBiblio}</i>
+Event140.button1,Continuar
+Event141.text,Te das cuenta de que no conoces la mayoría de los libros, y no puedes pararte a leerlos todos, así que decides dejarlo.
+Event141.button1,Continuar
+Event142.text,"La mayoría de los títulos no te suenan, pero Noah sí reconoce muchos de ellos: ""Bueno, casi todo son novelas -y de escaso gusto- pero este libro es uno de los más usados para enseñar a brujos jóvenes. Quizá alguno nos sirva"". Tras revisar el libro, descubrís un hechizo nuevo; {c:QItemHechizoBiblio}"
+Event142.button1,Continuar
+Token35.text,Aquí hay un libro abierto, alguien ha debido de leerlo recientemente.
+Token35.button1,{action} Echar un vistazo
+Event143.text,"Comienzas a leer rápidamente el libro. Cuando llevas unos minutos leyendo, descubres que se trata de un manual para canalizar magia, por lo que tomas algunas notas.\n\n<i>Ganas el estado ""Concentrado""</i>"
+Event143.button1,Continuar
+Event144.text,Al fondo hay una puerta que debería de conducir a la habitación adyacente.
+Event144.button1,¿Qué es eso?
+Token36.text,Esta puerta está atrancada.
+Token36.button1,{action} Intentar abrir
+Event145.text,Intentas golpear la puerta para abrirla sin generar demasiado ruido ({strength}).
+Event145.button1,Éxito
+Event145.button2,Fracaso
+Event146.text,Golpeas con precisión la puerta y consigues abrirla. Al otro lado hay una habitación limpia y ordenada.\n\n<i>Coloca el {c:TileEstudio} y las fichas de búsqueda como se indica
+Event146.button1,Continuar
+Event147.text,Golpeas suavemente la puerta por miedo a llamar la atención, pero no aplicas la suficiente fuerza, por lo que no se abre.
+Event147.button1,Continuar
+Spawn0.button1,Continuar
+Spawn0.text,De repente, algo comienza a tomar forma en el aire. Se trata de un espíritu... No sabes cómo ha conseguido llegar al mundo de los vivos, pero no parece amistoso...\n\n<i>Coloca el fantasma donde se indica</i>
+Token38.text,Esta es una de las mesas del estudio, Igual encuentras algo interesante en ella.
+Token38.button1,{action} Buscar
+Event148.text,Al parecer no hay mucho más aparte de facturas. Sin embargo, también encuentras una pitillera en perfecto estado.\n\n<i>Consigues la {c:QItemPitillera}
+Event148.button1,Continuar
+Token39.text,La chimenea está encendida, pero sigue haciendo un frío glacial...
+Token39.button1,{action} Acercarse
+Event149.text,"Te acercas a la chimenea para entrar en calor, pero es como si el fuego no calentase. Junto a ella ves una antorcha apagada, quizá te pueda servir,\n\n<i>Consigues la ""Antorcha"""
+Event149.button1,Continuar
+Token37.text,Esta mesa posee un sillón y una alfombra. Parece que es la mesa del propietario de la mansión.
+Token37.button1,{action} Buscar en los cajones
+Event150.text,Te acercas para abrir uno de los cajones y, al tocarlo, te quemas la mano; sufre 1 daño bocabajo. Al parecer están protegidos por un hechizo de fuego.
+Event150.button1,Deshacer el hechizo
+Event150.button2,(Con Noah) Deshacer el hechizo
+Event151.text,"Al quemarte, Noah se acerca a ti, preocupado: ""¿Estás bien? Ese hechizo es peligroso, pero con magia de hielo debería desaparecer"". Acto seguido, Noah y tú comenzáis a romper el hechizo ({lore})."
+Event151.button1,Éxito
+Event151.button2,Fracaso
+Event152.text,Aunando vuestras fuerzas, conseguís deshacer el hechizo rápidamente y abrís el cajón.
+Event152.button1,Mirar en el interior
+Event153.text,Dentro del cajón hay una carpeta con un documento en su interior. Cuando comenzáis a leerlo, os quedáis impresionados, pues es una autorización para sacar los restos de Hannibal Robinson (el verdadero padre de Noah) de su tumba... Noah no sabe qué decir, está tan perdido como tú\n\n<i>Ganas una pista y la {c:QItemPruebaForense}</i>
+Event153.button1,Continuar
+Event154.text,Conseguís deshacer el hechizo rápidamente al unir vuestras fuerzas, pero antes de romperse, emite una llamarada que vuelve a quemarte; sufre 1 daño bocabajo.
+Event154.button1,Continuar
+Event155.text,Intentas romper el hechizo utilizando el elemento opuesto al fuego; hielo ({lore};2)
+Event155.button1,Éxito
+Event155.button2,Fracaso
+Event156.text,Rápidamente, el hechizo se disipa al enfriarse el fuego, por lo que ya puedes comprobar el cajón.
+Event156.button1,Ver qué hay en el interior
+Event157.text,Dentro del cajón hay una carpeta que contiene un documento. Cuando comienzas a leerlo te das cuenta de que es una autorización para sacar los restos de Hannibal Robinson (el verdadero padre de Noah) de su tumba... No tienes ni idea de para qué, pero no puede ser nada bueno.\n\n<i>Ganas una pista y la {c:QItemPruebaForense}
+Event157.button1,Continuar
+Event158.text,A duras penas consigues deshacer el hechizo protector. Cuando este se disipa, emite una llamarada que te vuelve a quemar; sufre 1 daño bocabajo. Al menos, ahora puedes ver qué hay en el interior.
+Event158.button1,Continuar
+Event159.text,Tras abrir la puerta, llegas a un pasillo bastante desordenado, con papeles tirados por el suelo. Al fondo, un guardia (¿humano?) está sentado bebiendo algo, y parece custodiar dos puertas, por lo que no parece sensato intentar abrirlas.\n\n<i>Coloca el {c:TileFinalPasillo} y el híbrido de profundo como se muestra.</i>
+Event159.button1,Continuar
+TokenHbridoPasillo.button1,Continuar
+Token40.text,Esta puerta no parece estar custodiada, deberías de poder abrirla.
+TokenHbridoPasillo.text,"El ""hombre"" está bebiendo una botella de alcohol."
+Token40.button1,{action} Abrir
+Event160.text,Al abrir la puerta y entrar en la habitación te das cuenta de que es el dormitorio de uno de los Hughes.\n\n<i>Coloca el {c:TileDormitorio2} y las fichas como se indica.</i>
+Event160.button1,Continuar
+Token41.text,El escritorio está abarrotado de objetos.
+Token41.button1,{action} Echar un vistazo
+Event161.text,Nada de lo que encuentras parece útil, pero hay un bote de analgésicos que pueden aliviar tu dolor; descarta 1 carta de daño al azar.
+Event161.button1,Continuar
+Token42.text,Junto a la cama hay un mueble con velas encima, quizá te puedan servir.
+Token42.button1,{action} Tomar las velas
+Event162.text,Decides tomar las velas, ya que la iluminación de la mansión es escasa.\n\n<i>Consigues las {c:QItemVelas}
+Event162.button1,Continuar
+Token43.text,Por raro que pueda sonar, hay gente que guarda sus cosas más preciadas cerca de la cama.
+Token43.button1,{action} Buscar algún objeto
+Event163.text,Comienzas a inspeccionar la cama, buscando algo que pueda darte información sobre Tommy Hughes o su secta ({observation};2).
+Event163.button1,Éxito
+Event163.button2,Fracaso
+Event164.text,No parece haber nada encima de la cama ni debajo de la almohada, pero cuando inspeccionas debajo, encuentras una trampilla.
+Event164.button1,Ver adónde conduce
+Token44.text,Esta trampilla comunica los dos dormitorios.
+Token44.button1,Continuar
+Event165.text,Tras colarte por la trampilla y andar unos instantes, llegas a unas escaleras que dan a otro dormitorio. Ahora puedes desplazarte entre ambos, ya que están conectados.\n\n<i>Coloca el {c:TileDormitorio1} y las fichas como se indica.
+Event165.button1,Continuar
+Event167.text,Tras una rápida ojeada, nada parece llamaros la atención.
+Event167.button1,Continuar
+Token0.text,Esta puerta parece accesible.
+Token0.button1,{action} Abrir
+Event168.text,Atraviesas la puerta y llegas a un almacén con numerosas cajas y barriles.\n\n<i>Coloca el {c:TileAlmacen} y las fichas de búsqueda como se indica
+Event168.button1,Continuar
+Token46.text,Aquí hay una caja de cartón abierta
+Token46.button1,{action} Mirar su interior
+Event169.text,Parece que solo contiene chatarra, pero cuando te fijas detenidamente en los objetos, te das cuenta de que hay un colgante protector.\n\n<i>Consigues el {c:QItemColgante}
+Event169.button1,Continuar
+Token47.text,Este barril huele especialmente mal...
+Token47.button1,{action} Abrir
+Event170.text,Cuando abres el barril, casi vomitas. en su interior hay órganos humanos que hace tiempo que dejaron de funcionar. La secta está intentando hacer algo bastante oscuro, y eso te impulsa a seguir adelante.\n\n<i>Ganas una pista y el estado Concentrado
+Event170.button1,Continuar
+Event171.text,La tapa del barril está atascada, por lo que debes usar tu fuerza ({strength};2).
+Event171.button1,Éxito
+Event171.button2,Fracaso
+Event172.text,Intentas abrir la tapa, pero no tienes la suficiente fuerza, así que desistes.
+Event172.button1,Continuar
+Token48.text,Hay más botellas de alcohol en esta mesa.
+Token48.button1,Mirar
+Event173.text,Algunas de las botellas tienen todavía bebida. Quizá una fuerte dosis de valeriana pueda dejar dormido al guardia.
+Event173.button1,{action} Añadir valeriana
+Event173.button2,Mejor no
+Event174.text,"Con cuidado de no llamar la atención del guardia, que está concentrado en su botella, añades una gran dosis de valeriana en una botella y se la ofreces. El ""hombre"" acepta con un gruñido e ingiere el líquido. A los minutos cae en un sueño.\n\n<i>Retira el híbrido de profundo"
+Event174.button1,Continuar
+Event175.text,Ahora las puertas son accesibles.
+Event175.button1,Continuar
+Token49.text,Al otro lado de esta puerta se escucha ruido.
+Token49.button1,Poner la oreja
+Event176.text,Alguna de las botellas tienen todavía bebida. Si tuvieses alguna sustancia narcótica podrías intentar adormecer al guardia...
+Event176.button1,Continuar
+Event177.text,Parece que hay varias personas en el interior preparando algo. Deberías reunir más pistas antes de intentar entrar, por si acaso.
+Event177.button1,{action} Entrar de todos modos
+Token50.text,Al otro lado de esta puerta no parece haber nadie.
+Token50.button1,{action} Abrir
+Event178.text,Llegas a un cuarto que, para sorpresa de nadie, está también helado.\n\n<i>Coloca el {c:TileDormitorio1} y las fichas de búsqueda
+Event178.button1,Continuar
+Token51.text,Esta puerta tiene una cerradura...
+Token51.button1,Continuar
+Event181.text,Inspeccionas la cerradura y te das cuenta de que vas a necesitar una llave si quieres abrirla.
+Event181.button1,Continuar
+Event182.text,Inspeccionas la cerradura y te das cuenta de que vas a necesitar una llave para abrirla.\n\n<i>Si este investigador tiene la {c:QItemLlave}, puede intentar abrirla
+Event182.button1,¡La tengo yo!
+Event182.button2,No la tengo...
+Event183.text,Introduces la llave de oro y parece encajar. Con un clic la cerradura se abre y abres la puerta, revelando el despacho de la familia.\n\n<i>Coloca el {c:TileDespacho} y las fichas como se indica
+Event183.button1,¿Pero qué...?
+Spawn1.text,Frente a ti se halla un espectro que se dispone a atormentarte...\n\n<i>Coloca el fantasma donde se indica
+Spawn1.button1,Continuar
+Token52.text,Este sillón parece cómodo, quizá necesites tomar un descanso...
+Token52.button1,{action} Descansar
+Event184.text,Te sientas en el sillón unos minutos y despejas la mente. Ahora ves las cosas con mayor claridad. Descarta 1 carta de horror al azar.
+Event184.button1,Continuar
+Token53.text,Sobre esta cómoda hay recipientes y un libro.
+Token53.button1,{action} Inspeccionar
+Token53.button2,{action} (Con Noah) Inspeccionar
+Event185.text,Examinas el libro, pero no entiendes el idioma en el que está escrito. Los recipientes, por su parte, contienen amuletos con un símbolo de aspecto demoníaco, debe estar vinculado al objetivo de la orden o a su fundación.\n\n<i>Ganas una pista</i>
+Event185.button1,Continuar
+Event187.text,"Examinas el libro, pero no entiendes la lengua en la que está escrito. Por suerte, Noah sí la conoce: ""Deja que eche un vistazo..."" Tras ojear el libro, responde: ""Se trata de un hechizo de nivel medio, puede que nos sirva"".\n\nAprendes el siguiente hechizo: {c:QItemHechizoDorm}"
+Event187.button1,Sigamos inspeccionando
+Event188.text,Después, miráis en los recipientes y encontráis colgantes con un símbolo de aspecto demoníaco que debe de estar relacionado con el origen de la secta o su objetivo.\n\n<i>Ganas una pista
+Event188.button1,Continuar
+Token54.text,Este escritorio tiene varios cajones, aunque uno de ellos está cerrado a cal y canto.
+Token54.button1,{action} Observar
+Token54.button2,{action} (Con Noah) Observar
+Event189.text,Intentas abrir el cajón a la fuerza, pero no puedes, ya que está protegida con un candado con combinación. Vas a tener que averiguarla.\n\n<i>Dispones de 2 movimientos adicionales en el siguiente puzzle. Pista: el primer número es impar.
+Event189.button1,Continuar
+Puzzle0.button1,Resolver
+Event190.text,Es una llave de oro. Debe de servir para abrir la puerta de alguna habitación importante.
+Event190.button1,Continuar
+Event191.text,Estos ingredientes deben ser parte de la invocación del demonio, pero no recuerdas ningún demonio que necesite estos en concreto.
+Event191.button1,Continuar
+Event192.text,"Intentas abrir el cajón a la fuerza, pero no puedes, ya que está protegida con un candado con combinación. Noah se agacha y observa las teclas: ""Hay números que han sido más usados que otros. Deberíamos poner calcular las combinaciones rápidamente"".\n\n<i>Dispones de 3 movimientos adicionales en el siguiente puzzle. Pista: el primer número es impar."
+Event192.button1,Resolver
+Event193.text,Cuando introducís el número 31, la cerradura se desbloquea, por lo que puedes examinar los documentos que se encuentran en el interior del cajón.
+Event193.button1,Continuar
+EventVerdadSecta.button1,Seguir leyendo
+Event194.text,En el acta aparecen también nombres de otros miembros entre los que está Tommy Hughes. Estos nombres aparecen categorizados según su potencial mágico de 1 a 5. Hannibal era el más poderoso, pues es el único que tiene un 5. Él era sin duda el más adecuado para cualquier propósito mágico que tenga la secta.
+EventVerdadSecta.text,Los primeros documentos que encuentras hacen referencia a La Luz Caída. Al parecer se trata de un acta fundacional, firmada por, nada más y nada menos que Hannibal Robinson, el verdadero padre de Noah. El acta no aclara con qué propósito se fundó la secta, pero se sabe que Hannibal murió durante la realización de un ritual, algo que siempre fue sospechoso. Ahora tiene más sentido, sabiendo que creó una secta para realizar algo peligroso...
+Event194.button1,Hay más
+Event195.text,Bajo el acta hay un diario personal, al parecer de Tommy. Tras ojearlo, llegáis a una página en la que Tommy afirma haber contactado con Valeria Wilson. Tommy esperaba que demostrara su potencial invocando a un demonio (Leviatán), para que así pudiera ingresar en la orden y demostrar su valor.
+Event195.button1,Continuar
+Event196.text,"En las páginas más recientes, Tommy escribe lo siguiente: ""El ritual está a punto de celebrarse, él regresará"".\n\n<i>Obtienes el {c:QItemDiario}"
+Event196.button1,Continuar
+EventResolucion.text,¡Ahora todo cobra sentido! Están tramando resucitar al líder de la secta, Hannibal Robinson. Los ingredientes que encontrasteis en el almacén no parecían de invocación de demonios porque no los van a usar para un demonio, sino para un espíritu. La autorización de desplazamiento del cadáver del estudio la consiguieron para traer su cuerpo. Y todo para que él resucite y realice lo que una vez no pudo, como indica el diario de Tommy.
+EventResolucion.button1,Oh, oh
+Event197.text,Habéis descubierto la verdad, ¡por lo que debéis impedir que el ritual se realice!
+Event197.button1,Continuar
+Event177.button2,Mejor investiguemos la mansión
+EventPillado.button1,Continuar
+EventPillado.text,"Cuando entras, encuentras a un hombre rubio rodeado de sectarios. En el centro de la habitación hay un cadáver rodeado por velas. El hombre (sospechas que es Tommy) te mira fijamente: ""¿Qué? ¿Vas a presenciar el regreso de Hannibal o qué?"". Tu sorpresa es tan grande que no sabes qué decir, y Tommy se da cuenta: ""Espera... ¡¿Quién eres tú?!"". Acto seguido alza las manos y todo se vuelve blanco."
+UI7.uitext,Notas cómo tu cuerpo golpea la pared y cae al suelo
+UI6.button1,Continuar
+SpawnHannibalFull.button1,Continuar
+CustomMonsterHannibalRobinson1.info,-
+SpawnHannibalFull.text,"Cuando te levantas, Hannibal ya no es un cadáver. Se encuentra de pie, sonriéndote: ""Vaya, así que tú acompañas a mi hijo Noah. Os pediría que os uniérais para realizar la invocación de nuestro amo, pero no creo que aceptéis. Así que... morid"".\n\n<i>No habéis reunido las pistas necesarias, por lo que Hannibal ha resucitado con todas sus fuerzas. Colócalo (Sacerdote de Dagón) donde se indica.</i>"
+EventTommyFlees.text,Tommy no parece querer involucrarse en la pelea y sale corriendo para huir. Noah no lo duda un segundo y va tras él.\n\n<i>Retira a Noah de la ficha del investigador al que acompaña, ya que ahora se encuentra solo.
+CustomMonsterHannibalRobinson1.monstername,Hannibal Robinson
+EventTommyFlees.button1,Continuar
+Event200.text,Los guardias del hall se preparan como pueden para el combate.
+Event200.button1,Continuar
+Spawn2.button1,Botón1
+Spawn3.text,El guardia del pasillo también se alerta y se dirige hacia el salón.
+Spawn3.button1,Continuar
+Event201.text,Los guardias del hall se dirigen hacia el salón. Ya que el nivel de sospecha es medio, estos habían tomado precauciones y están mejor protegidos.
+Event201.button1,Continuar
+SpawnSectariosMedio.button1,Continuar
+UI9.uitext,Levantarse
+UI9.button1,Botón1
+Spawn4.button1,Continuar
+Spawn4.text,Tiene mala pinta...
+SpawnSectariosMedio2.button1,Continuar
+Event203.text,Los híbridos que llegaron como refuerzo ante vuestra ruidosa infiltración se disponen a luchar.
+Event203.button1,Continuar
+Spawn5.button1,Continuar
+Spawn6.button1,Continuar
+EventTommyFlees2.button1,Continuar
+EventTommyFlees2.text,Tommy no parece querer involucrarse en la pelea y sale corriendo para huir. Noah no lo duda un segundo y va tras él.\n\n<i>Retira a Noah de la ficha del investigador al que acompaña, ya que ahora se encuentra solo.</i>
+Token56.text,Al otro lado de esta puerta se escucha ruido.
+Token56.button1,Poner la oreja
+UI11.uitext,FIN
+UITextoMuerte.uitext,Tras perder a uno de los vuestros, decidís huir de la mansión antes de que otra desgracia ocurra. Sin embargo, Noah decide no abandonar y continúa investigando. A los pocos días, se descubre que fue asesinado por los sectarios de La Luz Caída, quienes además se han dirigido a un lugar desconocido a lograr su objetivo...\n\n\n<i>Nota del autor: Al parecer las cosas se han torcido... Pero no desesperes, siempre puedes volver a intentarlo, ya sea en el mismo modo o probando suerte con el otro. ¡Ánimo!\n\n\n\n\n</i>
+UI11.button1,Botón1
+UI10.button1,Botón1
+Event204.text,Parece que hay personas en el interior preparando algo. ¡Debe de ser el ritual de resurrección!\n\n<i>Ya dispones de todas las pistas clave, por lo que conoces la verdad y estás preparado para detener a Tommy y su secta
+Event204.button1,{action} Entrar
+Event204.button2,Necesito hacer algo antes
+Event205.text,"Entras de un portazo en la habitación y descubres a un hombre rubio (probablemente Tommy) rodeado de sectarios. En el centro de la habitación está el cadaver de Hannibal, rodeado de velas. Tommy te mira sorprendido: ""¡¿Pero qué es esto?!, ¡¿Quién eres tú?!"". Pero antes de que pueda reaccionar ya has apagado las velas y detenido el ritual."
+Event205.button1,Continuar
+CustomMonsterHannibal2.info,-
+Spawn7.text,Sin embargo el cuerpo de Hannibal cobra vida y se alza. Intenta decir algo pero solo emite gruñidos; parece que al impedir que el ritual finalizase Hannibal resucitó medio humano, medio monstruo.\n\n<i>Coloca a Hannibal (Hijo de Dagón) donde se indica. Debéis acabar con él antes de que ocurra algo trágico.</i>
+CustomMonsterHannibal2.monstername,Hannibal Robinson
+Spawn7.button1,Continuar
+Token55.text,En este armario hay pertenencias personales de los Hughes.
+Token55.button1,{action} Echar un vistazo
+Event206.text,Encuentras una jeringa con una etiqueta. Intentas reconocer los ingredientes ({lore};2).
+Event206.button1,Éxito
+Event206.button2,Fracaso
+Event207.text,Reconoces a la perfección los ingredientes, ya que los has usado otras veces, se trata de un sedante. Es una sustancia útil, por lo que decides llevártela.\n\n<i>Consigues el {c:QItemSedante}
+Event207.button1,Continuar
+Event208.text,Ahora mismo no recuerdas qué ingredientes son, por lo que prefieres dejar la jeringa donde está.
+Event208.button1,Continuar
+Event209.text,Este diario contiene información importante sobre la vinculación de Valeria Wilson con la orden y los planes de Tommy.
+Event209.button1,Continuar
+UI13.uitext,"Han pasado unas semanas desde el incidente en la mansión de los Wilson, y la policía os ha contactado para que les ayudéis a investigar la secta llamada La Luz Caída. Al parecer Valeria, antes de intentar invocar a Leviatán, solía reunirse con Tommy Hughes, miembro de dicha secta. La policía teme que haya más personas que, como Valeria, quieran traer demonios al mundo, por lo que debéis ir a investigar.\n\nEn una de las cartas de Valeria, Tommy la invitaba a una ""gran reunión"" que tendrá lugar esta noche. Noah Wilson (o mejor dicho, Robinson, dado el reciente descubrimiento de su verdadero origen), tras unirse a vuestro equipo, os ha estado ayudando a prepararos. Antes de salir, os hace una propuesta: ""Sé que la policía nos ha indicado que lo mejor sería infiltrarnos entre los invitados, pero con mi magia podríamos teletransportarnos al interior directamente"".\n\n"
+UI14.uitext,Ir a la mansión
+UI14.button1,Botón1
+EventAtaquesMelee.button1,Hannibal ataca
+EventMelee1.text,Hannibal abre el suelo a tus pies con un giro de muñeca y caes, doblándote un tobillo. Sufres 2 de daño (anulados por {agility}).
+EventMelee1.button1,Continuar
+EventMelee2.text,Hannibal invoca a fantasmas que te obligan a correr. En tu huida tropiezas y caes al suelo, golpeándote la cabeza. Sufres 1 daño bocabajo y ganas el estado Desconcertado.
+EventMelee2.button1,Continuar
+EventMelee3.text,Hannibal se lanza sobre ti e intenta asfixiarte ({strength};2). Si tienes éxito, logras zafarte golpeándole en la entrepierna. Si fallas, el oxígeno comienza a faltarte; sufre 2 de daño bocabajo.
+EventMelee3.button1,Continuar
+EventMelee4.text,De repente, todo se vuelve oscuro; coloca una ficha de oscuridad en tu espacio. Intentas discernir a Hannibal ({observation};2). Si tienes éxito, logras evitar el ataque que planeaba contra ti. Si falla, no lo ves venir y sufres un intenso dolor en la nuca; sufres 2 de daño.
+EventMelee4.button1,Continuar
+EventMelee5.text,Hannibal te golpea repetidamente con una especie de bastón putrefacto que ha conjurado; sufres 3 de daño (anulados por {strength}).
+EventMelee5.button1,Continuar
+EventMelee6.text,Unos miembros de La Luz Caída aparecen detrás de ti y te sostienen mientras Hannibal te golpea con un puño americano. Sufres 2 de daño.
+EventMelee6.button1,Continuar
+quest.description,Esta es la segunda parte de la trilogía de la familia Wilson. La primera se llama Demonios entre los Wilson. Por favor, si no has jugado la primera parte, te recomiendo que lo hagas antes de jugar a esta. En el caso de que sí la jugases, puedes seguir leyendo: ya que hay un par de finales distintos en la parte I, debo aclarar que los hechos de la parte II tienen lugar bajo la premisa de que en la parte I derrotaste a Valeria a tiempo, y reclutaste a Noah tras descubrir que no era un Wilson, sino un Robinson.
+EventAtaquesDistancia.button1,Hannibal ataca
+EventDistancia1.button1,Continuar
+EventDistancia2.text,Hannibal emplea sus conocimientos sobre necromancia: alza una mano y notas como tu piel se enfría y se arruga; sufres 2 de daño (anulados por {will}).
+EventDistancia1.text,Hannibal alza sus manos y comienzan a surgir tentáculos del suelo que se enroscan en tus pies. Sufres 1 de daño bocabajo. Intentas zafarte del tentáculo ({agility}). Si tienes éxito, consigues escapar del viscoso miembro. Si fallas, quedas Retenido.
+EventDistancia2.button1,Continuar
+EventDistancia3.button1,Continuar
+EventDistancia4.text,Los fantasmas que han cruzado al mundo de los vivos junto a Hannibal te atacan también; sufres 1 de daño y ganas el estado Desconcertado. Si hay algún fantasma en el tablero, la presencia de tantos espíritus te trastorna; sufres 1 de horror bocabajo.
+EventDistancia3.text,Hannibal cierra los ojos y notas como tu cuerpo comienza a moverse involuntariamente: ¡Te está poseyendo! Intentas librarte de la posesión con un contrahechizo ({lore};2). Si tienes éxito, evitas que te controle. Si fallas, comienzas a golpearte a ti mismo; sufres 2 de daño bocabajo.
+EventDistancia4.button1,Continuar
+EventDistancia5.text,Hannibal te lanza una bola de fuego azul, algo que ya has visto hacer a su hijo, Noah. Intentas recordar como combatirla ({will};2). Si tienes éxito, recuerdas rápidamente cómo desviar la bola y evitas el impacto. Si fallas, antes de que puedas hacer nada sufres importantes quemaduras; sufres 2 de daño.
+EventDistancia5.button1,Continuar
+EventDistancia6.text,Con un giro de muñeca, Hannibal te lanza por los aires e impactas fuertemente contra el suelo; sufres 3 de daño bocabajo (anulados por {strength}). Si sufres 2 de daño o más, el golpe en la cabeza te ha dejado Aturdido; gana dicho estado.
+EventDistancia6.button1,Continuar
+EventHorror.button1,Botón1
+EventHorror1.text,"Hannibal ríe descontroladamente pronunciando la palabra ""luz"". No sabes qué quiere decir pero el miedo crece en tu interior; sufres 2 de horror (anulados por {will})."
+EventHorror1.button1,Continuar
+EventHorror2.text,Intentas no perder la cordura en medio de este horror que ha causado La Luz Caída ({will};2). Si tienes éxito, mantienes la calma y decides seguir adelante. Si fallas, comienzas a preguntarte si saldrás de esta; sufre 2 de horror bocabajo.
+EventHorror2.button1,Continuar
+EventHorror3.text,Hannibal está atrayendo a espíritus del más allá. Algunos de ellos los reconoces, pues son antiguos familiares tuyos. La tristeza y la ansiedad se apoderan de ti; sufres 2 de horror bocabajo (anulados por {will}).
+EventHorror3.button1,Continuar
+EventHorror4.text,Hannibal está cerca y escuchas sus pasos. Pensar que en cualquier momento puede atacarte te hace temblar; sufres 1 horror bocabajo y quedas Aturdido.
+EventHorror4.button1,Continuar
+EventHorror5.text,No pensabas que Hannibal estuviese acompañado de tantos seguidores, por lo que tus posibilidades de huir son bajas. Tratas de recordar cómo de fuerte eres ({will}). Si tienes éxito, tienes claro que unos sectarios no van a poder contigo. Si fallas, no te consideras lo suficientemente fuerte como para enfrentarlos; sufres 1 de horror bocabajo.
+EventHorror5.button1,Continuar
+EventHorror6.text,Hannibal es incesante en su lucha, al igual que su hijo Noah. Temes que, al igual que él, no se detenga hasta lograr su objetivo, es decir, mataros; sufres 2 de horror (anulados por {strength}).
+EventHorror6.button1,Continuar
+EventAtaquesMelee.text,Hannibal se desplaza rápidamente 2 espacios hasta el investigador más cercano y con menos {strength}.
+EventAtaquesMelee.button2,No hay nadie en ese espacio
+Event210.text,Hannibal no se rinde tan fácilmente, por lo que se mueve 1 espacio más.
+Event210.button1,Continuar
+EventAtaquesDistancia.text,Hannibal no solo sabe luchar cuerpo a cuerpo, también puede atacaros a distancia. Mueve su figura dos espacios hacia el investigador más cercano con menos {agility}.
+EventAtaquesDistancia.button2,No hay investigadores en este espacio ni en uno adyacente
+Event211.text,Frustrado, Hannibal continúa su caza; muévelo 1 espacio más.
+Event211.button1,Continuar
+EventSecuestroNoahPatio.text,En medio de la batalla contra Noah, Tommy le arroja unos polvos a la cara y Noah cae inconsciente. Luego Tommy se acerca a él, y tras pronunciar unas palabras, ambos desaparecen en el aire, quedando solo su sangre en el suelo.
+EventSecuestroNoahPatio.button1,Continuar
+EventSecuestroNoahPlaza.text,En medio de la batalla contra Noah, Tommy le arroja unos polvos a la cara y Noah cae inconsciente. Luego Tommy se acerca a él, y tras pronunciar unas palabras, ambos desaparecen en el aire, quedando solo su sangre en el suelo.
+EventSecuestroNoahPlaza.button1,Continuar
+EventDerrotaHannibal.text,Tras ese último ataque, Hannibal cae con un golpe sordo al suelo. Todo ha acabado, por fin estáis a salvo.
+EventDerrotaHannibal.button1,Continuar
+EventHannibalDerrotado2.text,Tras ese último ataque, Hannibal cae con un golpe sordo al suelo. Todo ha acabado, por fin estáis a salvo.
+EventHannibalDerrotado2.button1,Continuar
+UI16.uitext,EPÍLOGO\n\nNo mucho después de acabar con Hannibal, decidís ir a buscar a Noah, pero no lo halláis. Lo único que encontráis es sangre que habéis mandado a analizar. No sabéis si está o vivo no, ni dónde se halla Tommy... Todo pinta muy mal.\n\nLos resultados de las pruebas de ADN revelan que la sangre es, efectivamente, de Noah Robinson, ya que coincide con el de Hannibal. No obstante, la policía descarta que esté muerto por dos motivos: uno, la cantidad de sangre no es tanta como para asegurar que murió desangrado en ese momento; y dos, Tommy y su secta necesitaban la ayuda de Hannibal, por lo que, en su defecto, su hijo Noah podría serles de utilidad para lo que sea que tramen. Tendréis que encontrar algún modo de dar con él antes de que ocurra una catástrofe...\n\n<i>Nota del autor: ¡Enhorabuena! Habéis conseguido superar este escenario. Si conseguisteis todas las pistas antes de entrar en el salón, quizá queráis probar el otro modo de juego, con sus tableros propios y una característica especial. Si no conseguisteis las pruebas, os animo a que las encontréis, ya que os dará información necesaria para entender mejor la trama.</i>\n\n\n\n\n
+UI18.uitext,FIN
+UI18.button1,Botón1

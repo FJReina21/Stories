@@ -1,0 +1,727 @@
+.,English
+quest.name,The Legacy of the Wilsons (Part II)
+quest.description,This is the second part of the trilogy of The Wilson Family series. The first one is named Demons among the Wilson. So please, if you didn't play part I, I suggest you do it before playing this one. If you did play it, you can keep on reading this text: since there were a few possible endings in part I, I must clarify that the story in part II happens under the assumption that you stopped Valeria on time, and also recruited Noah after learning he wasn't a Wilson, but a Robinson.
+UI0.uitext,You must choose how to proceed. Your choice will affect your starting point, some tiles, and the way you go into the mansion. Besides, each mode has its own special feature.\n\n<i>Sneaking in among the guests implies a standard difficulty, whereas sneaking in with magic could be a bit more challenging. That being said, if it's your first time, I'd recommend that you sneak in among the guests.</i>
+UI3.uitext,Sneak in with magic
+UI1.button1,Continue
+UI4.uitext,Sneak in among the guests
+UI2.button1,Botón1
+EventInicioPlaza.button1,Continue
+EventObjetosPlaza.text,The gate of Tommy's mansion is being watched over by some kind of bodyguard; you might arrange a deal. You can also explore the area.
+UI4.button1,Botón1
+EventInicioPatio.text,"You took Noah up on his offer and he cast a teleporting spell using one of the letters Tommy wrote to Valeria as a magnet. However, once he's cast the spell you find yourselves in front of the mansion. Noah snorts: ""Well, I didn't think that Tommy could be smart enough to protect the house with magic. Anyways, we're going to have to sneak in""."
+UI3.button1,Botón1
+EventInicioPatio.button1,Continue
+TokenPortero.text,There's a man in a black robe guarding the gate. He must be one of the guests.
+TokenPortero.button1,{action} Talk to him
+EventInicioPlaza.text,After a long trip to the outskirts of Massachusetts, you arrive in the square of a small village. In front of you there's the Hughes mansion.\nYou have {var:Dinero}$. Each investigator gains 1 clue.\n\n<i>Place the {c:TilePlaza}</i>
+EventObjetosPlaza.button1,Continue
+TokenVistazoMercado.text,You can hear people chattering this way.
+TokenVistazoMercado.button1,{action} Get close
+TokenVistazoTienda.text,There's a deserted street here, you might want to take a look.
+TokenVistazoTienda.button1,{action} Explore
+TokenMonedasFuente.text,Something glows underwater...
+TokenMonedasFuente.button1,{action} Try to see what it is ({observation})
+Event0MonedasFuente.text,The fountain in front of you seem to contain objects that must have been tossed inside.
+Event0MonedasFuente.button1,Continue
+EventVerMonedas.button1,Success
+EventVerMonedas.button2,Failure
+EventExitoMonedas.text,It seems to be nothing but trash... but when you look closer you make out some coins. Someone must have tossed them and then make a wish, but those coins won't help them staying there, so you pick them up. \n\n<i>Now you have {var:Dinero}$
+EventVerMonedas.text,You get closer to the water to try to identify what's glowing ({observation};2).
+EventExitoMonedas.button1,Continue
+Event0.text,To check how much money you have, you can use this token (you don't need to place it)
+Event0.button1,Continue
+TokenDinero.text,Right now the amount of money you have is: {var:Dinero}$.
+TokenDinero.button1,Continue
+EventColocaMercado.text,The noise comes from a near market. You might find something useful around here.\n\n<i>Place the {c:TileMercado} and the search tokens as indicated
+EventColocaMercado.button1,Continue
+TokenMercaderTextil.text,An older man takes care of what it seems a textile stall.
+TokenMercaderTextil.button1,{action} See what he has in stock
+EventVentaTextil.text,"The man smiles at you: ""Hi! We've got every kind of clothing: silk shirts, trousers, robes..."""
+EventVentaTextil.button1,Wait, did you say robes?
+Event1.text,"One of those robes could be useful enough to sneak into the mansion unnoticed, so you ask for its price. ""It costs only 7$, what do you say?"""
+Event1.button1,Right now I don't have enough money...
+Event2.text,"The stall owner answers with a sad smile: ""Well, a shame. If sometime you can afford them and you're interested, I'll be right here""."
+Event2.button1,Continue
+TokenMercaderTextil2.text,The man is still talking to the customers.
+TokenMercaderTextil2.button1,Talk to him
+Event3.text,"When he sees you again, he grins: ""Hey there again!, Do you have the amount we agreed on?"""
+Event3.button1,Not yet...
+Event4.text,"""Well, don't worry, I'm not leaving yet"". Then he goes back to business"
+Event4.button1,Continue
+Event6.text,"One of those robes could be useful enough to sneak into the mansion unnoticed, so you ask for its price. ""It costs only 7$, what do you say?"""
+Event6.button1,Buy
+Event6.button2,Not right now
+Event7ObtieneTunica.text,"""I'll take them"", you answer with resolution. The man thanks you for your purchase and gives you a set of robes. \nSome minutes later, you retreat to the back side of a stall and put one on (as well as the rest of the investigators)."
+Event7ObtieneTunica.button1,Time to dress up!
+Event7.text,"When he sees you again, he grins: ""Hey there again!, Do you have the amount we agreed on?"""
+Event7.button1,Yes, here you are.
+Event7.button2,Not right now
+Event7ObtieneTunica.button2,(with Noah) Time to dress up!
+Event8.text,"After getting dressed, Noah snorts: ""A hunting horror would have better taste picking out clothes; I don't get how those guys can wear something so ridiculous"""
+Event8.button1,Stop fussing and start moving
+Event10.text,"Noah is your teammate: one of the investigators will be accompanied by him, so you must place his token on one of your investigator cards. This investigator will roll an extra die when attacking (with {strength}) or casting spells (with {lore}), since Noah will help them. In addition, this investigator mut choose the ""(with Noah)"" option every time it shows up. Noah cannot change his mate during the game, so choose wisely."
+Event10.button1,Continue
+TokenNoah1.text,This is Noah, he should be placed on the investigator card belonging to the player who you chose to be with him.
+TokenNoah1.button1,Continue
+TokenMercaderHierbas.text,A young woman is organizing the herbs on her stall.
+TokenMercaderHierbas.button1,{action} See what she's got in stock
+Event9.text,"The woman greets you cheerfully: ""Hello! You're a bit late, but there are still some herbs for sale that you could use"""
+Event9.button1,Take a look at {c:QItemVendaTienda}
+Event9.button2,(with Noah) Take a look at {c:QItemVendaTienda}
+Event9.button3,Take a look at a valerian box
+Event9.button4,(with Noah) Take a look at a valerian box
+Event17.text,There are many types of herb: aromatic, infusions... A small box of valerian draws your attention; it's a well-known herb used to treat insomnia. It's worth 3$.
+Event11.text,You take a look at the bandages, and you start thinking about how useful they could turn once inside the mansion. They're worth 3$.
+Event11.button1,Buy
+Event11.button2,Not yet
+Event13.text,You hand over the money to the stall owner and, after expressing her gratitude, she leaves to look for more products.\n\n<i>You get the {c:QItemVendaTienda}
+Event13.button1,Continue
+Event14.text,You're not thinking of spending any money yet.
+Event14.button1,Continue
+Event15.text,"Noah grabs the bandages you were examining and nods firmly: ""There's no doubt they would come in handy; last time we hardly managed to escape alive. Besides, they're only worth 3$."""
+Event15.button1,Buy
+Event15.button2,Not yet
+Event12.text,You observe the bandages and think of how useful they could be, but you don't have the 3$ they're worth...
+Event12.button1,Continuar
+Event16.text,"Noah grabs the bandages you were examining and nods firmly: ""There's no doubt they would come in handy; last time we hardly managed to escape alive. A shame they're worth 3$ we don't have."""
+Event16.button1,Continue
+Event17.button1,Buy
+Event17.button2,Not yet
+Event18.text,You hand over the money and get a box of valerian. Then, the owner leaves to look for more products.
+Event18.button1,Continue
+Event19.text,You don't intend to pay such a price, so you leave.
+Event19.button1,Continue
+Event20.text,There are many types of herb: aromatic, infusions... A small box of valerian draws your attention; it's a well-known herb used to treat insomnia. It's worth 3$, so you can't afford it yet.
+Event20.button1,Continue
+Event21.text,"Noah raises an eyebrow: ""Valerian? Seriously? That herb that shares named with my not-so-sister Valeria, who we defeated right after she killed Daphne and Isobel? Are you scared and that's why you need to calm down or what?"" Noah shakes his head: ""Well, buy it if you want to, it only costs 3$. But, don't even think I'm going to hold you in my arms if you fall asleep"""
+Event21.button1,Buy
+Event21.button2,Not yet
+Event22.text,"Noah raises an eyebrow: ""Valerian? Seriously? That herb that shares named with my not-so-sister Valeria, who we defeated right after she killed Daphne and Isobel? You're scared and need to calm down or what?"" Noah shakes his head: ""Well, we don't have the 3$ it costs, so let's move""."
+Event22.button1,Continue
+TokenNinoMercado.text,A boy's carrying some barrels around
+TokenNinoMercado.button1,{action} Help him
+TokenNinoMercado.button2,{action} (with Noah) Help him
+Event23.text,You approach the boy and tell him you'll help him carry the barrels, since he looks exhausted ({strength;2}).
+Event23.button1,Success
+Event23.button2,Failure
+Event25.text,With some effort you help him get his chores done. When all the barrels are placed properly, the boy gives you 2$ as a token of gratitude.
+Event25.button1,Continue
+Event27.text,You try to carry all the barrels you can, but you're worn out before finishing your task; you suffer 1 facedown damage. However, the boy appreciates your intention and gives you 1$.
+Event27.button1,Continue
+Event24.text,"Noah seems to worry about the boy: ""Hey, big guy, need some help?"". He accepts your offer and you start transporting the barrels ({strength})."
+Event24.button1,Success
+Event24.button2,Failure
+Event28.text,Soon enough, Noah and you manage to move all the barrels. The boy gives you 2$ as a token of gratitude.
+Event28.button1,Continue
+Event29.text,The barrels are heavier than you'd thought, and the fatigue forces you to sit down and regain your breath. The boy can't afford to stop to rest, so he keeps on working. Even though you didn't help him as expected, he still thanks you with 1$.
+Event29.button1,Continue
+Event31.text,In the center of the flea market the crowd seems to be gathered.
+Event31.button1,Continue
+TokenDemoPreston.text,It looks like the people are talking about the presence of the millionaire Presto Fairmont. He might be willing to answer a few personal questions, in exchange of money, of course...
+TokenDemoPreston.button1,{action} (Preston F.) Hold a meeting
+Event33.text,The passersby start asking Preston all kind of questions (most of them intimate). He answers trying to draw their attention and make the meeting as interesting as possible ({influence};2)
+Event33.button1,Success
+Event33.button2,Failure
+Event34.text,After a dozen of questions and answers, Preston's story about his father and the Order of the Silver Twilight seem to have satisfied the audience. As a payment, you receive 3$.
+Event34.button1,Continue
+Event35.text,The story about Preston's father and his connection to the Order of the Silver Twilight doesn't seem to be of interest to the audience. Even so, a young man takes pity on you and offers you 1$.
+Event35.button1,Continue
+TokenDemoRita.text,It seems a speed competition is going to be held. Maybe Rita Young would like to take part in it and earn some money.
+TokenDemoRita.button1,{action} (Rita Y.) Participate
+Event37.text,Rita gets ready for the competition by warming up her muscles. When she's done, she goes to the start line and then she bolts ({agility};2).
+Event37.button1,Success
+Event37.button2,Failure
+Event38.text,After a short race around the village, Rita reaches the finishing line in first place and receives 3$ as a reward.
+Event38.button1,Continue
+Event39.text,Even though she runs as fast as she can, Rita doesn't win the race. However, she receives 1$ as she finished in third place.
+Event39.button1,Continue
+TokenDemoAgatha.text,It seems the crowd gathers to tell impressive stories (of doubtful truth) about magic and demons. Agatha Crane might take advantage of the situation and narrate her experiences with ghosts.
+TokenDemoAgatha.button1,{action} (Agatha C.) Talk about ghosts
+Event41.text,You start presenting your research on ghosts and how these live among them unnoticed ({lore};2).
+Event41.button1,Success
+Event41.button2,Failure
+Event42.text,The people are impressed by your findings and pay you in an attempt to get more confidential information. You receive 3$.
+Event42.button1,Continue
+Event43.text,Your explanations don't seem to convince the crowd, so they decide to move on to do more interesting things. In the rush, one of them doesn't notice a coin fall out of their pocket, so you resolve to pick it up. You obtain 1$.
+Event43.button1,Continue
+TokenDemoPadreMateo.text,The crowd is talking about the presence of some cult in the village, and the possibility of Satan's arrival. Maybe Father Mateo can calm them down.
+TokenDemoPadreMateo.button1,{action} (Padre M.) Reassure the crowd
+Event45.text,Father Mateo draws upon some biblical passages to explain why Satan won't arrive on the Earth, since God's watching over all of them ({influence};2).
+Event45.button1,Success
+Event45.button2,Failure
+Event46.text,The people look much more reassured thanks to your words, and express their gratitude by giving you 3$.
+Event46.button1,Continue
+Event47.text,Your biblical explanations turn out difficult to understand, so the people don't feel very reassured. However, an older woman gives you 1$ as a token of gratitude for your labor.
+Event47.button1,Continue
+TokenDemoWilliam.text,It looks like there are some people doing Shakespeare plays. Maybe William Yorick can take part on it, since he already worked as an actor before.
+TokenDemoWilliam.button1,{action} (William Y.) Play
+Event49.text,William Yorick introduces himself and announce he is going to play a short monologue from Hamlet ({will};2).
+Event49.button1,Success
+Event49.button2,Failure
+Event50.text,After playing a famous scene, the people starts cheering enthusiastically. In addition, they also want to pay you, so you receive 3$.
+Event50.button1,Continue
+Event51.text,William acts fluently, but it looks like the crowd isn't very interested in Shakespeare's tragedies. However, someone tosses a coin; you get 1$.
+Event51.button1,Continue
+TokenDemoMinh.text,There's some kind of argument going on between a local and a Japanese man. Minh Thi Pan could help them understand each other by working as an interpreter, since she speaks both languages.
+TokenDemoMinh.button1,{action} (Minh T. P.) Help them
+Event53.text,Minh stands between them and offer her services as interpreter. Once they accept, she starts translating ({influence};2).
+Event53.button1,Success
+Event53.button2,Failure
+Event54.text,Easily, Minh translates what they've got to say and they finally come to the conclusion that everything was a misunderstanding. They thank you by paying you 3$.
+Event54.button1,Continue
+Event55.text,They both speak very fast, and there's a lot of pressure, since you have to understand what they're saying and translate it quickly. You barely manage to do the job, and they finally come to the conclusion that everything was a misunderstanding. Your assistance wasn't as good as expected, but they still give you 1$.
+Event55.button1,Continue
+TokenDemoCarson.text,It looks like there are some broken boxes on the floor, and the people around them are trying to tidy up the mess. Carson Sinclair could help them organize the scattered products, since he's been a butler for so long.
+TokenDemoCarson.button1,{action} (Carson S.) Help them
+Event57.text,Carson tries to find a way to reorganize the products quickly and efficiently ({observation};2).
+Event57.button1,Success
+Event57.button2,Failure
+Event58.text,In the blink of an eye, all the stuff gets organized flawlessly thanks to Carson's help. The stall owners give you 3$ as a token of gratitude.
+Event58.button1,Continue
+Event59.text,You try to help them organize the products, but it takes you so long and they finally manage to do the task without you. However, a stall owner gives you 1$ for your attempt.
+Event59.button1,Continue
+TokenDemoWendy.text,It looks like all the commotion is due to a thief that's running away from the flea market. Wendy Adams could help by trying to get back the stolen item, since she's used to wandering around the alleys.
+TokenDemoWendy.button1,{action} (Wendy A.) Go after the thief
+Event61.text,The thief isn't too far, so Wendy decides to go after him running through a parallel alley ({agility};2).
+Event61.button1,Success
+Event61.button2,Failure
+Event62.text,Wendy manages to gain on the thief and take the stolen package from him so fast he can't even react. When she gets back to the flea market, the package owner gives her 3$ as a reward.
+Event62.button1,Continue
+Event63.text,Wendy gains on the thief and takes the stolen package from him, but it falls to the ground on her way back to the flea market. It looks like it was some kind of tiny sculpture, which is now broken. Even so, the owner gives you 1$ for your bravery.
+Event63.button1,Continue
+EventColocarTienda.text,The store in front of you seems to be open; you might want to buy something.
+EventColocarTienda.button1,Continue
+TokenEspiarEntrada.button1,{action} Wait here
+TokenMonedero.text,There's something on the ground...
+Event65.text,After a while waiting in the darkness, you realize every guest entering the mansion wears a black robe; perhaps you could sneak in if you get a robe like those.\n\n<i>You gain a clue
+Event65.button1,Continue
+TokenEspiarEntrada.text,From this corner you can observe if someone goes enters or leaves the mansion.
+TokenMonedero.button1,{action} Get close and take a look
+Event67.text,It's a wallet... It must have fallen out of someone's pocket. You search for any identity document but there's none, there are only 5$ that you decide to keep, since no one can prove them to be theirs.
+Event67.button1,Continue
+TokenEquipoTienda.text,In this cabinet there are equipment items.
+TokenEquipoTienda.button1,Take a look
+Event68.text,There are a lot of useful items, such as the {c:QItemEquipoTienda} or the {c:QItemEquipoTienda2}. Each one is worth 2$
+Event68.button1,{action} Buy {c:QItemEquipoTienda}
+Event68.button2,{action} Buy {c:QItemEquipoTienda2}
+Event68.button3,Do not buy anything yet
+Event69.text,You finally resolve to but the item, so you pay the owner 2$. You gain the {c:QItemEquipoTienda}.
+Event69.button1,Continue
+Event70.text,You finally resolve to but the item, so you pay the owner 2$. You gain the {c:QItemEquipoTienda2}.
+Event70.button1,Continue
+TokenDuenaTienda.text,Hello, I'm the owner of this store. If you want to buy something, please just approach the cabinet and pick your item.
+TokenDuenaTienda.button1,Continue
+TokenArmaTienda.text,In this cabinet there are bladed weapons; they could come in handy.
+TokenArmaTienda.button1,Take a look
+Event72.text,Among all the weapons, two catch your eye: the {c:QItemArmaTienda} and the {c:QItemArmaTienda2}. Each one is worth 2$.
+Event72.button1,{action} Buy the {c:QItemArmaTienda}
+Event72.button2,{action} Buy the {c:QItemArmaTienda2}
+Event72.button3,Do not buy anything yet
+Event73.text,You finally decide to buy this item, so you pick it up and pay its price. You gain the {c:QItemArmaTienda}.
+Event73.button1,Continue
+Event74.text,You finally decide to buy this item, so you pick it up and pay its price. You gain the {c:QItemArmaTienda2}.
+Event74.button1,Continue
+Event75.text,"Without pulling the hood back, the man speaks sharply: ""What you lookin' at? It's as plain as the nose on your face that you're not one of us, so... scram"".\n\n<i>You're going to have to find a way in"
+Event75.button1,Continue
+Event76.text,Thanks to the robes, the guard doesn't distrust you, so he lets you in immediately.
+Event76.button1,Here we go
+EventColocaHall.text,When you step into the hall, you feel the temperature lowering so quickly that you start to shiver.\n\n<i>Place the {c:TileHall}</i>
+EventColocaHall.button1,Continue
+Event77.text,Two hooded people are whispering across the room.\n\n<i>Place two cultist where it's indicated. You can't attack them since it would expose you, so just leave them there for now.
+Event77.button1,Continue
+Event78.text,The rest of the mansions looks accessible...
+Event78.button1,Continue
+TokenSectario2Hall.text,These guys are talking about something secret and they don't want to be interrupted...
+TokenSectario2Hall.button1,Continue
+TokenSectario1Hall.text,These guys are talking about something secret and they don't want to be interrupted...
+TokenSectario1Hall.button1,Continue
+Event76.button2,(Con Noah) Here we go
+Event79.text,"Noah chuckles: ""Well, well.. what a sharp guard! You just need to put this rag on and you're officially a member of his select group""."
+Event79.button1,Shh!
+quest.authors,F. J. Reina
+quest.authors_short,F. J. Reina
+Event81.text,There are a lot of useful items, such as the {c:QItemEquipoTienda} or the {c:QItemEquipoTienda2}. Each one is worth 2$, so you can't afford any of them.
+Event81.button1,Continue
+Event82.text,Among all the weapons, two catch your eye: the {c:QItemArmaTienda} and the {c:QItemArmaTienda2}. Each one is worth 2$, so you can't afford any of them
+Event82.button1,Continue
+EventHechizoInvisible.button1,Continue
+TokenVistazoEntradaTrasera.text,It looks like there's a back door this way.
+EventHechizoInvisible.text,"The back door is being watched over by a guard, so Noah decides to do something about it: ""They can't catch us if the can't see us; I can cast an invisibility spell that should last long enough for us to sneak in"". After chanting some words in an unknown language, you turn invisible."
+TokenVistazoEntradaTrasera.button1,{action} Explore
+Event83.text,In the lake's surroundings there are some abandoned objects, you might want to take a look.\n\n<i>Each investigator gains 1 clue
+Event83.button1,Continue
+Token6.text,Here there's a pendant with an elder sign engraved on it.
+Token6.button1,{action} Try to identify the sign
+Event84.text,You grab the pendant carefully and inspect the sign, in an attempt to figure out the pendant's attributes ({lore};2).
+Event84.button1,Success
+Event84.button2,Failure
+Token7.text,By the water there's a shiny stone that looks familiar to you.
+Token7.button1,{action} Get close
+Event85.text,You bend down and pick up the stone. After examining it, you recognize it; it's a {c:QItemTalisman}.
+Event85.button1,Continue
+Event87.text,After some time studying the pendant, you come to the conclusion that it's a magical accessory that grants speed, so it might be useful when running away from enemies. You gain the {c:QItemColgante}.
+Event87.button1,Continue
+EventColocaEntradaTrasera.text,You approach the back door, which is monitored by the guard.\n\n<i>Place the {c:TileParcela2} and the cultist where indicated, although he won't be a threat yet.</i>
+EventColocaEntradaTrasera.button1,Continue
+Event89.text,The guards cannot see you, but they're not deaf, or fool; you'll have to look for a way to distract them. Each failed attempt will increase the suspicion level: Low (0-2), Medium (3-4) and High (5). Should the level be low, you won't get into a lot of trouble; if it's medium, enemies will be on edge, so they will be more prepared for fight; and finally, a high level will imply reinforcements. \n\nRight now, the suspicion level is at {var:sospecha}.
+Event89.button1,Continue
+Token9.text,You can hide behind the bushes and try to toss some object to lure the guard away from the door.
+Token9.button1,{action} Throw a stone
+Event90.text,You throw the stone with all your strength {agility}.
+Event90.button1,Success
+Event90.button2,Failure
+Event91.text,More quickly than you thought, the stone flies across the yard and falls near a bench. The guard, surprised, gets closer to find out where the noise came from.
+Event91.button1,Continue
+Token10.text,The guard's looking for the source of the sound.
+Token10.button1,Continue
+Token8.text,The guard's watching over the door
+Token8.button1,Continue
+Token11.text,You can now sneak in through the door, since the guard is away.
+Token11.button1,{action} Explore
+Event92.text,You throw a stone with great speed, but you accidentally hit the bush in front of you. The guard looks startled, since he heard both the noise of the bush and the stone falling near a bench. Not long after, he decides to look for the stone, but he takes a quick look at the bushes before moving.\n\n<i>The suspicion level has increased by 1. Current suspicion level: {var:sospecha}.
+Event92.button1,Continue
+Event93.text,"Noah is your teammate: one of the investigators will be accompanied by him, so you must place his token on one of your investigator cards. This investigator will roll an extra die when attacking (with {strength}) or casting spells (with {lore}), since Noah will help them. In addition, this investigator mut choose the ""(with Noah)"" option every time it shows up. Noah cannot change his mate during the game, so choose wisely."
+Event93.button1,Continue
+TokenNoah2.text,This is Noah. He should be placed on the chosen investigator's card.
+TokenNoah2.button1,Continue
+Event95.text,After a while, you must accept you don't recognize the pendant, so you leave it on the ground, just in case...
+Event95.button1,Continue
+Token12.text,The suspicion level is currently at: {var:sospecha}
+Token12.button1,Continue
+Event96.text,You can check the suspicion level clicking on this token any time.
+Event96.button1,Continue
+Event97.text,Slowly, you open the door while the guard is busy and go into the mansion. On the inside, there's some kind of basement, and also stairs guarded by another person.
+Event97.button1,Continue
+Event98.text,The basement is full of items, some of them should help you distract the guard.
+Event98.button1,Continue
+Token16.text,This carton box is full of blue sand, you can inspect it.
+Token16.button1,{action} Take a look
+Event99.text,It's not sand... it's powdered azurite, an ingredient used to summon entities. They must be planning to summon one of the other demons in the book you found in the Wilson.\n\n<i>You gain a clue
+Event99.button1,Continue
+Token14.text,In these boxes there are metallic objects; you could use them to distract the guard.
+Token14.button1,{action} Distract
+Token14.button2,{action} (with Noah) Distract
+Event101.text,You try to move some of the objects with a telekinesis spell to lure the guard ({lore};3).
+Event101.button1,Success
+Event101.button2,Failure
+Event103.text,"Carefully, you manage to move some screws, creating a soft sound that draws the attention of the guard: ""What is that, rats?"". The guard approaches the box and crouches down, trying to find the nonexistent rodent."
+Event103.button1,Continue
+Token17.text,The guard is busy finding the rat.
+Token17.button1,Continue
+Event104.text,You can now enter the adjacent room without stepping into the guard.
+Event104.button1,Continue
+Token15.text,In these amphorae there are some aromatic herbs.
+Token15.button1,{action} Identify some of them
+Event107.text,Smelling and touching them, you try to identify the herbs ({lore};2)
+Event105.text,You try to move some screws but... You drop the box to the floor instead! The guard moves swiftly towards the place, but there's no way he can believe that a rat did that.\n\n<i>The suspicion level has increased by 2.
+Event105.button1,Continue
+Event102.text,"Noah whispers in your ear: ""I can't wait to see that dork's face when he hears those screws moving in the box"". You discreetly shush him and cast a telekinesis spell with his help ({lore};2)."
+Event102.button1,Success
+Event102.button2,Failure
+Event106.text,"The screws make a brief sound that startles the guard: ""Damn! Those rats freak me out"". Noah can't hold a chuckle, and it looks like the guard heard it: ""What was that? All of this is giving me the creeps..."". Then he starts looking for the nonexistent rats, but worried because of Noah's sound.\n\n<i>The suspicion level has increased by 2."
+Event106.button1,Continue
+Token18.text,This door should lead to the first floor.
+Token18.button1,{action} Explore
+Event107.button1,Success
+Event107.button2,Failure
+Event108.text,After a quick check, you establish that the majority of the herbs is valerian. You fail to see how it could help the cult summon a demon, but you take some of it, just in case.
+Event108.button1,Continue
+Event109.text,The smells mix together in the air, so it's impossible for you to identify any herb...
+Event109.button1,Continue
+EventColocaPasilloSotano.text,You get to a hallway in which there's a guard with his back to you. To your right there's another door.\n\n<i>Place the search and exploration tokens on the {c:TilePasillo2}. Place the cultist where it's indicated as well.
+EventColocaPasilloSotano.button1,Continue
+Token22.text,Those texts the guard is reading look relevant. There must be some way to drive them away.
+Token22.button1,Continue
+Token21.text,The guard is reading the documents on the table.
+Token21.button1,Continue
+Token13.text,The guard is watching over the stairs without blinking.
+Token13.button1,Continue
+Token23.text,You can open this door with caution; the guard is focused on reading the texts, so you won't be seen.
+Token23.button1,{action} Open carefully
+EventColocaAlmacen.text,Walking on tiptoes, you step into a warehouse. You must be very close to the mansion's hall... Suddenly, you startle as your clothes start turning visible again, so you take cover right away. If you want to go farther, you're going to have a new way, since the invisibility spell requires an amount of magic you don't have anymore.\n\n<i>Place the {c:TileAlmacen} and the tokens as indicated.</i>
+EventColocaAlmacen.button1,Continue
+TokenTunicas.button1,{action} Search
+TokenTunicas.button2,{action} (with Noah) Search
+Event111.text,"Noah crouches in front of the cabinet and shakes his head: ""It's locked... But can try to force it with a lockpick, give me a hand?""\n\n<i>You have an additional move in the following puzzle"
+Event110.text,Indeed, the cabinet is locked with some a simple mechanism, so you try to unlock it ({observation}).
+Event110.button1,Continue
+Event112.text,With patience and skill, you manage to open the cabinet. Inside of it, there are cult robes and accessories, so you don't hesitate to dress up (along with your team).
+PuzzleArmarioTunicas.button1,Resolve
+Event112.button1,Continue
+Token25.text,This door must lead to the entrance. Since you're disguised, no one should spot you.
+Token25.button1,{action} Explore
+Token26.text,This door must lead to the entrance, but you'd better not open it until you've found a way not to get detected.
+Token26.button1,Continue
+TokenTunicas.text,There's a wood cabinet that might contain something interesting, but it looks like it's locked.
+Event111.button1,Continue
+Event113.text,Now you're disguised, you can explore the mansion without drawing attention.
+Event113.button1,Continue
+TokenRitualResurreccion.text,This box is sealed with a spell, so it must be protecting something valuable...
+TokenRitualResurreccion.button1,{action} Break the spell
+Event114.text,You concentrate to dispel the seal that protects the box ({lore};2)
+Event114.button1,Success
+Event114.button2,Failure
+Event115.text,With great skill, you remove the spell without damaging the box. On the inside, there are various substances used on rituals, but they don't look like the ones Valeria used when she tried to summon Leviathan... Maybe each demon requires its own ingredients, apart from its own spell, and the cult is trying to summon one of the others: Asmodeus, Mammon or Satan.\n\n<i>You gain the {c:QItemRitual} and a clue.
+Event115.button1,Continue
+Token27.text,Among these boxes there are chemical substances, being one of them chloroform. Maybe you can use it to put the guard to sleep and see what he was reading.
+Token27.button1,Get close silently
+Event117.text,You pour some chloroform onto a near fabric and sneak up on the guard ({agility};2)
+Event117.button1,Success
+Event117.button2,Failure
+Event118.text,You sneak up on the guard swiftly and cover his face with the fabric. Before having a chance to alert the other guards, he falls asleep. Now you can read the documents.\n\n<i> Remove the cultist from the board and place your investigator figure on his place</i>
+Event118.button1,Continue
+Token28.text,The documents are still on the table. Now that the guard is knocked out, you can read them thoroughly.
+Token28.button1,{action} Take a look
+Event119.text,Unfortunately, the documents are written in some ancient language you don't know. However, looking inside the table drawers you find something really useful.\n\n<i>You find a {c:QItemPistola}
+Event119.button1,Continue
+Token24.text,There's a wood window on this wall. You can take a look through it to see what's on the other side.
+Token24.button1,{action} Open the window
+Event120.text,When you open the window, you find out that... there's nothing but a key! You decide to take it with you, as you might need it later.\n\n<i> You gain the {c:QItemLlave}
+Event120.button1,Continue
+Event121.text,You sneak up on the guard, but the wood beneath you creaks! You lunge at the guard and knock him down, but the noise might have alerted someone...\n\n<i>The suspicion level has increased by 2. Remove the cultist token and place your investigator there.
+Event121.button1,Continue
+Event122.text,When you step into the hall you feel the temperature lowering to the point you almost shiver.\n\n<i> Place the {c:TileHall}</i>
+Event122.button1,Continue
+Event123.text,You managed to sneak into the mansion with a <b>low</b> suspicion level, so the security is standard and not very ready to deal with trespassers.
+Event123.button1,Continue
+Event124.text,You managed to sneak into the mansion with a <b>medium</b> suspicion level, so the security is standard, even though additional security measures have been taken just in case the noises that the guards heard weren't casual...
+Event124.button1,Continue
+Event125.text,You managed to sneak into the mansion with a <b>low</b> suspicion level, so extreme security measures have been taking by calling tougher enemies...
+Event125.button1,Continue
+Event116.text,You try to dispel the seal but it's too difficult for you... Eventually you give up and stop to rest.
+Event116.button1,Continue
+Event127.text,Two hooded people whisper in a corner.\n\n<i>Place two cultist where indicated. You cannot attack them since that would expose you, so leave them alone for now</i>
+Event127.button1,Continue
+Event128.text,The rest of the mansion seems accessible.\n\n<i>Place the explore tokens as shown
+Event128.button1,Continue
+Event129.text,It seems that a rumor went around about something strange happening. To be more prepared for any incident, cultists have been replaced by deep one hybrids...\n\n<i>Place them as indicated. You cannot attack them, since that would expose you.
+Event129.button1,Continue
+quest.synopsys,After defeating Valeria, police warns you about her relationship with a mysterious cult, The Fallen Light.
+Event130.text,<i>Remember, your goal is to find what The Fallen Light is up to and stop them. Since Valeria was trying to summon a great demon, you should look for information on the one they must be trying to summon, in order to fight it if needed.
+Event130.button1,Continue
+Token1.text,This door is locked. You could force it, but there are enemies nearby, so you will have to look for another way in.
+Token1.button1,Continue
+Token4.text,This door looks accessible.
+Token4.button1,{action} Open
+Token5.text,This door looks accessible.
+Token5.button1,{action} Open
+Token31.text,There's a lantern on this table, you might be able to take it with you.
+Token31.button1,{action} Pick it up
+Event131.text,You try to pick the lantern as fast as possible, so that the enemies in the room don't suspect ({agility};2).
+Event131.button1,Success
+Event131.button2,Failure
+Event132.text,In a blink of an eye, you pick the lantern and hide it.\n\n<i>You gain the {c:QItemLampara}.
+Event132.button1,Continue
+Event133.text,Just when you're about to pick the lantern someone looks at you, so you must stand still.
+Event133.button1,Continue
+Token32.text,There's a small table here, the drawers could contain something useful.
+Token32.button1,{action} Search the drawers
+Event134.text,There are a lot of small items in the drawers, but they're in a mess and it's not easy to see if there's something that you could use ({observation};2).
+Event134.button1,Success
+Event134.button2,Failure
+Event135.text,After searching thoroughly, a shiny object catches your eye. You gain the {c:QItemReloj}.
+Event135.button1,Continue
+Event136.text,These drawers are indeed a mess, and you decide you don't have enough time to tidy them.
+Event136.button1,Continue
+Token33.text,Here there's a portrait of some people. Those must be the Hughes.
+Token33.button1,{action} Take a look
+Event137.text,It seems the family is not very large, but they look like they're proud of themselves; they must be dangerous...\n\n<i>You gain a clue
+Event137.button1,Continue
+Event137.button2,(with Noah) Continue
+Event138.text,"Noah shakes his head and whispers, trying not to draw anyone's attention: ""They look so majestic, huh? Well, they're not as powerful as other mage families like the Wilsons, or, even though I shouldn't be saying it, my true family; the Robinsons""."
+Event138.button1,Continue
+EventColocaBiblio.button1,Continue
+Token34.text,On these bookshelves there are a considerable amount of volumes. Some could be interesting to skim through.
+EventColocaBiblio.text,You step into a library that is as cold as the hall. There's no one inside, so you can investigate more easily.\n\n<i>Place the {c:TileBiblioteca} and the search tokens.</i>
+Token34.button1,{action} Examine the books
+Token34.button2,{action} (with Noah) Examine the books
+Event139.text,You try to find out if any of the books is worth reading by reading their titles ({lore};2).
+Event139.button1,Success
+Event139.button2,Failure
+Event140.text,After a quick look, you realize most of the books are novels, but one of them is a grimoire, so you grab it and start reading the first pages.\n\n<i>You learn the following spell: {c:QItemHechizoBiblio}</i>
+Event140.button1,Continue
+Event141.text,You realize you don't know almost any of the titles, and you certainly don't have the time to read them one by one, so you leave.
+Event141.button1,Continue
+Event142.text,"Most of the titles don't ring a bell to you, but Noah does know many of them: ""Well, these are mostly novels -of terrible taste-, but this book here is a grimoire we could use"". After taking a quick look, you learn a new spell: {c:QItemHechizoBiblio}"
+Event142.button1,Continue
+Token35.text,There's an opne book here, someone must have been reading it recently.
+Token35.button1,{action} See what it's about
+Event143.text,"You start reading the book quickly. After a few minutes, you learn it's a book on how to channel magic, so you take some notes.\n\n<i>You gain the condition ""Focused""</i>"
+Event143.button1,Continue
+Event144.text,Across the room there's a door that should lead to the adjacent room.
+Event144.button1,What is that?
+Token36.text,This door is stuck.
+Token36.button1,{action} Try to open
+Event145.text,You try to hit the door without making much noise ({strength}).
+Event145.button1,Success
+Event145.button2,Failure
+Event146.text,You hit the door with enough strength and it opens. When you step into the room you see a clean and tidy study.\n\n<i>Place the {c:TileEstudio} and the search tokens as indicated
+Event146.button1,Continue
+Event147.text,Fearing you'll be heard, you hit the door so gently that it doesn't move...
+Event147.button1,Continue
+Spawn0.button1,Continue
+Spawn0.text,Suddenly, something begins to take shape in the air. It's a spirit... You don't have the slightest idea of how it could have come to the world of the living, and it doesn't look friendly...\n\n<i>Place the ghost as indicated</i>
+Token38.text,This is one of the two desks in the study. You might find something interesting here.
+Token38.button1,{action} Search
+Event148.text,It seems there's not anything but invoices. However, you also find a cigarette case in perfect condition.\n\n<i>You get the {c:QItemPitillera}
+Event148.button1,Continue
+Token39.text,The fireplace is lit, but there's still a freezing cold in the air...
+Token39.button1,{action} Get close
+Event149.text,You approach the fireplace hoping to warm you up, but it's as though the fire was cold. Next to the it, you find a extinguished torch that could come in handy\n\n<i>You get the Torch
+Event149.button1,Continue
+Token37.text,This desk has its own armchair and rug. It should be the one of the landlord.
+Token37.button1,{action} Search the drawers
+Event150.text,You try to open one of the drawers, but when you touch it, your hand burns; you suffer 1 facedown damage. They must be protected with a fire spell.
+Event150.button1,Break the spell
+Event150.button2,(with Noah) Break the spell
+Event151.text,"When you get burned, Noah gets close, worried: ""You okay? That spells is dangerous as hell, but ice magic should break it"". Then Noah and you start trying to remove the spell ({lore})."
+Event151.button1,Success
+Event151.button2,Failure
+Event152.text,Joining forces, you manage to break the spell quickly. Then you open the drawer.
+Event152.button1,Let's see
+Event153.text,Inside the drawer there's a file with a document. When you begin to read it, you stand impressed; it's an authorization to take the corpse of Hannibal Robinson (Noah's real father) out of his grave... Noah doesn't know what to say, he's as disconcerted as you are\n\n<i>You gain a clue and the {c:QItemPruebaForense}</i>
+Event153.button1,Continue
+Event154.text,You manage to break the spell quickly once you've joined forces, but before breaking, the spell sets off a flare that burns you again; you suffer 1 facedown damage.
+Event154.button1,Continue
+Event155.text,You try to break the spell by using the opposite element; ice ({lore};2)
+Event155.button1,Success
+Event155.button2,Failure
+Event156.text,Quickly, the spell breaks as the fire gets cold, so you can now search the drawer.
+Event156.button1,Let's see
+Event157.text,Inside the drawer there's a file with a document. When you begin to read it, you stand impressed; it's an authorization to take the corpse of Hannibal Robinson (Noah's real father) out of his grave... You have no clue about what for, but it can't be anything good.\n\n<i>You gain a clue and the {c:QItemPruebaForense}
+Event157.button1,Continue
+Event158.text,You hardly manage to remove the protection spell. When it's broken, it sets off a flare that burns you again; you suffer 1 facedown damage. At least, now you can see what's inside.
+Event158.button1,Continue
+Event159.text,After opening the door, you reach an untidy hallway, with papers scattered on the floor. At the end of it, there's a (human?) guard that's drinking something and watching over two doors, so it doesn't seem sensible to try to open them.\n\n<i>Place the {c:TileFinalPasillo} and the deep one hybrid as indicated.</i>
+Event159.button1,Continue
+TokenHbridoPasillo.button1,Continue
+Token40.text,This door isn't guarded, you could open it.
+TokenHbridoPasillo.text,"The ""man"" is drinking some liquor."
+Token40.button1,{action} Open
+Event160.text,You open the door and step into a room that happens to be one of the Hughes' bedroom.\n\n<i>Place the {c:TileDormitorio2} and the tokens as indicated.</i>
+Event160.button1,Continue
+Token41.text,This desk is full of stuff.
+Token41.button1,{action} Examine it
+Event161.text,Nothing seems to be useful, but there are some painkillers that could help you alleviate your pain; discard 1 damage card randomly.
+Event161.button1,Continue
+Token42.text,There's a dresser by the bed with candles on it, you could take some.
+Token42.button1,{action} Grab them
+Event162.text,You decide to take the candles, as the illumination in the house is quite poor.\n\n<i>You get the {c:QItemVelas}
+Event162.button1,Continue
+Token43.text,As weird as it might sound, there are people who hide their most precious belongings near their bed.
+Token43.button1,{action} Search the bed
+Event163.text,You start looking around the bed, in the hope of finding something related to Tommy or the cult ({observation};2).
+Event163.button1,Success
+Event163.button2,Failure
+Event164.text,It seems there's nothing on the bed, or under the pillow, but when you inspect beneath, you find a trapdoor.
+Event164.button1,See where it leads to
+Token44.text,This trapdoor connects the bedrooms.
+Token44.button1,Continue
+Event165.text,After sneaking through the trapdoor and crawling for some meters, you reach a ladder that leads to another bedroom. Now you can move between these spaces, since they're connected.\n\n<i>Place the {c:TileDormitorio1} and the tokens as indicated.
+Event165.button1,Continue
+Event167.text,After a quick look, nothing catches your eye.
+Event167.button1,Continue
+Token0.text,This door looks accessible.
+Token0.button1,{action} Open
+Event168.text,You open the door and step into a warehouse with many boxes and barrels in it.\n\n<i>Place the {c:TileAlmacen} and the search tokens as indicated
+Event168.button1,Continue
+Token46.text,There's an open carton board here
+Token46.button1,{action} Look inside
+Event169.text,It looks like there's only junk, but at a second glance you notice a protective pendant.\n\n<i>You get the {c:QItemColgante}
+Event169.button1,Continue
+Token47.text,This barrel stinks...
+Token47.button1,{action} Open
+Event170.text,When you remove the lid, you almost throw up. Inside the barrel there are human organs that stopped working long ago. The cult is trying to do something very dark, and that encourages you to keep investigating.\n\n<i>You gain a clue and the condition Focused
+Event170.button1,Continue
+Event171.text,The barrel lid is stuck, so you must use your strength ({strength};2).
+Event171.button1,Success
+Event171.button2,Failure
+Event172.text,You try to remove the lid, but you're not strong enough, so you give up.
+Event172.button1,Continue
+Token48.text,There are more liquor bottles on this table
+Token48.button1,Examine them
+Event173.text,Some bottles aren't empty. Maybe a high dose of valerian could put the guard to sleep.
+Event173.button1,{action} Add valerian
+Event173.button2,Not yet
+Event174.text,"Trying not to draw the guard's attention, you drop the valerian you obtained into a bottle. You shake it slowly and then offer it to the ""man"", who accepts it with a grunt and drinks it. Not long after he falls asleep.\n\n<i>Remove the deep one hybrid"
+Event174.button1,Continue
+Event175.text,Now you can open the doors.
+Event175.button1,Continue
+Token49.text,You can hear noise coming from this room.
+Token49.button1,Eavesdrop
+Event176.text,Some bottles aren't empty. If you had any narcotic subtanc you could try to put the guard to sleep...
+Event176.button1,Continue
+Event177.text,There are certainly a few people inside, preparing something. You should gather more clues before stepping in, just in case.
+Event177.button1,{action} Enter the room anyways
+Token50.text,It seems there's no one in this room.
+Token50.button1,{action} Open
+Event178.text,When you enter the room you notice that, to no one's surprise, it's also freezing.\n\n<i>Place the {c:TileDormitorio1} and the search tokens
+Event178.button1,Continue
+Token51.text,This door is locked...
+Token51.button1,Continue
+Event181.text,You examine the lock and realize you're going to need a key to open it.
+Event181.button1,Continue
+Event182.text,You examine the lock and realize you're going to need a key to open it.\n\n<i>If this investigator has the {c:QItemLlave}, they can try to open it
+Event182.button1,I have it!
+Event182.button2,I don't have it...
+Event183.text,You insert the gold key and the lock opens with a click. You get to the family's office.\n\n<i>Place the {c:TileDespacho} and the search tokens as indicated
+Event183.button1,What's that...?
+Spawn1.text,A spirit stands in front of you, and it looks willing to torment you...\n\n<i>Place a ghost as indicated
+Spawn1.button1,Continue
+Token52.text,This armchair looks comfortable, you may want to rest for a short time...
+Token52.button1,{action} Sit down
+Event184.text,You sit down for some minutes and clear your mind. Remove 1 horror card randomly.
+Event184.button1,Continue
+Token53.text,There are some containers and a book here.
+Token53.button1,{action} Inspect
+Token53.button2,{action} (with Noah) Inspect
+Event185.text,You examine the book, but the language is unknown to you. As for the containers, you find some pendants with a demonic sign on them; it must be related to the goal of the cult or its foundation.\n\n<i>You gain a clue</i>
+Event185.button1,Continue
+Event187.text,"ou examine the book, but the language is unknown to you. Fortunately, Noah recognizes it: ""Let me see..."" After glancing through, he answers: ""Well, it's a medium level spell, it might help us"".\n\nYou learn the following spell: {c:QItemHechizoDorm}"
+Event187.button1,Continue to inspect
+Event188.text,After dropping the book, you look inside the containers and find pendants with a demonic sign on it; it must be related to the goal of the cult or its foundation.\n\n<i>You gain a clue
+Event188.button1,Continue
+Token54.text,This desk has a few drawers, one of them being locked.
+Token54.button1,{action} Observe
+Token54.button2,{action} (with Noah) Observe
+Event189.text,You try to open the drawer by yanking, but you can't, since it's locked with a combination. You're going to have to guess it.\n\n<i>You have 2 additional moves. Hint: the first number is an odd number.
+Event189.button1,Continue
+Puzzle0.button1,Resolve
+Event190.text,It's a gold key. It should open the key to some important room.
+Event190.button1,Continue
+Event191.text,These components must be part of summoning the demon, but you don't recall of any demon that requires them specifically.
+Event191.button1,Continue
+Event192.text,"You try to open the drawer by yanking, but you can't, since it's locked with a combination. Noah crouches and inspects the keys: ""There are some numbers that have been used more frequently, we should be able to guess the combination quickly"".\n\n<i>You have 3 additional moves in the following puzzle. Hint: The first number is an odd number."
+Event192.button1,Resolve
+Event193.text,When you enter the number 31, the lock opens, so you can read the documents inside the drawer.
+Event193.button1,Continue
+EventVerdadSecta.button1,Keep reading
+Event194.text,In the foundational document figure some names belonging to other cultists, one of them being Tommy Hughes. These people are categorized by their level of magic power, on a scale from 1 to 5. Hannibal was the most powerful, since he's the only one with a 5 next to his name, so there's no doubt he was the most suitable person to reach whatever the goal of the cult is.
+EventVerdadSecta.text,The first document you find is related to The Fallen Light. It looks like it's a foundational document, signed by no one else than Hannibal Robinson, the true father of Noah. The document does not delve into the purpose of the cult, but it's well known that Hannibal died while performinh a ritual, something everybody has always considered suspicious. It makes more sense now that you know he founded a cult to do something dangerous...
+Event194.button1,There's even more
+Event195.text,Under the foundational document there's Tommy's journal. After glancing through, you reach a page where Tommy claims to have contacted Valeria Wilson. Tommy was expecting she'd show her potential by summoning a great demon (Leviathan), so she could join the cult and prove to be a powerful witch.
+Event195.button1,Continue
+Event196.text,"More recently, Tommy wrote: ""The ritual is about to begin, he will come back"".\n\n<i>You get the {c:QItemDiario}"
+Event196.button1,Continue
+EventResolucion.text,Now everything makes sense! They're trying to resurrect their leader, Hannibal Robinson. The components in the warehouse didn't look like ingredients to summon demons because they're not; they're used to bring someone back from the dead. The authorization to move the corpse that you found in the study allowed them to get his body. All that just to resurrect him and allow him to end what he once couldn't, as Tommy's journal says.
+EventResolucion.button1,Oh, oh
+Event197.text,You found out the truth, so you must prevent them from finishing the ritual!
+Event197.button1,Continue
+Event177.button2,We'd better explore the mansion
+EventPillado.button1,Continue
+EventPillado.text,"You enter the room and find a blond man surrounded by cultists. In the middle of the room there's a corpse surrounded by candles. The man (who you take for Tommy) stares at you:  ""What? Are you gonna witness Hannibal's return or what?"". The surprise is so utter that you don't know what to say, and Tommy notices you are no cultist: ""Wait... Who are you?!"". He swiftly raises his arms and everything turns white."
+UI7.uitext,You feel your body slam into the wall and fall to the floor
+UI6.button1,Continue
+SpawnHannibalFull.button1,Continue
+CustomMonsterHannibalRobinson1.info,-
+SpawnHannibalFull.text,"When you get up, Hannibal is no longer a corpse. He's standing in front of you, smiling: ""Well, so you're who's accompanying my beloved son, Noah. I'd ask you to join me but I don't think you'll take me up on that so... die"".\n\n<i>You didn't gather all the necessary clues, so Hannibal came back with all his power. Place him (child of Dagon) as indicated.</i>"
+EventTommyFlees.text,Tommy doesn't seem to be willing to take part on the fray, so he runs away. Noah doesn't hesitate and goes after him.\n\n<i>Remove Noah's token from the investigator card and place it as indicated.
+CustomMonsterHannibalRobinson1.monstername,Hannibal Robinson
+EventTommyFlees.button1,Continue
+Event200.text,The guards in the hall get ready for the fight as well as they can.
+Event200.button1,Continue
+Spawn2.button1,Botón1
+Spawn3.text,The guard in the hallway also notices the intrusion and gets prepared.
+Spawn3.button1,Continue
+Event201.text,The guards in the hall head for the lounge. Since the suspicion level is medium, they took precautions and are more protected.
+Event201.button1,Continue
+SpawnSectariosMedio.button1,Continue
+UI9.uitext,Get up
+UI9.button1,Botón1
+Spawn4.button1,Continue
+Spawn4.text,This doesn't look good...
+SpawnSectariosMedio2.button1,Continue
+Event203.text,The hybrids that came as reinforcement due to your noisy infiltration head for the lounge.
+Event203.button1,Continue
+Spawn5.button1,Continue
+Spawn6.button1,Continue
+EventTommyFlees2.button1,Continue
+EventTommyFlees2.text,Tommy doesn't seem to be willing to take part on the fray, so he runs away. Noah doesn't hesitate and goes after him.\n\n<i>Remove Noah's token from the investigator card and place it as indicated.</i>
+Token56.text,There's noise at the other side of the door.
+Token56.button1,Eavesdrop
+UI11.uitext,THE END
+UITextoMuerte.uitext,After losing one of your teammates, you resolve to escape the mansion before someone else dies. However, Noah decides to stay and carry on with the investigation. A few days later, you find out he was killed by The Fallen Light, who also have set off for some unknown place to reach their goals...\n\n\n<i>Author's note: It looks like things got screwed up... But do not despair, you can always try again, whether you play the same mode or the other one. Cheer up!\n\n\n\n\n</i>
+UI11.button1,Botón1
+UI10.button1,Botón1
+Event204.text,It seems there are people on the inside preparing something. That must be the resurrection ritual!\n\n<i>You already got all the key clues, so you know the truth and are ready to stop Tommy and his cult
+Event204.button1,{action} Go in
+Event204.button2,I still need to do something 
+Event205.text,"You slam the door open and find a blond man (probably Tommy) surrounded by cultists. In the middle of the room there's Hannibal's corpse, encircled by candles. Tommy looks at you, stunned: ""What the hell is this?! Who are you?!"". But before he can react, you've already extinguished the candles and stopped the ritual."
+Event205.button1,Continue
+CustomMonsterHannibal2.info,-
+Spawn7.text,However, the corpse come alive and stands up. He tries to say something but he only emits growls; it seems that stopping the ritual prevented him from getting his entire body back, and know he's a weakened half-human, half-monster.\n\n<i>Place Hannibal (Child of Dagon) as indicated. You must take him out before something tragic happens.</i>
+CustomMonsterHannibal2.monstername,Hannibal Robinson
+Spawn7.button1,Continue
+Token55.text,In this cabinet there are stuff belonging to the Hughes.
+Token55.button1,{action} Take a look
+Event206.text,You find a labeled syringe. You try to recognize the ingredients ({lore};2).
+Event206.button1,Success
+Event206.button2,Failure
+Event207.text,You recognize them right away, since you've used them before; it's a sedative. As it could come in handy, you take it with you.\n\n<i>You get the {c:QItemSedante}
+Event207.button1,Continue
+Event208.text,You don't recognize them right now, so you prefer to leave it where it is.
+Event208.button1,Continue
+Event209.text,This journal contains information on the connection between Valeria Wilson and the cult, as well as Tommy's plans.
+Event209.button1,Continue
+UI13.uitext,"It's been some weeks since the events at the Wilsons', and the police have contacted your team, asking you to investigate the cult named The Fallen Light. It looks like Valeria, before trying to summon Leviathan, used to meet Tommy Hughes, member of said cult. The police are afraid that there are more people willing to bring those demons to Earth, just like Valeria, so you must start investigating.\n\n In one of the letters sent to Valeria, Tommy invited her to a ""top-level meeting"" that will take place tonight. Noah Wilson (or rather, Robinson, since the recent finding on his true origin), after joining your team, has been helping you get ready for the mission. Before setting off, he makes a suggestion: ""I know that the police told us that the best way to proceed would be to sneak in among the guests, but with my magic we could teleport inside the mansion right away"".\n\n"
+UI14.uitext,Go to the mansion
+UI14.button1,Botón1
+EventAtaquesMelee.button1,Hannibal attacks
+EventMelee1.text,Hannibal opens a rift on the floor with a swift movement and you fall, twisting your ankle. You suffer 2 damage (cancelled by {agility}).
+EventMelee1.button1,Continue
+EventMelee2.text,Hannibal summons ghosts that force you to run away. While fleeing, you step into something and fall to the floor, hitting your head. Suffer 1 facedown damage and gain the condition Dazed.
+EventMelee2.button1,Continue
+EventMelee3.text,Hannibal lunges at you and tries to choke you ({strength};2). If you pass, you get rid of him by kicking his crotch. If you fail, you feel the lack of oxygen; you suffer 2 facedown damage.
+EventMelee3.button1,Continue
+EventMelee4.text,Suddenly, everything goes dark; place a darkness token in your space. You try to make Hannibal out ({observation};2). If you pass, you perceive him and dodge the attack he was planning to carry out. If you fail, you don't know what hit you; you suffer 2 damage.
+EventMelee4.button1,Continue
+EventMelee5.text,Hannibal hits you repeatedly with some sort of rotten cane he just created; you suffer 3 damage (cancelled by {strength}).
+EventMelee5.button1,Continue
+EventMelee6.text,A bunch of cultists of The Fallen Light show up behind you and grab hold of you while Hannibal hits you with an American fist. You suffer 2 damage.
+EventMelee6.button1,Continue
+EventAtaquesDistancia.button1,Hannibal attacks
+EventDistancia1.button1,Continue
+EventDistancia2.text,Hannibal draws upon his knowledge of necromancy: he reaches out to you and you feel your skin turn cold and wrinkled; you suffer 2 damage (cancelled by {will}).
+EventDistancia1.text,Hannibal extends his hands and tentacles start coming out of the floor, squeezing your feet. Suffer 1 facedown damage. You try to get rid of it ({agility}). If you pass, you escape that sticky limb. If you fail, you become Restrained.
+EventDistancia2.button1,Continue
+EventDistancia3.button1,Continue
+EventDistancia4.text,Ghosts have come to the world of the living along with Hannibal, and they don't hesitate to attack you; suffer 1 damage and gain the condition Dazed. If there's a ghost on any tile, the presence of so many spirits drives you crazy; suffer 1 facedown horror.
+EventDistancia3.text,Hannibal closes his eyes and you notice that your body is starting to move on its own: He's possessing you! You try to get rid of the possession with a counterspell ({lore};2). If you pass, you avoid his control. If you fail, you start hitting yourself; you suffer 2 facedown damage.
+EventDistancia4.button1,Continue
+EventDistancia5.text,Hannibal throws a blue fireball to you, something you've already seen his son, Noah, do. You try to recall how to deflect it ({will};2). If you pass, you remember how to divert it and avoid the impact. If you fail, before you can react, the fire burns your skin; you suffer 2 damage.
+EventDistancia5.button1,Continue
+EventDistancia6.text,With a twist of the wrist, Hannibal throws you through the air and your back collides with the floor; you suffer 3 facedown damage (cancelled by {strength}). If you suffer 2 damage or more, that hit leaves you Stunned; gain that condition.
+EventDistancia6.button1,Continue
+EventHorror.button1,Botón1
+EventHorror1.text,"Hannibal roars with laughter while pronouncing the word ""light"". You don't know what he means by that, but the dread starts growing inside of you; you suffer 2 horror (cancelled by {will})."
+EventHorror1.button1,Continue
+EventHorror2.text,You try not to lose your sanity amidst this horror The Fallen Light has brought ({will};2). If you pass, you keep calm and decide to go on. If you fail, you start wondering if you'll get out of this; you suffer 2 facedown horror.
+EventHorror2.button1,Continue
+EventHorror3.text,Hannibal is drawing spirits from the world of the dead. You recognize some of them, since they're relatives. The sorrow and the anxiety overwhelm you; you suffer 2 facedown horror (cancelled by {will}).
+EventHorror3.button1,Continue
+EventHorror4.text,Hannibal is close to you, as you can hear his footsteps. The thought of stepping into him at any moment makes you tremble; you suffer 1 facedown horror and gain the condition Stunned.
+EventHorror4.button1,Continue
+EventHorror5.text,You didn't think Hannibal would have so many followers, so your chances to escape them are really low. You try to remember how tough you are ({will}). If you succeedm you're certain they won't kill you. If you fail, you don't consider yourself to be strong enough to face them; you suffer 1 facedown horror.
+EventHorror5.button1,Continue
+EventHorror6.text,Hannibal won't stop by any means, he's as stubborn as Noah. You fear that, just like him, he do anything to reach his goal, that is, kill you; you suffer 2 horror (cancelled by {strength}).
+EventHorror6.button1,Continue
+EventAtaquesMelee.text,Hannibal switfly moves 2 spaces towards the nearest investigator with the lowest {strength}.
+EventAtaquesMelee.button2,There's no one in that space
+Event210.text,Hannibal won't give up so easily, so he moves 1 additional space.
+Event210.button1,Continue
+EventAtaquesDistancia.text,Not only can Hannibal fight in close combat, but also at distance. Move his figure 2 spaces towards the nearest investigator with the lowest {agility}.
+EventAtaquesDistancia.button2,No investigators in this space or any adjacent.
+Event211.text,Frustrated, Hannibal keeps at hunting you down, move his figure 1 additional space.
+Event211.button1,Continue
+EventSecuestroNoahPatio.text,In the middle of the fray against Noah, Tommy tosses some powder into his face and Noah falls unconcious. Then Tommy reaches out to him and, after pronouncing some words, they both vanish into the air, blood left on the ground.
+EventSecuestroNoahPatio.button1,Continue
+EventSecuestroNoahPlaza.text,In the middle of the fray against Noah, Tommy tosses some powder into his face and Noah falls unconcious. Then Tommy reaches out to him and, after pronouncing some words, they both vanish into the air, blood left on the ground.
+EventSecuestroNoahPlaza.button1,Continue
+EventDerrotaHannibal.text,After that last attack, Hannibal hits the floor with a thud. Everything has ended; you're now safe from harm.
+EventDerrotaHannibal.button1,Continue
+EventHannibalDerrotado2.text,After that last attack, Hannibal hits the floor with a thud. Everything has ended; you're now safe from harm.
+EventHannibalDerrotado2.button1,Continue
+UI16.uitext,EPILOGUE\n\nShortly after defeating Hannibal, you resolve to go find Noah, but you don't succeed. You only find spilt blood, so you decide to have it tested. You don't know whether he lives or not, nor where Tommy is... This looks really bad.\n\nThe DNA tests results reveal that the blood is, indeed, from Noah Robinson, since it matches Hannibal's. However, the police rule out the possibility that he's dead, based on two reasons: first, the amount of blood isn't enough to evidence he bled to death; and second, Tommy and his cult needed Hannibal's power, so, with him gone, they could use his son Noah. You'll have to find a way to stop him before it's too late...\n\n<i>Author's note: Congratulations! You managed to win this scenario. If you got all the clues before entering the lounge, you might want to try the other mode, with its own tiles and its unique feature. If you didn't, I encourage you to do so, since that will help you understand better the plot.</i>\n\n\n\n\n
+UI18.uitext,THE END
+UI18.button1,Botón1
