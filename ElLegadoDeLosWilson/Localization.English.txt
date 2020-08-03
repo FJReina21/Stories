@@ -1,5 +1,5 @@
 .,English
-quest.name,The Legacy of the Wilsons (Part II)
+quest.name,The Wilsons' Legacy (Part II)
 quest.description,This is the second part of the trilogy of The Wilson Family series. The first one is named Demons among the Wilson. So please, if you didn't play part I, I suggest you do it before playing this one. If you did play it, you can keep on reading this text: since there were a few possible endings in part I, I must clarify that the story in part II happens under the assumption that you stopped Valeria on time, and also recruited Noah after learning he wasn't a Wilson, but a Robinson.
 UI0.uitext,You must choose how to proceed. Your choice will affect your starting point, some tiles, and the way you go into the mansion. Besides, each mode has its own special feature.\n\n<i>Sneaking in among the guests implies a standard difficulty, whereas sneaking in with magic could be a bit more challenging. That being said, if it's your first time, I'd recommend that you sneak in among the guests.</i>
 UI3.uitext,Sneak in with magic
